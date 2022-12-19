@@ -1,30 +1,46 @@
 ---
+layout: default
 title: Home
-layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# The JumpKingPlus' Documentation **v2.1**
+{: .fs-9 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Welcome to the documentation for custom levels, reskins and collections on Jump King using JumpKingPlus!
+{: .fs-6 .fw-300 }
 
-More specifically, the created site:
+<br>On your left, you can find the table of contents with everything you should need to know on how to make a custom level or a custom reskin/collection. <!-- <a class="button transparent small" href="https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/documentation.pdf" title="Saves as a .pdf file"><ion-icon name="cloud-download"></ion-icon> Save documentation</a> (Not recommended, not updated since May 10 2021) -->
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### What's new
+- Added size for screen files (thanks to DinoScythe63!)
+- Added compatibility column for the newest JumpKingPlus version (v1.7.1).
+- Added documentation for custom RGBA accents and missing StartingPosition details.
+- Added additional details for disabling the percentage in a specific location.
+- Fixed optional/required tags' position.
+- Fixed typo in configuration page.<!-- more -->
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### Contributors
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+<ul class="contributors">
+    {% include contributor.html name="Phoenixx19" source="github" %}
+    {% include contributor.html name="MERNY" source="github" %}
+    {% include contributor.html name="Elisiah (Ellie)" source="github" %}
+    {% include contributor.html name="kkaero" source="discord" %}
+    {% include contributor.html name="Erkstock" source="discord" %}
+    {% include contributor.html name="kebb" source="github" %}
+    {% include contributor.html name="DinoScythe63" source="discord" %}
+    {% include contributor.html name="Mental Masochist" source="discord" %}
+</ul>
 
-To get started with creating a site, just click "[use this template]"!
+#### Contribution
 
-----
+If you would like to contribute:
+- Create a [pull request](https://github.com/JumpKingPlus/JumpKingPlus/pulls) on the `www` branch and modify the content inside the `_docs` folder.
+- Or [join the Discord server](https://discord.gg/dUk9FPDNVq) and let us know what you'd like to edit.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+If the contribution takes place, your name will be added onto the list of contributors.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<br>
+~JumpKingPlus, 2021
+
