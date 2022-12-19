@@ -1,8 +1,8 @@
 title: Workshop Docs
 description: An in-depth documentation for developing User Generated Content for Jump King!
 theme: just-the-docs
-url: https://phoenixx19.github.io
-baseurl: "/jk-workshop-docs" # the subpath of your site, e.g. /blog
+url: https://sunny-madeleine-7248c5.netlify.app
+# baseurl: "/jk-workshop-docs" # the subpath of your site, e.g. /blog
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
