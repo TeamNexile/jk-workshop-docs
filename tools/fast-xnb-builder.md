@@ -5,11 +5,14 @@ parent: Tools
 nav_order: 1
 ---
 
-# Fast XNB Builder <a target="_blank" title="Download tool" href="https://github.com/Phoenixx19/Fast-XNB-Builder/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/NicusorN5/Fast-XNB-Builder"><ion-icon name="logo-github"></ion-icon></a>
+# Fast XNB Builder 
 {: #fast-xnb-builder .title }
 
 is a quick tool to convert files to .XNB, made by [**NicusorN5**](https://github.com/NicusorN5).
 {: .fs-6 .fw-300 }
+
+[Download tool](https://github.com/Phoenixx19/Fast-XNB-Builder/releases/latest){: .btn .btn-purple }
+[Go to repository](https://github.com/NicusorN5/Fast-XNB-Builder){: .btn .btn-outline }
 
 This program can be used in command line or with the "*Fast XNB Builder*" executable. By default, FXNBB is showing the interface for ease of use.<!-- more -->
 
@@ -20,8 +23,8 @@ This program can be used in command line or with the "*Fast XNB Builder*" execut
 
 ## Supported types
 
-Supported image formats are: .dds, .png, .bmp<br>
-Supported sound formats are: .ogg, .mp3, .wav
+Supported image formats are: `.dds`, `.png`, `.bmp`<br>
+Supported sound formats are: `.ogg`, `.mp3`, `.wav`
 
 ## Table of usage
 
@@ -36,18 +39,18 @@ Supported sound formats are: .ogg, .mp3, .wav
     <tbody>
         <tr>
             <th style="font-weight: normal;">image</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">sound</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">font</th>
-            <th style="background-color: lightcoral;">✖</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-red">✖</th>
+            <th class="label-red">✖</th>
         </tr>
     </tbody>
 </table>

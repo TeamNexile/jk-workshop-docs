@@ -28,18 +28,18 @@ Everything compatible with Monogame (and so Jump King).
     <tbody>
         <tr>
             <th style="font-weight: normal;">image</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightblue;">?</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">sound</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightblue;">?</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">font</th>
-            <th style="background-color: lightblue;">?</th>
-            <th style="background-color: lightblue;">?</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
     </tbody>
 </table>

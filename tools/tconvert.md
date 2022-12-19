@@ -34,18 +34,18 @@ Supported sound formats are: .wav
     <tbody>
         <tr>
             <th style="font-weight: normal;">image</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightgreen;">✔</th>
+            <th class="label-green">✔</th>
+            <th class="label-green">✔</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">sound</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightgreen;">✔</th>
+            <th class="label-green">✔</th>
+            <th class="label-green">✔</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">font</th>
-            <th style="background-color: lightcoral;">✖</th>
-            <th style="background-color: lightgreen;">✔</th>
+            <th class="label-red">✖</th>
+            <th class="label-green">✔</th>
         </tr>
     </tbody>
 </table>

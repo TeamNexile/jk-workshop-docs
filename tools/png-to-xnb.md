@@ -31,18 +31,18 @@ Supported images formats are: .png
     <tbody>
         <tr>
             <th style="font-weight: normal;">image</th>
-            <th style="background-color: lightgreen;">✔</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-green">✔</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">sound</th>
-            <th style="background-color: lightcoral;">✖</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-red">✖</th>
+            <th class="label-red">✖</th>
         </tr>
         <tr>
             <th style="font-weight: normal;">font</th>
-            <th style="background-color: lightcoral;">✖</th>
-            <th style="background-color: lightcoral;">✖</th>
+            <th class="label-red">✖</th>
+            <th class="label-red">✖</th>
         </tr>
     </tbody>
 </table>
