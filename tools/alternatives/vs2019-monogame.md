@@ -2,6 +2,7 @@
 layout: default
 title: VS2019 + Monogame
 parent: Alternative tools
+grand_parent: Tools
 nav_order: 10
 last_modified_date: 2022-01-03 15:47
 ---

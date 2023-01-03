@@ -2,8 +2,8 @@
 layout: default
 title: Additional helper tools
 has_children: true
-parent: Alternative tools
-nav_order: 9999
+parent: Tools
+nav_order: 3
 last_modified_date: 2022-01-03 15:47
 ---
 
