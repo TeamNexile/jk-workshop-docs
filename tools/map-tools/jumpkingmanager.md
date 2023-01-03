@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JumpKingManager
-parent: Additional helper tools
+parent: Level helping tools
 grand_parent: Tools
 last_modified_date: 2021-12-19 14:05
 ---

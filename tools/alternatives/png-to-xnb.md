@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PNG to XNB
-parent: Alternative tools
+parent: Content packing tools
 grand_parent: Tools
 nav_order: 3
 last_modified_date: 2022-01-03 15:47

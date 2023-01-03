@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Additional helper tools
+title: Level helping tools
 has_children: true
 parent: Tools
 nav_order: 3

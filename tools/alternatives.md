@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alternative tools
+title: Content packing tools
 has_children: true
 parent: Tools
 nav_order: 2
