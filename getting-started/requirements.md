@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Requirements
+parent: Getting started
 nav_order: 3
+last_modified_date: 2022-01-03 14:05
 ---
 
 # General requirements

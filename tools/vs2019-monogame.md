@@ -3,6 +3,7 @@ layout: default
 title: VS2019 + Monogame
 parent: Tools
 nav_order: 10
+last_modified_date: 2021-12-19 14:05
 ---
 
 # Visual Studio 2019 and Monogame

@@ -3,6 +3,7 @@ layout: default
 title: Hitboxes
 parent: Modding
 nav_order: 2
+last_modified_date: 2021-12-19 14:05
 ---
 
 # Hitbox file

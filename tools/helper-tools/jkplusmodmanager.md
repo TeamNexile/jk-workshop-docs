@@ -3,6 +3,7 @@ layout: default
 title: JKPlusModManager (✖)
 parent: Additional helper tools
 grand_parent: Tools
+last_modified_date: 2021-12-19 14:05
 ---
 
 # JKPlusModManager <a target="_blank" title="Download tool" href="https://github.com/JumpKingPlus/JumpKingPlus/releases/tag/v1.2.0"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/JumpKingPlus/JumpKingPlus/tree/master/JKPlusModManager"><ion-icon name="logo-github"></ion-icon></a>

@@ -3,6 +3,7 @@ layout: default
 title: JumpKingManager
 parent: Additional helper tools
 grand_parent: Tools
+last_modified_date: 2021-12-19 14:05
 ---
 
 # Jump King Manager <a target="_blank" title="Download tool" href="https://github.com/ShootMe/LiveSplit.JumpKing/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/ShootMe/LiveSplit.JumpKing/tree/master/JumpKingManager"><ion-icon name="logo-github"></ion-icon></a>
