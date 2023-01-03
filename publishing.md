@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Publishing
-nav_order: 9999
-last_modified_date: 2021-12-19 14:05
+nav_order: 10
+last_modified_date: 2022-01-03 15:25
 ---
 
 # Publishing
@@ -17,32 +17,31 @@ The process to get your user-generated-content on the workshop!<!-- more -->
 1. TOC
 {:toc}
 
+Long gone are the times of following all the steps taken by JumpKingPlus' verification and waiting for approval. Each item you upload is [publicly available*](#eula-agreement) in <strong>a matter of seconds</strong>!
 
-__Make sure that you are fully following the rules__, the user-generated-content that doesn't follow one or multiple rules **won't** be added.
-{: .intro .fs-6 .fw-300 }
+## Two important disclaimers
+> ### Steam's EULA Agreement
+> https://steamcommunity.com/workshop/workshoplegalagreement/
+> enable eula to have it public
 
-## Publish your level
+> ### Don't forget the guidelines!
+> follow the damn rules
 
-<img src="https://media.discordapp.net/attachments/771125324846858261/859834847589302332/unknown.png" style="width:100%;margin:0;height:6rem;object-fit:cover;">
+## Steps
+[with pictures]
 
-This process usually takes longer than reskins since the level has to go under inspection to verify it's quality.
+1. Open the upload tool.<br>By default, the tool should prompt you to agree to the EULA agreement each start (if you didnt tick the eula already). [idea to do on tool].
+2. On the Upload tab, click on Select folder...
+3. Once selected the right folder, click OK.<br>If you get any errors, follow the prompt steps on your screen.<br>If it returns that the folder has been loaded, you'll be able to see what type of item you are about to upload by the label below the description.
+4. Add a title and a description for your item, this will be used for your item, this can be later modified through Steam.
+5. *(Optional)* Add a thumbnail to be more recognizable!<br>For the Steam limitations, we recommend you to follow the following details:
+   - resolution: 256x256 pixels
+   - bit depth: 8 bit
+   - size: below 34 kB (kilobytes)
+6. Click Upload and let the tool upload the item for you.
 
-1. Head over on the [__publish page__]({{ site.baseurl }}/workshop/publish).
-2. Click on **Upload your level**.
-3. Read carefully the rules and make sure you are following them.
-4. Click on **I agree on the guidelines**.
-5. Choose which form to open (if by having it in a new window or being inside the page) and compile it.
-6. Done!
 
-## Publish your reskin/collection 
+## Next steps
+Once the upload is completed, it will ask you if you to see it on the Steam Workshop's page, from there you can further modify its page by adding more images, improve your description or decide to remove your item.
 
-<img src="https://media.discordapp.net/attachments/758021625252806739/883792892567638117/dapizzaishere.png" style="width:100%;margin:0;height:6rem;object-fit:cover;">
-
-Relatively new feature. This process is pretty fast since it doesn't require big inspection.
-
-1. Head over on the [__publish page__]({{ site.baseurl }}/workshop/publish).
-2. Click on **Upload your reskin or collection**.
-3. Read carefully the rules and make sure you are following them.
-4. Click on **I agree on the guidelines**.
-5. Choose which form to open (if by having it in a new window or being inside the page) and compile it.
-6. Done!
+If you want to modify the item's content, head over to the [Updating](/updating) page.

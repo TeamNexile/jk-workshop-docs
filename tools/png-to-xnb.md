@@ -1,9 +1,9 @@
 ---
 layout: default
 title: PNG to XNB
-parent: Tools
+parent: Alternative tools
 nav_order: 3
-last_modified_date: 2021-12-19 14:05
+last_modified_date: 2022-01-03 15:47
 ---
 
 # PNG to XNB <a target="_blank" title="Download tool" href="https://github.com/sullerandras/png_to_xnb/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/sullerandras/png_to_xnb"><ion-icon name="logo-github"></ion-icon></a>
