@@ -2,3 +2,25 @@ $pink-000: #f77ef1;
 $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
+
+p.disclaimer, blockquote.disclaimer { background: rgba(255, 235, 130, 0.2); border-left: 4px solid #e7af06; border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); padding: .8rem; }
+
+p.disclaimer::before, blockquote.disclaimer::before { color: #e7af06; content: "Disclaimer"; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+
+p.disclaimer > .disclaimer-title, blockquote.disclaimer > .disclaimer-title { color: #e7af06; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+
+p.disclaimer-title, blockquote.disclaimer-title { background: rgba(255, 235, 130, 0.2); border-left: 4px solid #e7af06; border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); padding: .8rem; }
+
+p.disclaimer-title > p:first-child, blockquote.disclaimer-title > p:first-child { margin-top: 0; margin-bottom: 0; color: #e7af06; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+
+blockquote.disclaimer { margin-left: 0; margin-right: 0; }
+
+blockquote.disclaimer > p:first-child { margin-top: 0; }
+
+blockquote.disclaimer > p:last-child { margin-bottom: 0; }
+
+blockquote.disclaimer-title { margin-left: 0; margin-right: 0; }
+
+blockquote.disclaimer-title > p:nth-child(2) { margin-top: 0; }
+
+blockquote.disclaimer-title > p:last-child { margin-bottom: 0; }

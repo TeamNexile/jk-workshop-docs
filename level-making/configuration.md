@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configuration
-parent: Modding
+parent: Level Making
 nav_order: 1
 last_modified_date: 2021-12-19 14:05
 ---
