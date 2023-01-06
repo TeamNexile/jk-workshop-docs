@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2022-01-06 11:28
+last_modified_date: 2022-01-06 15:52
 ---
 
 # Jump King Workshop Documentation<span class="label label-yellow fs-4 fw-500">beta</span>
@@ -29,4 +29,4 @@ On the **left side** of your screen you can find the **table of contents**, from
 
 ## Getting started
 
-[add text here]
+Head over in the [Getting started](/getting-started/) to get started on your journey!
