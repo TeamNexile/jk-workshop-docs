@@ -3,7 +3,7 @@ layout: default
 title: Introduction
 parent: Getting started
 nav_order: 2
-last_modified_date: 2022-01-03 14:05
+last_modified_date: 2022-01-10 17:59
 ---
 
 # Introduction
@@ -21,6 +21,7 @@ JumpKingPlus does **not** take any responsibility of your actions as you agreed 
 {:toc}
 
 ## Custom levels
+
 ### Disclaimer
 When it comes to Custom levels, folders that this document refer to are meant to be inside `Jump King/Content/mods`. 
 

@@ -2,7 +2,7 @@
 layout: default
 title: Publishing
 nav_order: 10
-last_modified_date: 2022-01-03 15:25
+last_modified_date: 2022-01-10 17:59
 ---
 
 # Publishing
@@ -20,7 +20,10 @@ The process to get your user-generated-content on the workshop!<!-- more -->
 Long gone are the times of following all the steps taken by JumpKingPlus' verification and waiting for approval. Each item you upload is [publicly available*](#eula-agreement) in <strong>a matter of seconds</strong>!
 
 ## Two important disclaimers
-> ### Steam's EULA Agreement
+
+{: .note-title }
+> Steam's EULA Agreement
+> 
 > https://steamcommunity.com/workshop/workshoplegalagreement/
 > enable eula to have it public
 

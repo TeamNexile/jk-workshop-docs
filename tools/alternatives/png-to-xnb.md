@@ -4,14 +4,21 @@ title: PNG to XNB
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 3
-last_modified_date: 2022-01-03 15:47
+last_modified_date: 2022-01-10 17:59
 ---
 
-# PNG to XNB <a target="_blank" title="Download tool" href="https://github.com/sullerandras/png_to_xnb/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/sullerandras/png_to_xnb"><ion-icon name="logo-github"></ion-icon></a>
+# PNG to XNB
 {: #png-to-xnb .title }
 
 is a tool for packing images (specifically PNG files) into XNB format, made by [**sullerandras**](https://github.com/sullerandras).
 {: .fs-6 .fw-300 }
+
+[Download tool](https://github.com/sullerandras/png_to_xnb/releases/latest){: .btn .btn-blue }
+[Go to repository](https://github.com/sullerandras/png_to_xnb){: .btn }
+
+![Preview](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/images/workshop/levels/ws20-3.png)
+
+---
 
 Supports batch conversion, but has an executable for ease of use.<!-- more -->
 

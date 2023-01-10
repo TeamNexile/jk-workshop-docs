@@ -4,7 +4,7 @@ title: Fast XNB Builder
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 1
-last_modified_date: 2022-01-03 15:47
+last_modified_date: 2022-01-10 17:59
 ---
 
 # Fast XNB Builder 
@@ -13,8 +13,12 @@ last_modified_date: 2022-01-03 15:47
 is a quick tool to convert files to .XNB, made by [**NicusorN5**](https://github.com/NicusorN5).
 {: .fs-6 .fw-300 }
 
-[Download tool](https://github.com/Phoenixx19/Fast-XNB-Builder/releases/latest){: .btn .btn-purple }
-[Go to repository](https://github.com/NicusorN5/Fast-XNB-Builder){: .btn .btn-outline }
+[Download tool](https://github.com/Phoenixx19/Fast-XNB-Builder/releases/latest){: .btn .btn-blue }
+[Go to repository](https://github.com/NicusorN5/Fast-XNB-Builder){: .btn }
+
+![Preview](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/images/workshop/levels/ws20-3.png)
+
+---
 
 This program can be used in command line or with the "*Fast XNB Builder*" executable. By default, FXNBB is showing the interface for ease of use.<!-- more -->
 

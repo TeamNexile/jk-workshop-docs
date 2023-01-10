@@ -5,11 +5,7 @@
 {%- endcomment -%}
 
 {%- assign callout_background_hue = "000" -%}
-{%- assign callout_color_hue = "300" -%}
-{%- if site.callouts_level == "loud" or include.color_scheme == "dark" and site.callouts_level != "quiet" -%}
-  {%- assign callout_background_hue = "300" -%}
-  {%- assign callout_color_hue = "000" -%}
-{%- endif -%}
+{%- assign callout_color_hue = "000" -%}
 
 div.opaque {
   background-color: $body-background-color;
