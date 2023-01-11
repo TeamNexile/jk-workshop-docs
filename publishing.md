@@ -2,7 +2,7 @@
 layout: default
 title: Publishing
 nav_order: 10
-last_modified_date: 2022-01-11 15:47
+last_modified_date: 2022-01-11 15:57
 ---
 
 # Publishing
@@ -94,7 +94,14 @@ No one wants to play a **poor tested map** where **jumps don't work** or you get
 ## Next steps
 Once the upload is completed, it will ask you if you to see it on the Steam Workshop's page, from there you can further modify its page by adding more images, improve your description or decide to remove your item.
 
-![Step 7](/images/publishing/Step7.png)
-![Step 8](/images/publishing/Step8.png)
+<figure class="mb-5">
+   <img src="/images/publishing/Step7.png" alt="Completion on tool">
+   <figcaption class="text-grey-dk-000 text-epsilon">Item upload completion on Workshop Manager.</figcaption>
+</figure>
+
+<figure>
+   <img src="/images/publishing/Step8.png" alt="Steam page preview">
+   <figcaption class="text-grey-dk-000 text-epsilon">Steam Workshop page of the uploaded item. Tags are automatically given by the uploading tool chosen by the user.</figcaption>
+</figure>
 
 If you want to modify the item's content, head over to the [Updating](/updating) page.
