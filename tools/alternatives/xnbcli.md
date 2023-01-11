@@ -4,14 +4,21 @@ title: XNBCLI
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 2
-last_modified_date: 2023-01-03 15:47
+last_modified_date: 2023-01-10 16:30
 ---
 
-# XNBCLI <a target="_blank" title="Download tool" href="https://github.com/LeonBlade/XNBCLI/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/LeonBlade/XNBCLI"><ion-icon name="logo-github"></ion-icon></a>
+# XNBCLI
 {: #xnbcli .title }
 
 is a CLI tool for XNB packing/unpacking purpose built for Stardew Valley (but works for Jump King too!), made by [**LeonBlade**](https://github.com/LeonBlade).
 {: .fs-6 .fw-300 }
+
+ [Download tool](https://github.com/LeonBlade/XNBCLI/releases/latest){: .btn .btn-blue }
+[Go to repository](https://github.com/LeonBlade/XNBCLI){: .btn }
+
+![Preview](/images/XNBCLI.png)
+
+---
 
 This program can be used in command line only, but there are two batch files that help you out so you don't have to do anything in command line.<!-- more -->
 

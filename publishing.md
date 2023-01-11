@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publishing
+title: ✔ Publishing
 nav_order: 10
 last_modified_date: 2023-01-11 15:57
 ---
@@ -8,7 +8,7 @@ last_modified_date: 2023-01-11 15:57
 # Publishing
 {: .no_toc }
 
-The process to get your user-generated-content on the workshop!<!-- more -->
+Final steps to get on the Workshop!<!-- more -->
 {: .fs-6 .fw-300 }
 
 <style>

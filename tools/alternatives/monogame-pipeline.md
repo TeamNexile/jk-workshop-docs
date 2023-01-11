@@ -1,16 +1,26 @@
 ---
 layout: default
-title: VS2019 + Monogame
+title: Monogame Pipeline
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 10
-last_modified_date: 2023-01-03 15:47
+last_modified_date: 2023-01-10 16:45
 ---
 
-# Visual Studio 2019 and Monogame
-Not recommended. This takes a lot in both space on your drive and time. Choose only if this is your last hope.
+# Monogame Pipeline
+
+{: .disclaimer }
+> Not recommended. This takes a lot in both space on your drive and time. Choose only if this is your last hope.
+
+is the tool used by Nexile to mass-compile all the content for the game.
 {: .fs-6 .fw-300 }
 <!-- more -->
+
+[Download steps](#usage){: .btn .btn-blue }
+
+![Preview](https://docs.monogame.net/images/MGCB-editor.png)
+
+---
 
 > Warning!
     <br>Converting fonts has not been fully tested and might end up not working.
