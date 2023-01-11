@@ -3,7 +3,7 @@ layout: default
 title: Hitbox2Screens
 parent: Level helping tools
 grand_parent: Tools
-last_modified_date: 2021-12-19 14:05
+last_modified_date: 2022-12-19 14:05
 ---
 
 # Hitbox2Screens <a target="_blank" title="Download tool" href="https://github.com/Elisiah/Jump-King-Hitbox-to-Screens/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/Elisiah/Jump-King-Hitbox-to-Screens"><ion-icon name="logo-github"></ion-icon></a>

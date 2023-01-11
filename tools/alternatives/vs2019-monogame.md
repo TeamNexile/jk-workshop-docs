@@ -4,7 +4,7 @@ title: VS2019 + Monogame
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 10
-last_modified_date: 2022-01-03 15:47
+last_modified_date: 2023-01-03 15:47
 ---
 
 # Visual Studio 2019 and Monogame

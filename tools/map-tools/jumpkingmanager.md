@@ -3,7 +3,7 @@ layout: default
 title: JumpKingManager
 parent: Level helping tools
 grand_parent: Tools
-last_modified_date: 2021-12-19 14:05
+last_modified_date: 2022-12-19 14:05
 ---
 
 # Jump King Manager

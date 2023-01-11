@@ -4,7 +4,7 @@ title: XNBCLI
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 2
-last_modified_date: 2022-01-03 15:47
+last_modified_date: 2023-01-03 15:47
 ---
 
 # XNBCLI <a target="_blank" title="Download tool" href="https://github.com/LeonBlade/XNBCLI/releases/latest"><ion-icon name="download"></ion-icon></a><a title="Go to repository" target="_blank" href="https://github.com/LeonBlade/XNBCLI"><ion-icon name="logo-github"></ion-icon></a>

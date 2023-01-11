@@ -4,7 +4,7 @@ title: Fast XNB Builder
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 1
-last_modified_date: 2022-01-10 17:59
+last_modified_date: 2023-01-10 17:59
 ---
 
 # Fast XNB Builder 
