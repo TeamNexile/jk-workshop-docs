@@ -25,6 +25,8 @@ The process to get your user-generated-content on the workshop!<!-- more -->
 
 Long gone are the times of following all the steps taken by JumpKingPlus' verification and waiting for approval. Each item you upload is [publicly available*](#steams-eula-agreement) in <strong>a matter of seconds</strong>!
 
+---
+
 ## Three important disclaimers
 
 ### Steam's EULA Agreement
