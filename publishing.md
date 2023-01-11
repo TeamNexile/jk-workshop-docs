@@ -41,8 +41,10 @@ Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. 
 
 No one wants to play a **poor tested map** where **jumps don't work** or you get **stuck** for using slopes after **so much progress**, so please take your time to test it before releasing it. Publishing a poorly tested map <u>doesn't work in your favor</u> if you released a map earlier than necessary.
 
-## Steps (using Worldsmith) [✳]
-[wip]
+
+## Steps (using Worldsmith)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
 ## Steps (using Workshop Manager)
 
