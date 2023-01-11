@@ -2,7 +2,7 @@
 layout: default
 title: Publishing
 nav_order: 10
-last_modified_date: 2022-01-11 15:31
+last_modified_date: 2022-01-11 15:47
 ---
 
 # Publishing
@@ -39,7 +39,7 @@ Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. 
 
 ### Don't forget to playtest your level!
 
-No one wants to play a poor tested map where jumps don't work or you get stuck for using slopes after so much progress, so please take your time to test it before releasing it. Publishing a poorly tested map doesn't work in your favor if you released a map earlier than necessary.
+No one wants to play a **poor tested map** where **jumps don't work** or you get **stuck** for using slopes after **so much progress**, so please take your time to test it before releasing it. Publishing a poorly tested map <u>doesn't work in your favor</u> if you released a map earlier than necessary.
 
 ## Steps (using Worldsmith) [✳]
 [wip]
