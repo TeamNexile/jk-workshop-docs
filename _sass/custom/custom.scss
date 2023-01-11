@@ -24,3 +24,7 @@ blockquote.disclaimer-title { margin-left: 0; margin-right: 0; }
 blockquote.disclaimer-title > p:nth-child(2) { margin-top: 0; }
 
 blockquote.disclaimer-title > p:last-child { margin-bottom: 0; }
+
+#main-content a[target=_blank]::after {
+    content: " 🔗";
+}
