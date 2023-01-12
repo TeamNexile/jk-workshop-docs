@@ -107,9 +107,3 @@ Once completed, you can navigate on your item's page thanks to the completion pr
 > This only works if you change the contents of the item, if you change the thumbnail, you won't see any change note.
 
 The changelog text comes very handy when you plan to have multiple versions of your work. This way you can easily identify each version and revert back if you need to!
-
----
-
-That's it, folks!
-
-Thank you for reading the documentation! :)
