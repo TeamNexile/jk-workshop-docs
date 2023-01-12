@@ -22,9 +22,6 @@ is the tool used by Nexile to mass-compile all the content for the game.
 
 ---
 
-> Warning!
-    <br>Converting fonts has not been fully tested and might end up not working.
-
 ## Supported types
 Everything compatible with Monogame (and so Jump King).
 

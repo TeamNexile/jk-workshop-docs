@@ -13,8 +13,9 @@ is the upcoming **full-fledged tool** made by Nexile made to improve the whole p
 {: .fs-6 .fw-300 }
 
 
-![Preview](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/images/workshop/levels/ws20-3.png)
+![Preview]()
 
 ---
 
-[todo: add more]
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
