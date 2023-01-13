@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Fast XNB Builder
+title: ✔ Fast XNB Builder
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 1
-last_modified_date: 2023-01-10 16:26
+last_modified_date: 2023-01-13 11:10
 ---
 
 # Fast XNB Builder 
@@ -20,19 +20,7 @@ is a quick tool to convert files to .XNB, made by [**NicusorN5**](https://github
 
 ---
 
-This program can be used in command line or with the "*Fast XNB Builder*" executable. By default, FXNBB is showing the interface for ease of use.<!-- more -->
-
-> Command line arguments are:
-    <br>`/ui` - shows an interface to select the folder containing the .X and it's textures.
-    <br>`/?` - shows help
-    <br>`/f` - Converts a folder.
-
-## Supported types
-
-Supported image formats are: `.dds`, `.png`, `.bmp`<br>
-Supported sound formats are: `.ogg`, `.mp3`, `.wav`
-
-## Table of usage
+## Table of convertions
 
 <table>
     <thead>
@@ -53,17 +41,26 @@ Supported sound formats are: `.ogg`, `.mp3`, `.wav`
             <th class="label-green">✔</th>
             <th class="label-red">✖</th>
         </tr>
-        <tr>
-            <th style="font-weight: normal;">font</th>
-            <th class="label-red">✖</th>
-            <th class="label-red">✖</th>
-        </tr>
     </tbody>
 </table>
 
+## Supported types
+
+Supported image formats are: `.dds`, `.png`, `.bmp`<br>
+Supported sound formats are: `.ogg`, `.mp3`, `.wav`
+
 ## Usage
 
-1. Download the release for Fast XNB Builder from the links above.
-2. Create a folder with all the items you want to pack.
-3. Open `Fast XNB Builder.exe` and select the folder you previously created.
-4. If succeded, you will find your files inside `/Final` folder.
+1. Create a folder with all the pictures and sounds you want to pack.
+2. Open `Fast XNB Builder.exe` and select the folder you previously created.
+3. If succeded, you will find your compiled files inside `/Final` folder.
+
+### CLI support
+
+If you prefer dealing with conversion using command line, *Fast XNB Builder* got you covered. Here are the following command line arguments you can use:
+
+|Argument|Description|
+|---|---|
+|`/ui`|Shows an interface to select the folder containing the .X and it's textures.|
+|`/f`|Converts a folder.|
+|`/?`|Shows help.|

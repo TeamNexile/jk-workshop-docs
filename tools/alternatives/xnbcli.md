@@ -1,10 +1,10 @@
 ---
 layout: default
-title: XNBCLI
+title: ✔ XNBCLI
 parent: Content packing tools
 grand_parent: Tools
 nav_order: 2
-last_modified_date: 2023-01-10 16:30
+last_modified_date: 2023-01-13 12:04
 ---
 
 # XNBCLI
@@ -26,10 +26,7 @@ This program can be used in command line only, but there are two batch files tha
     <br>`xnbcli pack input-file output-file` - to pack a file
     <br>`xnbcli unpack input-file output-file` - to unpack a file
 
-## Supported types
-Supported images formats are: .png, .bmp and more.
-
-## Table of usage
+## Table of convertions
 <table>
     <thead>
         <tr>
@@ -49,45 +46,33 @@ Supported images formats are: .png, .bmp and more.
             <th class="label-red">✖</th>
             <th class="label-red">✖</th>
         </tr>
-        <tr>
-            <th style="font-weight: normal;">font</th>
-            <th class="label-red">✖</th>
-            <th class="label-red">✖</th>
-        </tr>
     </tbody>
 </table>
 
+## Supported types
+Supported images formats are: `.png`, `.bmp`.
+
 ## Usage 
-0. Install prerequisites of XNBCLI available [here](https://github.com/LeonBlade/xnbcli/blob/master/README.md).
-1. Download the latest release for XNBCLI in the links above.
-2. Export the `xnbcli-windows-x64.zip` file.
 
-### Unpack images (from XNB to image file)
-If you want to unpack an image from the game, put the file inside the `packed` folder and open the `unpack.bat`. If succeeded, you will find your files inside the `unpacked` folder.
+This program only works using command line but don't let that discourage you. You can execute `unpack.bat` and `pack.bat` to get the job done!
 
-### Pack images (from image file to XNB)
-If you want to pack an image to put on the mod, make sure you have the .json file of your file ready to get packed with your image. If you never unpacked an image you can use this simple .json and modify for your own use! 
+### CLI support
 
-<span>YOURFILENAMEHERE.json&nbsp;&nbsp;<a class="button transparent small" href="https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/YOURFILENAMEHERE.json"><ion-icon name="code-download"></ion-icon> Download</a></span>
-```json
-{
-    "header": {
-        "target": "w",
-        "formatVersion": 5,
-        "hidef": false,
-        "compressed": false
-    },
-    "readers": [
-        {
-            "type": "Microsoft.Xna.Framework.Content.Texture2DReader",
-            "version": 0
-        }
-    ],
-    "content": {
-        "format": 0,
-        "export": "YOURFILENAMEHERE.png"
-    }
-}
+```sh
+xnbcli (pack|unpack) [input] [output]
 ```
 
-Once put your image inside the `unpacked` folder with the .json file, you can open the `pack.bat`. And if succeeded, you managed to create your very own custom texture! The packed file can be found inside the `packed` folder.
+|Argument|Description|
+|---|---|
+|`pack`|file to XNB|
+|`unpack`|XNB to file|
+|`input`|Your input file name|
+|`output`|Your output file name|
+
+**Unpacking XNB files**
+
+Place any files you wish to extract in the `packed` folder and run the appropriate file for unpacking (which is `unpack.bat`).
+
+**Packing XNB files**
+
+Place any files you wish to repack back into XNB files in the `unpacked` folder and run the appropriate file for packing (which is `pack.bat`).
