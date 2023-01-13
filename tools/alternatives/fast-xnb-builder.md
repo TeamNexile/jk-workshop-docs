@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ✔ Fast XNB Builder
+title: Fast XNB Builder
 parent: Content packing tools
-grand_parent: Tools
+grand_parent: ✔ Tools
 nav_order: 1
 last_modified_date: 2023-01-13 11:10
 ---

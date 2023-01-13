@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ✔ XNBCLI
+title: XNBCLI
 parent: Content packing tools
-grand_parent: Tools
-nav_order: 2
+grand_parent: ✔ Tools
+nav_order: 3
 last_modified_date: 2023-01-13 12:04
 ---
 

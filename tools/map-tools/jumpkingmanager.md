@@ -2,8 +2,8 @@
 layout: default
 title: JumpKingManager
 parent: Level helping tools
-grand_parent: Tools
-last_modified_date: 2023-01-11 16:35
+grand_parent: ✔ Tools
+last_modified_date: 2023-01-13 17:22
 ---
 
 # Jump King Manager
@@ -11,6 +11,7 @@ last_modified_date: 2023-01-11 16:35
 
 is a helpful tool to load/save positions and teleport to any screen; made by [**DevilSquirrel**](https://github.com/ShootMe) and improved by [**Phoenixx19**](https://github.com/Phoenixx19).
 {: .fs-6 .fw-300 }
+<!-- more -->
 
 [Download tool](https://github.com/ShootMe/LiveSplit.JumpKing/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/ShootMe/LiveSplit.JumpKing/tree/master/JumpKingManager){: .btn }
@@ -18,7 +19,6 @@ is a helpful tool to load/save positions and teleport to any screen; made by [**
 ![Preview](/images/JumpKingManager.png)
 
 ---
-<!-- more -->
 
 {: .warning }
 > **Jump King Manager** works on the game's memory and it has a tendency to crash the game if teleporting is overused.
