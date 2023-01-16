@@ -35,7 +35,7 @@ Make sure you have accepted [Steam's EULA agreement](https://steamcommunity.com/
 
 ### Don't forget the guidelines!
 
-Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile won't endorse levels that won't follow </u><a href="">their guidelines</a>.
+Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile won't endorse levels that won't follow </u>[their guidelines](/getting-started/guidelines).
 
 ### Don't forget to playtest your level!
 

@@ -1,40 +1,33 @@
 ---
 layout: default
-title: Requirements
+title: ✔ General requirements
 parent: Getting started
-nav_order: 3
-last_modified_date: 2023-01-03 14:05
+nav_order: 1
+last_modified_date: 2023-01-16 15:21
 ---
 
 # General requirements
 {: .no_toc }
 
-to build a level or a reskin/collection.<!-- more -->
+all the software you need to make your own item!<!-- more -->
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-
-## Requirements for building custom levels
-> Custom levels are available only using __JumpKingPlus on [v1.2.0](https://github.com/JumpKingPlus/JumpKingPlus/releases/tag/v1.2.0) or above__.
-
 All you need is:
-- The [__sample custom level__]({{ site.baseurl }}/workshop/1) by Phoenixx19
-- A simple **pixel art editor** (Aseprite, GraphicsGale, etc.)
-- A good image editor for **editing and exporting hitboxes** (GIMP, Adobe Photoshop, etc.)
-- **Tools** to convert images, music and more (in-depth details in the **Tools**' category)
-- *(optional but recommended)* [JumpKingManager](https://github.com/ShootMe/LiveSplit.JumpKing/releases/latest) to access one area quickly
+1. A simple **pixel art editor** or a **good image editor** such as:
+  - [Aseprite](https://www.aseprite.org/){:target="_blank"} (paid, open-source),
+  - [Krita](https://krita.org/){:target="_blank"} (free, open-source),
+  - [GraphicsGale](https://graphicsgale.com/us/){:target="_blank"} (free),
+  - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html){:target="_blank"} (paid subscription),
+  - [GIMP](https://www.gimp.org/){:target="_blank"} (free, open-source),
+  - [paint.NET](https://www.getpaint.net/){:target="_blank"} (free),
+  - [Procreate (iPad only)](https://procreate.com){:target="_blank"} (paid)
+  
+    ... or others that you might know of.
+1. [**Jump King Worldsmith**](/tools/worldsmith) or other alternative tools to convert images and music into XNB (in-depth details in the [following category](/tools/alternatives/)).
 
-<br>
+{: .highlight }
+> If you are making a level without using Jump King Worldsmith, you also need the following requirement:
+> - The [__sample custom level__]() by Phoenixx19
 
-## Requirements for skins and collections
-> Custom levels are available only using __JumpKingPlus on [v1.6.0](https://github.com/JumpKingPlus/JumpKingPlus/releases/tag/v1.6.0) or above__.
-
-All you need is:
-- A simple **pixel art editor** (Aseprite, GraphicsGale, etc.)
-- A good image editor for **editing and exporting hitboxes** (GIMP, Adobe Photoshop, etc.)
-- **Tools** to convert images, music and more (in-depth details later)
+{: .disclaimer }
+> You might also want to get some additional level helping tools such as [**JumpKingManager**](/tools/map-tools/jumpkingmanager) to access one area quickly, test specific jumps and so on...
