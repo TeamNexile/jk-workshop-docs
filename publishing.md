@@ -39,7 +39,7 @@ Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. 
 
 ### Don't forget to playtest your level!
 
-Few people wants to play a **poorly tested map** where **jumps don't work** as intended or you get **stuck** on slopes after **so much progress**, so please take your time to test it for both bugs and balance before releasing it. Publishing a poorly tested map <u>will not work in your favor</u>.
+Few people wants to play a **poorly tested level** where **jumps don't work** as intended or you get **stuck** on slopes after **so much progress**, so please take your time to test it for both bugs and balance before releasing it. Publishing a poorly tested level <u>will not work in your favor</u>.
 
 
 ## Steps (using Worldsmith)

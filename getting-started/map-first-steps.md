@@ -27,7 +27,7 @@ JumpKingPlus does **not** take any responsibility of your actions as you agreed 
 0. Make sure you have the [**latest version of JumpKingPlus**](https://github.com/JumpKingPlus/JumpKingPlus/releases/latest) installed.
 1. Download the [**sample level**]({{ site.baseurl }}/workshop/1/) from the workshop.
 2. Drag the `mods` folder from the zip file to `Jump King/Content` folder. If you already have a `mods` folder existing, proceed to rename or delete the folder.
-3. You now have a custom map ready to work on!
+3. You now have a custom level ready to work on!
 
 After installing and downloading all the files and tools needed; you can start working on your first custom level.
 

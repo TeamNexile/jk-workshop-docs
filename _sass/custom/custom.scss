@@ -28,3 +28,26 @@ blockquote.disclaimer-title > p:last-child { margin-bottom: 0; }
 #main-content a[target=_blank]::after {
     content: " 🔗";
 }
+
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    line-height: 10px;
+    vertical-align: middle;
+    background-color: $grey-dk-250;
+    border: solid 1px $grey-dk-100;
+    border-bottom-color: $grey-dk-100;
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 $grey-dk-100;
+}
+.search-active .search-input {
+    z-index: 2;
+}
+.search kbd {
+    position: absolute;
+    z-index: 1;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}

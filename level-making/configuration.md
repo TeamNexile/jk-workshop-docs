@@ -45,7 +45,7 @@ The title will show up only when the game started is Main Babe / Normal Game.
 ### LevelColor
 <p class="do-i-need-it">optional</p>
 
-Added from <span class="badge-pill">v1.7.1</span>, this setting can be found inside `<About>` and contains all the data for a custom title color for the custom map.
+Added from <span class="badge-pill">v1.7.1</span>, this setting can be found inside `<About>` and contains all the data for a custom title color for the custom level.
 
 |name|description|type|required|
 |`<red>`|Contains the value (0 to 255) for the Red channel|byte|Yes|

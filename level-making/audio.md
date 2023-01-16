@@ -19,7 +19,7 @@ contains all the sound related content.<!-- more -->
 {:toc}
 
 ## Music warning
-> If a copyright holder of a song/asset asks us to remove the copyrighted material due to not having a proper license for usage, download links to the map will be removed until the situation is resolved. Either by replacing the copyrighted material, or by acquiring the proper license/permission for its usage.
+> If a copyright holder of a song/asset asks us to remove the copyrighted material due to not having a proper license for usage, download links to the level will be removed until the situation is resolved. Either by replacing the copyrighted material, or by acquiring the proper license/permission for its usage.
 
 > Make sure you compress your music/audio enough so the **level** once compressed **doesn't have file size that's too large**! It's recommended that you try to keep the final **mods** folder below **1GB**. ([BoA]({{ site.baseurl }}/workshop/3/) and [IB]({{ site.baseurl }}/workshop/4/) are both **800MB**)
 

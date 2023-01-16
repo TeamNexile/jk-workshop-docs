@@ -24,13 +24,13 @@ Let's get started on how to build a custom level, reskin or collection for Jump 
 When it comes to Custom levels, folders that this document refer to are meant to be inside `Jump King/Content/mods`. 
 
 ### Common rules
-Level design in Jump King is a delicate balance between fairness and hardness. These rules are not only made to prevent unfair and impossible levels but to respect Nexile's original ideas on level design. In order to get your map approved on the site, these rules **need** to be followed.
+Level design in Jump King is a delicate balance between fairness and hardness. These rules are not only made to prevent unfair and impossible levels but to respect Nexile's original ideas on level design. In order to get your level approved on the site, these rules **need** to be followed.
 
 <br>
 
 ## Reskins/collections
 ### Disclaimer
-If you are working on a Jump King Base reskin, enabling and disabling it will work only in the title screen (currently) and they won't be working on custom maps since it would overlay the already existing base for the custom map.
+If you are working on a Jump King Base reskin, enabling and disabling it will work only in the title screen (currently) and they won't be working on custom levels since it would overlay the already existing base for the custom level.
 
 ### Common rules
 Rules on reskins/collections are a bit more "leanient" than custom levels since it doesn't have such a big impact.
