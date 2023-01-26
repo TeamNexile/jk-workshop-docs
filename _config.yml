@@ -90,7 +90,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: ✔ Porting content from JK+
+  - title: Porting content from JK+
     url: https://jumpkingplus.github.io/the-new-workshop/#jumpkingplus-content-port
 
 # Footer content
@@ -147,3 +147,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+plugins:
+- jekyll-seo-tag

@@ -2,7 +2,7 @@
 layout: default
 title: Level helping tools
 has_children: true
-parent: ✔ Tools
+parent: Tools
 nav_order: 3
 last_modified_date: 2023-01-03 15:47
 ---

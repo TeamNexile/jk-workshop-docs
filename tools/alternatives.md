@@ -2,7 +2,7 @@
 layout: default
 title: Content packing tools
 has_children: true
-parent: ✔ Tools
+parent: Tools
 nav_order: 2
 last_modified_date: 2023-01-13 16:47
 ---

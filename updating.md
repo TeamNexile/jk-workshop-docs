@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ✔ Updating
+title: Updating
 nav_order: 11
 last_modified_date: 2023-01-12 17:14
 ---
@@ -36,7 +36,7 @@ Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cran
 {: .toc-spaced }
 1. Open `Jump King Workshop Manager` from Steam or [**click here**](steam://rungameid/2245910).<br>
    
-   ![Step 1](/images/publishing/Step1.png)
+   ![Step 1](./images/publishing/Step1.png)
    
    <blockquote class="highlight">
     <details>
@@ -46,10 +46,10 @@ Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cran
    </blockquote>
 
 2. Once opened, click on **Update existing content**.
-   ![Step 2](/images/updating/Step2.png)
+   ![Step 2](./images/updating/Step2.png)
 
 3. From the blank dropdown, select the item you want to update.
-   ![Step 3](/images/updating/Step3.png)
+   ![Step 3](./images/updating/Step3.png)
    
    <blockquote class="highlight">
     <details>
@@ -70,10 +70,10 @@ Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cran
    </blockquote>
 
    Once selected, you will see the item details menu as following.
-   ![Step 3a](/images/updating/Step3a.png)
+   ![Step 3a](./images/updating/Step3a.png)
 
 4. Make sure the **"Updating from" folder** of your item is correct in directory.<br>This folder will be what you will update so make sure your item's content is right.
-   ![Step 4](/images/updating/Step4.png)
+   ![Step 4](./images/updating/Step4.png)
 
 5. *Optional*{: .text-grey-dk-000 } 
    —
@@ -89,19 +89,19 @@ Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cran
    - image type: **png** *(not requred but lowers the file size dramatically)*
 
    If the image follows the limitations above, it will prompt you a message telling you it has changed the thumbnail to the image selected. *(Don't forget to click Update to change it!)*
-   ![Step 5](/images/updating/Step5.png)
+   ![Step 5](./images/updating/Step5.png)
 
 6. Add a changelog to let other players know what you've changed in this version.<br>
-   ![Step 6](/images/updating/Step6.png)
+   ![Step 6](./images/updating/Step6.png)
 
 7. Click Update and let the tool update the item for you.
-   ![Step 7](/images/updating/Step7.png)
+   ![Step 7](./images/updating/Step7.png)
 
 ## Reverting changes
 
 Once completed, you can navigate on your item's page thanks to the completion prompt and by clicking on the "Change Notes" tab page you can make sure you have updated your item.
 
-![Step 7a](/images/updating/Step7a.png)
+![Step 7a](./images/updating/Step7a.png)
 
 {: .warning }
 > This only works if you change the contents of the item, if you change the thumbnail, you won't see any change note.

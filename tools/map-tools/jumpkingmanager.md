@@ -2,7 +2,7 @@
 layout: default
 title: JumpKingManager
 parent: Level helping tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 last_modified_date: 2023-01-13 17:22
 ---
 
@@ -16,7 +16,7 @@ is a helpful tool to load/save positions and teleport to any screen; made by [**
 [Download tool](https://github.com/ShootMe/LiveSplit.JumpKing/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/ShootMe/LiveSplit.JumpKing/tree/master/JumpKingManager){: .btn }
 
-![Preview](/images/JumpKingManager.png)
+![Preview](./images/JumpKingManager.png)
 
 ---
 

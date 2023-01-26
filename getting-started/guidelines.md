@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ✔ Guidelines
+title: Guidelines
 parent: Getting started
 nav_order: 2
 last_modified_date: 2023-01-16 12:15

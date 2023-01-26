@@ -2,7 +2,7 @@
 layout: default
 title: PNG to XNB
 parent: Content packing tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 nav_order: 2v
 last_modified_date: 2023-01-13 11:14
 ---
@@ -16,7 +16,7 @@ is a tool for packing images (specifically PNG files) into XNB format, made by [
 [Download tool](https://github.com/sullerandras/png_to_xnb/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/sullerandras/png_to_xnb){: .btn }
 
-![Preview](/images/PNGtoXNB.png)
+![Preview](./images/PNGtoXNB.png)
 
 ---
 

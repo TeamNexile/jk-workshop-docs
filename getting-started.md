@@ -23,7 +23,7 @@ details you need to know before you starting your first steps.<!-- more -->
 
 The Steam Workshop is designed as a place for all Jump King fans and community members to participate in the **creation** of content such as **levels, skins and so on** for Jump King!
 
-![Workshop Image](/images/WorkshopImage.png)
+![Workshop Image](./images/WorkshopImage.png)
 
 ## What is a level?
 

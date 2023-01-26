@@ -2,7 +2,7 @@
 layout: default
 title: TConvert
 parent: Content packing tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 nav_order: 4
 last_modified_date: 2023-01-13 11:47
 ---
@@ -18,7 +18,7 @@ is an Windows Application for managing Terraria content resources, made by [**tr
 [Download tool](https://github.com/trigger-segfault/TConvert/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/trigger-segfault/TConvert){: .btn }
 
-![Preview](/images/TConvert.png)
+![Preview](./images/TConvert.png)
 
 ---
 

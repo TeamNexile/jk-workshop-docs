@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ✔ Requirements
+title: Requirements
 parent: Getting started
 nav_order: 1
 last_modified_date: 2023-01-16 15:21

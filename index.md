@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ✔ Home
+title: Home
 nav_order: 1
 last_modified_date: 2023-01-10 17:59
 ---

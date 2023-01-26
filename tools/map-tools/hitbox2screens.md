@@ -2,7 +2,7 @@
 layout: default
 title: Hitbox2Screens
 parent: Level helping tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 last_modified_date: 2022-12-19 14:05
 ---
 
@@ -16,7 +16,7 @@ is a basic tool built which takes hitboxes and turns them into individual screen
 [Download tool](https://github.com/Elisiah/Jump-King-Hitbox-to-Screens/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/Elisiah/Jump-King-Hitbox-to-Screens){: .btn }
 
-![Preview](/images/Hitbox2Screens.png)
+![Preview](./images/Hitbox2Screens.png)
 
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: XNBCLI
 parent: Content packing tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 nav_order: 3
 last_modified_date: 2023-01-13 12:04
 ---
@@ -16,7 +16,7 @@ is a CLI tool for XNB packing/unpacking purpose built for Stardew Valley (but wo
  [Download tool](https://github.com/LeonBlade/XNBCLI/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/LeonBlade/XNBCLI){: .btn }
 
-![Preview](/images/XNBCLI.png)
+![Preview](./images/XNBCLI.png)
 
 ---
 

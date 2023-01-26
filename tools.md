@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ✔ Tools
+title: Tools
 has_children: true
 nav_order: 4
 last_modified_date: 2023-01-10 17:59

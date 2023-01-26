@@ -2,7 +2,7 @@
 layout: default
 title: Monogame Pipeline
 parent: Content packing tools
-grand_parent: ✔ Tools
+grand_parent: Tools
 nav_order: 10
 last_modified_date: 2023-01-13 16:45
 ---
