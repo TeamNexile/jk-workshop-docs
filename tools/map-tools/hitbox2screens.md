@@ -16,7 +16,7 @@ is a basic tool built which takes hitboxes and turns them into individual screen
 [Download tool](https://github.com/Elisiah/Jump-King-Hitbox-to-Screens/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/Elisiah/Jump-King-Hitbox-to-Screens){: .btn }
 
-![Preview](./images/Hitbox2Screens.png)
+![Preview]({{ site.baseurl }}/images/Hitbox2Screens.png)
 
 ---
 

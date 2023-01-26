@@ -51,7 +51,7 @@ Few people wants to play a **poorly tested level** where **jumps don't work** as
 {: .toc-spaced }
 1. Open `Jump King Workshop Manager` from Steam or [**click here**](steam://rungameid/2245910).<br>
    
-   ![Step 1](./images/publishing/Step1.png)
+   ![Step 1]({{ site.baseurl }}/images/publishing/Step1.png)
    
    <blockquote class="highlight">
     <details>
@@ -63,17 +63,17 @@ Few people wants to play a **poorly tested level** where **jumps don't work** as
    ~~By default, the tool should prompt you to agree to the EULA agreement each start (if you didnt tick the eula already).~~{: .text-grey-dk-000 } (currently unavailable)
 
 2. On the Upload tab, click on **Select folder...**.
-   ![Step 2](./images/publishing/Step2.png)
+   ![Step 2]({{ site.baseurl }}/images/publishing/Step2.png)
 
 3. Once selected the right folder, click **OK**.
-   ![Step 3](./images/publishing/Step3.png) 
+   ![Step 3]({{ site.baseurl }}/images/publishing/Step3.png) 
    > If you get any errors, follow the prompt instructions on your screen. 
    {: .warning }
    > If it returns that the folder has been loaded, you'll be able to see what type of item you are about to upload by the label below the description.
-   > ![Step 3a](./images/publishing/Step3a.png)
+   > ![Step 3a]({{ site.baseurl }}/images/publishing/Step3a.png)
 
 4. Add a title and a description for your item, this will be used for your item, this can be later modified through Steam.<br>
-   ![Step 4](./images/publishing/Step4.png)
+   ![Step 4]({{ site.baseurl }}/images/publishing/Step4.png)
 
 5. *Optional*{: .text-grey-dk-000 } 
    —
@@ -89,10 +89,10 @@ Few people wants to play a **poorly tested level** where **jumps don't work** as
    - image type: **png** *(not requred but lowers the file size dramatically)*
 
    If your image follows the limitations above, it will change the thumbnail preview to the image you previously selected.
-   ![Step 5](./images/publishing/Step5.png)
+   ![Step 5]({{ site.baseurl }}/images/publishing/Step5.png)
 
 6. Click Upload and let the tool upload the item for you.
-   ![Step 6](./images/publishing/Step6.png)
+   ![Step 6]({{ site.baseurl }}/images/publishing/Step6.png)
 
 
 ## Next steps

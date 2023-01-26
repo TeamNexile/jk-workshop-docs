@@ -16,7 +16,7 @@ is a quick tool to convert files to .XNB, made by [**NicusorN5**](https://github
 [Download tool](https://github.com/Phoenixx19/Fast-XNB-Builder/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/NicusorN5/Fast-XNB-Builder){: .btn }
 
-![Preview](./images/FastXNBConverter.png)
+![Preview]({{ site.baseurl }}/images/FastXNBConverter.png)
 
 ---
 

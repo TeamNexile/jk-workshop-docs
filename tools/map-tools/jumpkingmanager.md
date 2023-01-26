@@ -16,7 +16,7 @@ is a helpful tool to load/save positions and teleport to any screen; made by [**
 [Download tool](https://github.com/ShootMe/LiveSplit.JumpKing/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/ShootMe/LiveSplit.JumpKing/tree/master/JumpKingManager){: .btn }
 
-![Preview](./images/JumpKingManager.png)
+![Preview]({{ site.baseurl }}/images/JumpKingManager.png)
 
 ---
 

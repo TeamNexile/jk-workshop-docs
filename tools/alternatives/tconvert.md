@@ -18,7 +18,7 @@ is an Windows Application for managing Terraria content resources, made by [**tr
 [Download tool](https://github.com/trigger-segfault/TConvert/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/trigger-segfault/TConvert){: .btn }
 
-![Preview](./images/TConvert.png)
+![Preview]({{ site.baseurl }}/images/TConvert.png)
 
 ---
 

@@ -16,7 +16,7 @@ is a CLI tool for XNB packing/unpacking purpose built for Stardew Valley (but wo
  [Download tool](https://github.com/LeonBlade/XNBCLI/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/LeonBlade/XNBCLI){: .btn }
 
-![Preview](./images/XNBCLI.png)
+![Preview]({{ site.baseurl }}/images/XNBCLI.png)
 
 ---
 

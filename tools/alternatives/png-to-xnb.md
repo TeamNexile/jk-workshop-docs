@@ -16,7 +16,7 @@ is a tool for packing images (specifically PNG files) into XNB format, made by [
 [Download tool](https://github.com/sullerandras/png_to_xnb/releases/latest){: .btn .btn-blue }
 [Go to repository](https://github.com/sullerandras/png_to_xnb){: .btn }
 
-![Preview](./images/PNGtoXNB.png)
+![Preview]({{ site.baseurl }}/images/PNGtoXNB.png)
 
 ---
 
