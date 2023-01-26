@@ -78,6 +78,7 @@ heading_anchors: true
 
 aux_links:
   Official Site: https://www.nexile.se
+  Steam Workshop: https://steamcommunity.com/workshop/browse/?appid=1061090
 # Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 # Makes Aux links open in a new tab. Default is false
@@ -89,8 +90,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Porting content from JK+
-    url: https://jumpkingplus.github.io/porting/
+  - title: ✔ Porting content from JK+
+    url: https://jumpkingplus.github.io/the-new-workshop/#jumpkingplus-content-port
 
 # Footer content
 # appears at the bottom of every page's main content

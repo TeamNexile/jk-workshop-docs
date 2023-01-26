@@ -125,7 +125,7 @@ layout: table_wrappers
             <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
             <script>
               document.addEventListener("keyup", function (event) {
-                if (event.keyCode === 191) {
+                if (event.keyCode === 191 && document.getElementById("search-input") !== document.activeElement) {
                   document.getElementById("search-input").value = '';
                   document.getElementById("search-input").focus();
                 }
