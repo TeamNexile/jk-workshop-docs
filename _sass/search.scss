@@ -54,6 +54,10 @@
   border-left: 0;
   border-radius: 0;
 
+  &:focus {
+    background-color: $search-background-color;
+  }
+
   @include mq(md) {
     padding-top: $gutter-spacing-sm;
     padding-bottom: $gutter-spacing-sm;
