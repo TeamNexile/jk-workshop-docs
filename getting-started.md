@@ -10,7 +10,7 @@ last_modified_date: 2023-01-03 13:55
 # Introduction to the Workshop
 {: .no_toc }
 
-details you need to know before you starting your first steps.<!-- more -->
+details you need to know before you starting on your first steps.<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -33,9 +33,11 @@ The Steam Workshop is designed as a place for all Jump King fans and community m
 
 A level is made up by a folder with a bunch of files and folders inside of it.
 
-It's not really optimal to 
+> The structure is too complex to show, since it's over 50 files in their own folders.<br>Believe me here, you don't want to see it. Everything will be explained later anyway.
 
-```
+> If you **really want** to see the structure, navigate inside all the [**Sample custom level**]() folders.
+
+<!-- ```
 📂 Sample Level
  ┣ 📂 audio
  ┃ ┣ 📂 background
@@ -152,7 +154,7 @@ It's not really optimal to
  ┣ 📜 level_settings.xml
  ┣ 📦 level.xnb
  ┗ 🖼 banner.png
-```
+``` -->
 
 
 
@@ -221,4 +223,4 @@ Before getting started you need to know the difference between a reskin and a co
 
 ## Next up
 
-[Get all your requirements](/getting-started/requirements) before starting fresh and don't forget to [read the guidelines](/getting-started/guidelines).
+[Get all your requirements]({{ site.baseurl }}/getting-started/requirements) before starting fresh and don't forget to [read the guidelines]({{ site.baseurl }}/getting-started/guidelines).

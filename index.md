@@ -32,4 +32,4 @@ On the **left side** of your screen you can find the **table of contents**, from
 
 ## Getting started
 
-Head over in the [Getting started](/getting-started/) page to get started on your journey!
+Head over in the [Getting started]({{ site.baseurl }}/getting-started/) page to get started on your journey!

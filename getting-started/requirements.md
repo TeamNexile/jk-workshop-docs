@@ -23,11 +23,11 @@ All you need is:
   - [Procreate (iPad only)](https://procreate.com){:target="_blank"} (paid)
   
     ... or others that you might know of.
-1. [**Jump King Worldsmith**](/tools/worldsmith) or other alternative tools to convert images and sounds into XNB (in-depth details in the [following category](/tools/alternatives/)).
+1. [**Jump King Worldsmith**]({{ site.baseurl }}/tools/worldsmith) or other alternative tools to convert images and sounds into XNB (in-depth details in the [following category]({{ site.baseurl }}/tools/alternatives/)).
 
 {: .highlight }
 > If you are making a level without using Jump King Worldsmith, you also need the following requirement:
 > - The [__sample custom level__]() by Phoenixx19
 
 {: .disclaimer }
-> You might also want to get some additional level helping tools such as [**JumpKingManager**](/tools/map-tools/jumpkingmanager) to access one area quickly, test specific jumps and so on...
+> You might also want to get some additional level helping tools such as [**JumpKingManager**]({{ site.baseurl }}/tools/map-tools/jumpkingmanager) to access one area quickly, test specific jumps and so on...

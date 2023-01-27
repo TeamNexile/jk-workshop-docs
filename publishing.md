@@ -35,7 +35,7 @@ Make sure you have accepted [Steam's EULA agreement](https://steamcommunity.com/
 
 ### Don't forget the guidelines!
 
-Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile won't endorse levels that won't follow </u>[their guidelines](/getting-started/guidelines).
+Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile won't endorse levels that won't follow </u>[their guidelines]({{ site.baseurl }}/getting-started/guidelines).
 
 ### Don't forget to playtest your level!
 
@@ -108,4 +108,4 @@ Once the upload is completed, it will ask you if you to see it on the Steam Work
    <figcaption class="text-grey-dk-000 text-epsilon">Steam Workshop page of the uploaded item. Tags are automatically given by the uploading tool chosen by the user.</figcaption>
 </figure>
 
-If you want to modify the item's content, head over to the [Updating](/updating) page.
+If you want to modify the item's content, head over to the [Updating]({{ site.baseurl }}/updating) page.

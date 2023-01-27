@@ -3,16 +3,14 @@ layout: default
 title: Level&#58; First steps
 parent: Getting started
 nav_order: 3
-last_modified_date: 2023-01-10 17:59
+last_modified_date: 2023-01-27 17:07
 ---
 
-# Introduction
+# First steps with levels
 {: .no_toc }
 
-details **you need to know** before you creating.<!-- more -->
+Let's get started!<!-- more -->
 {: .fs-6 .fw-300 }
-
-JumpKingPlus does **not** take any responsibility of your actions as you agreed downloading JumpKingPlus with a [**MIT License**](https://github.com/JumpKingPlus/JumpKingPlus/blob/master/LICENSE).
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,28 +18,52 @@ JumpKingPlus does **not** take any responsibility of your actions as you agreed 
 1. TOC
 {:toc}
 
-## Getting started for custom levels
+---
 
-### Installation procedure
+## Installation
 
-0. Make sure you have the [**latest version of JumpKingPlus**](https://github.com/JumpKingPlus/JumpKingPlus/releases/latest) installed.
-1. Download the [**sample level**]({{ site.baseurl }}/workshop/1/) from the workshop.
-2. Drag the `mods` folder from the zip file to `Jump King/Content` folder. If you already have a `mods` folder existing, proceed to rename or delete the folder.
-3. You now have a custom level ready to work on!
+1. Extract the contents of the `Sample custom level` zip file in a folder you want.
+   > Save it somewhere where you won't delete it by mistake!
+   {: .warning }
+2. You are set!
 
-After installing and downloading all the files and tools needed; you can start working on your first custom level.
+> Before continuing, make sure you know how to get the path of your folder by: 
+> - by right-clicking the sample level folder: `Properties > Security > Object name`
+> - by opening the folder and clicking the bar on the left side of the searchbar
+{: .disclaimer }
 
-> In order to make the custom level working you will need to create two files inside your `JumpKing/Contents/mods` folder. JumpKingPlus loads the custom mode when both the `level.xnb` and the `mod.xml` files are in the folder above.
+## Testing
 
-<u>Using the sample level, you don't have to worry about creating this</u>, but you will need to worry to understand the format and the meaning of those two files.
+Testing is the most important phase of your level that should take you a **good portion of your time**; a good level has every single fall calculated, nothing is left to be random. [**Check out some more tips**]({{ site.baseurl }}/level-making/tips){:target="_blank"}.
 
-### Testing
+To test your level, you can choose two different approaches:
 
-Testing is the most important phase of your level that should take you a lot of time, a good level has every single fall calculated, nothing is left to be random. Check out some more on [**tips page**]({{ site.baseurl }}/workshop/publish/).
+### Setting it up once
 
-To test your sample level **for the first time** you just need to:
-1. Boot up Jump King.
-2. Click on the greeen "Sample Level" text.
-3. Your sample level will now boot!
+Choosing this approach is easier for starters since **once it's setup all you need to do is open the game** but can be annoying if you want to test multiple levels since you will **always have to modify the launch options** through Steam. 
 
-Next up, for testing the following times, you'll just boot up the game and click *Continue*.
+> If you want to **return to the base game**, remove everything from the **Launch options** and open the game.
+
+1. Open Steam.
+2. Right-click Jump King and click **Properties...**
+3. In **General > Launch options** add: `-debug "DIRECTORY"`.
+4. Replace `DIRECTORY` to the path of your sample level.
+
+Once that's done, all you need to do is open the game and <u>it will automatically open your sample level all the times</u>!
+
+### Setting it on-the-go
+
+Choosing this approach might be a bit more complicated since **you have to do the same procedure all the time**, but can be better if you are tinkering with multiple levels or you just **dont like to deal with the launch options**.
+
+1. Open your browser of preference or <kbd>Ctrl</kbd>+<kbd>R</kbd> to open Windows Run.
+2. Paste the following snippet and replace `DIRECTORY` with your sample folder:
+   ```
+   steam://rungameid/1061090 -debug "DIRECTORY"
+   ```
+3. Press <kbd>Enter</kbd><br>.
+   > If you are on a browser, you might get a pop-up telling you that your browser wants to open Steam, let the browser allow you to open the game for you by clicking "Allow" or "Yes" depending by the browser.
+   {: .disclaimer }
+
+## Next up
+
+Congratulations on setting it all up and testing the level for the first time!<br>Let's proceed into creating your [**first hitboxes**]({{ site.baseurl }}/level-making/hitboxes)!
