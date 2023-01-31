@@ -3,7 +3,7 @@ layout: default
 title: Level&#58; First steps
 parent: Getting started
 nav_order: 3
-last_modified_date: 2023-01-27 17:07
+last_modified_date: 2023-01-31 17:41
 ---
 
 # First steps with levels
@@ -66,4 +66,4 @@ Choosing this approach might be a bit more complicated since **you have to do th
 
 ## Next up
 
-Congratulations on setting it all up and testing the level for the first time!<br>Let's proceed into creating your [**first hitboxes**]({{ site.baseurl }}/level-making/hitboxes)!
+Congratulations on setting it all up and testing the level for the first time!<br>Let's proceed into creating your [**level details**]({{ site.baseurl }}/level-making) by learning how the configuration file works!

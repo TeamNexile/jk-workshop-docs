@@ -2,8 +2,9 @@
 layout: default
 title: Level Making
 has_children: true
+has_toc: false
 nav_order: 7
-last_modified_date: 2022-12-19 14:05
+last_modified_date: 2023-01-31 14:58
 ---
 
 # Level Making
@@ -20,7 +21,7 @@ last_modified_date: 2022-12-19 14:05
 
 ---
 
-## Configuration file
+## Why does Jump King need a configuration file?
 
 In order for get the basic data about your map, Jump King (and in the past with JumpKingPlus) uses a configuration file.
 
@@ -33,6 +34,12 @@ This configuration file contains your level:
 - **ending images** (for each babe)
 - **ending extra images** (letting you choose what item can trigger the secondary ending image)
 - **end credits** (once you finish your level, after the cutscene)
+
+## Steps (using Worldsmith)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+## Steps (without Worldsmith)
 
 ### Setting your level title
 
