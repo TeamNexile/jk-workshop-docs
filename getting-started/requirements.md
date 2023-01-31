@@ -13,7 +13,8 @@ all the software you need to make your own item!<!-- more -->
 {: .fs-6 .fw-300 }
 
 All you need is:
-1. A simple **pixel art editor** or a **good image editor** such as:
+1. Basic knowledge on how to deal with files in Windows (cut, paste, copy, move and create files).
+2. A simple **pixel art editor** or a **good image editor** such as:
   - [Aseprite](https://www.aseprite.org/){:target="_blank"} (paid, open-source),
   - [Krita](https://krita.org/){:target="_blank"} (free, open-source),
   - [GraphicsGale](https://graphicsgale.com/us/){:target="_blank"} (free),
@@ -23,11 +24,21 @@ All you need is:
   - [Procreate (iPad only)](https://procreate.com){:target="_blank"} (paid)
   
     ... or others that you might know of.
-1. [**Jump King Worldsmith**]({{ site.baseurl }}/tools/worldsmith) or other alternative tools to convert images and sounds into XNB (in-depth details in the [following category]({{ site.baseurl }}/tools/alternatives/)).
+1. <!-- [**Jump King Worldsmith**]({{ site.baseurl }}/tools/worldsmith) or other alternative --> Tools to convert images and sounds into XNB (in-depth details in the [following category]({{ site.baseurl }}/tools/alternatives/)).
 
 {: .highlight }
-> If you are making a level without using Jump King Worldsmith, you also need the following requirement:
-> - The [__sample custom level__]() by Phoenixx19
+> If you are making <u>anything</u> without using Jump King Worldsmith, you also need to choose the following requirement depending on what you are planning to do:
+> 
+> |Made for|Name|Last updated|
+> |---|---|---|
+> |Level|[__Sample level__](){: target="_blank"}|null|
+> |Single skin|[__Sample single skin__](){: target="_blank"}|null|
+> |Skin set|[__Sample skin set__](){: target="_blank"}|null|
+> 
+> And a **text editor** (that will be used for XML files) such as:
+> - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"} (free, open-source, recommended),
+> - [Notepad++](https://notepad-plus-plus.org/){:target="_blank"} (free, open-source, recommended),
+> - Notepad (preinstalled on Windows) or others that you might know of.
 
 {: .disclaimer }
 > You might also want to get some additional level helping tools such as [**JumpKingManager**]({{ site.baseurl }}/tools/map-tools/jumpkingmanager) to access one area quickly, test specific jumps and so on...
