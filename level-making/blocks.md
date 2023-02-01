@@ -3,7 +3,7 @@ layout: default
 title: Blocks
 parent: Level Making
 nav_order: 2
-last_modified_date: 2023-02-01 12:25
+last_modified_date: 2023-02-01 15:19
 ---
 
 <style>
@@ -112,7 +112,7 @@ The ice block is a solid block that will make the player slide if it's standing 
 
 ### <input type="color" title="RGB(255,255,0)" value="#FFFF00">Snow block
 
-The snow block is a solid block that will make the player stand in one position, needs at least 5 frames to jump.
+The snow block is a solid block that will make the player stand in one position, needs at least 7 frames to jump.
 
 - It is solid,
 - you can't walk on it,
