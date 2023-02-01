@@ -41,7 +41,7 @@ Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cran
    <blockquote class="highlight">
     <details>
         <summary>If you can't find it, make sure you have tools enabled from the dropdown in your Steam library. Expand for image reference.</summary>
-        <img src="/images/publishing/SteamToggleTools.png" alt="Step 1a">
+        <img src="{{ site.baseurl }}/images/publishing/SteamToggleTools.png" alt="Step 1a">
     </details>
    </blockquote>
 
