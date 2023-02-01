@@ -3,7 +3,7 @@ layout: default
 title: Screen
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-12-19 14:05
+last_modified_date: 2022-02-01 17:47
 ---
 
 # Screens folder
@@ -12,7 +12,7 @@ last_modified_date: 2022-12-19 14:05
 contains textures such as background, foreground, midground, scrolling images and masks.<!-- more -->
 {: .fs-6 .fw-300 }
 
-All of the layers of a screen can be merged to make a result like the example below (*without counting the hidden wall because that's a type of prop*). Every layer has its own name, format and folder; hover on the image above and click on the image you want to know more about!
+All of the layers of a screen can be merged to make a result like the example below (*without counting the hidden wall because that's a type of prop*). Every layer has its own name, format and folder; hover on the image below and click on the image you want to know more about!
 
 ## Image of contents
 {: .no_toc .text-delta }
