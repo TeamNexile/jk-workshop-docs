@@ -14,7 +14,23 @@ contains textures such as background, foreground, midground, scrolling images an
 
 All of the layers of a screen can be merged to make a result like this (*without counting the hidden wall because that's a type of prop*):
 
-![Example Image](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/final.jpg)
+<div class="skewd">
+    <a href="#background">
+        <img src="{{ site.baseurl }}/images/level-making/screens/background.png" title="Background" alt="bg">
+    </a>
+    <a href="#scrolling">
+        <img src="{{ site.baseurl }}/images/level-making/screens/scroll.png" title="Scrolling image" alt="scrolling">
+    </a>
+    <a href="#midground">
+        <img src="{{ site.baseurl }}/images/level-making/screens/midground.png" title="Midground" alt="mg">
+    </a>
+    <a href="#masks">
+        <img src="{{ site.baseurl }}/images/level-making/screens/masked.png" title="Mask" alt="mask">
+    </a>
+    <a href="#foreground">
+        <img src="{{ site.baseurl }}/images/level-making/screens/foreground.png" title="Foreground" alt="fg">
+    </a>
+</div>
 
 Every layer has its own name, format and folder.<br>The following list will go from back to front.
 
@@ -23,6 +39,54 @@ Every layer has its own name, format and folder.<br>The following list will go f
 
 1. TOC
 {:toc}
+
+---
+
+<style>
+    .skewd {
+        position: relative;
+        width: 100%;
+        padding-bottom: calc(75% + 4px);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .skewd:not(:hover) a {
+        opacity: 1;
+    }
+    .skewd:hover a:not(:hover) {
+        opacity: 0.1;
+        filter: grayscale(0.6);
+        border-left-color: black;
+    }
+    .skewd a {
+        position: absolute;
+        width: 100%;
+        transition: .5s;
+        opacity: 1;
+        border: solid 2px transparent;
+        text-decoration: none!important;
+        line-height: 0;
+    }
+    .skewd a img {
+        width: 100%;
+    }
+    .skewd a:hover {
+        opacity: 1;
+        border-color: red;
+    }
+    .skewd:hover a:nth-child(2) {
+        transform: translate(12.5%);
+    }
+    .skewd:hover a:nth-child(3) {
+        transform: translate(25%);
+    }
+    .skewd:hover a:nth-child(4) {
+        transform: translate(37.5%);
+    }
+    .skewd:hover a:nth-child(5) {
+        transform: translate(50%);
+    }
+</style>
 
 ## Background
 At the lowest ground there's the background.
