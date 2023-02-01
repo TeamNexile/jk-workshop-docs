@@ -12,7 +12,10 @@ last_modified_date: 2022-12-19 14:05
 contains textures such as background, foreground, midground, scrolling images and masks.<!-- more -->
 {: .fs-6 .fw-300 }
 
-All of the layers of a screen can be merged to make a result like this (*without counting the hidden wall because that's a type of prop*):
+All of the layers of a screen can be merged to make a result like the example below (*without counting the hidden wall because that's a type of prop*). Every layer has its own name, format and folder; hover on the image above and click on the image you want to know more about!
+
+## Image of contents
+{: .no_toc .text-delta }
 
 <div class="skewd">
     <a href="#background">
@@ -31,14 +34,6 @@ All of the layers of a screen can be merged to make a result like this (*without
         <img src="{{ site.baseurl }}/images/level-making/screens/foreground.png" title="Foreground" alt="fg">
     </a>
 </div>
-
-Every layer has its own name, format and folder.<br>The following list will go from back to front.
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
@@ -75,22 +70,27 @@ Every layer has its own name, format and folder.<br>The following list will go f
         border-color: red;
     }
     .skewd:hover a:nth-child(2) {
-        transform: translate(12.5%);
+        transform: translate(11.1%);
     }
     .skewd:hover a:nth-child(3) {
-        transform: translate(25%);
+        transform: translate(22.2%);
     }
     .skewd:hover a:nth-child(4) {
-        transform: translate(37.5%);
+        transform: translate(33.3%);
     }
     .skewd:hover a:nth-child(5) {
-        transform: translate(50%);
+        transform: translate(44.4%);
     }
 </style>
 
 ## Background
-At the lowest ground there's the background.
-The background is usually used for **skies or gradients** to put on the back end of screens.<br>
+
+At the lowest ground there's the background.<br>
+The background is commonly used for **skies or gradients** to put on the back end of screens.
+
+|resolution|480x360 pixels|
+|nomenclature|bg`SCREEN NUMBER`|
+
 This size of the file should be **480x360** pixels, the name of the file should be `bg(SCREEN NUMBER).xnb`, or as an example, `bg1.xnb`.
 
 ![BG](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/background.png)
@@ -138,3 +138,19 @@ The foreground is used for **details that are in front of the player**, such as 
 This size of the file should be **480x360** pixels, the name of the file should be `fg(SCREEN NUMBER).xnb`, or as an example, `fg1.xnb`.
 
 ![FG](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/foreground.png)
+
+## Screens folder recap
+
+Let's recap the main details for the packed files you will need.
+
+Title|Resolution|Nomenclature|Folder
+---|---|---|---
+Background|480x360 pixels|bg[SCREEN]<br>(e.g. bg65)|`screens/background/`
+Scrolling image|any|any|`screens/scrolling/textures/`
+Midground|480x360 pixels|[SCREEN]<br>(e.g. 65)|`screeens/midground/`
+Mask|480x360 pixels|[MASK_NAME]mask[SCREEN]<br>(e.g. ashmask65)|`screens/masks/`
+Foreground|480x360 pixels|fg[SCREEN]<br>(e.g. fg65)|`screens/foreground/`
+
+## Next up
+
+You've learned all for what it takes to make a packed screen, let's learn [how to make props]({{ site.baseurl }}/level-making/props)!

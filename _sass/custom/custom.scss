@@ -51,3 +51,21 @@ kbd {
     top: 50%;
     transform: translateY(-50%);
 }
+
+table.vertical thead th {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    padding: 0.25rem;
+    font-weight: 600;
+    vertical-align: bottom;
+  }
+
+  table.vertical thead th:first-child {
+    writing-mode: unset;
+    text-orientation: unset;
+  }
+
+  table.vertical th,
+  table.vertical td {
+    min-width: 0;
+  }

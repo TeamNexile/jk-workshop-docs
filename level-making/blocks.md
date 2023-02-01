@@ -24,24 +24,6 @@ last_modified_date: 2023-02-01 15:19
     vertical-align: -.5rem;
     cursor: pointer;
   }
-
-  table.vertical thead th {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    padding: 0.25rem;
-    font-weight: 600;
-    vertical-align: bottom;
-  }
-
-  table.vertical thead th:first-child {
-    writing-mode: unset;
-    text-orientation: unset;
-  }
-
-  table.vertical th,
-  table.vertical td {
-    min-width: 0;
-  }
 </style>
 
 # Block types
