@@ -2,7 +2,7 @@
 layout: default
 title: Publishing
 nav_order: 10
-last_modified_date: 2023-01-11 15:57
+last_modified_date: 2023-02-01 15:10
 ---
 
 # Publishing
@@ -35,7 +35,7 @@ Make sure you have accepted [Steam's EULA agreement](https://steamcommunity.com/
 
 ### Don't forget the guidelines!
 
-Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile won't endorse levels that won't follow </u>[their guidelines]({{ site.baseurl }}/getting-started/guidelines).
+Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile is unlikely to endorse levels that do not follow </u>[their guidelines]({{ site.baseurl }}/getting-started/guidelines).
 
 ### Don't forget to playtest your level!
 
@@ -99,12 +99,12 @@ Few people wants to play a **poorly tested level** where **jumps don't work** as
 Once the upload is completed, it will ask you if you to see it on the Steam Workshop's page, from there you can further modify its page by adding more images, improve your description or decide to remove your item.
 
 <figure class="mb-5">
-   <img src="/images/publishing/Step7.png" alt="Completion on tool">
+   <img src="{{ site.baseurl }}/images/publishing/Step7.png" alt="Completion on tool">
    <figcaption class="text-grey-dk-000 text-epsilon">Item upload completion on Workshop Manager.</figcaption>
 </figure>
 
 <figure>
-   <img src="/images/publishing/Step8.png" alt="Steam page preview">
+   <img src="{{ site.baseurl }}/images/publishing/Step8.png" alt="Steam page preview">
    <figcaption class="text-grey-dk-000 text-epsilon">Steam Workshop page of the uploaded item. Tags are automatically given by the uploading tool chosen by the user.</figcaption>
 </figure>
 

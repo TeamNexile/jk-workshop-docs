@@ -3,13 +3,13 @@ layout: default
 title: Guidelines
 parent: Getting started
 nav_order: 2
-last_modified_date: 2023-01-16 12:15
+last_modified_date: 2023-02-01 15:10
 ---
 
 # Rules and guidelines
 {: .no_toc }
 
-you should follow these, unless you don't want to end up in the bog...<!-- more -->
+you should follow these, unless you **do** want to end up in the bog...<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -42,7 +42,7 @@ As of now, Nexile's focus is on the polished levels so the guidelines for skins 
 
 ### Polished levels
 
-Level design in Jump King is a delicate balance between fairness and hardness. These guidelines are not only made to prevent unfair and impossible levels but to respect Nexile's original ideas on level design. <u>Nexile won't endorse polished levels that won't follow their guidelines.</u>
+Level design in Jump King is a delicate balance between fairness and hardness. These guidelines are not only made to prevent unfair and impossible levels but to respect Nexile's original ideas on level design. <u>Nexile is unlikely to endorse polished levels that do not follow their guidelines.</u>
 
 {% include rules/levels.md %}
 

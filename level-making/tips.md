@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tips & Tricks
-nav_exclude: true
-last_modified_date: 2023-01-27 11:43
+parent: Level Making
+nav_order: 20
+last_modified_date: 2023-02-01 15:10
 ---
 
 # Tips & Tricks for making a good level

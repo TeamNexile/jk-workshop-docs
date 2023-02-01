@@ -4,7 +4,7 @@ title: Getting started
 has_children: true
 has_toc: false
 nav_order: 2
-last_modified_date: 2023-01-03 13:55
+last_modified_date: 2023-02-01 15:12
 ---
 
 # Introduction to the Workshop
@@ -21,13 +21,13 @@ details you need to know before you starting on your first steps.<!-- more -->
 
 ## What is the Workshop?
 
-The Steam Workshop is designed as a place for all Jump King fans and community members to participate in the **creation** of content such as **levels, skins and so on** for Jump King!
+The Steam Workshop is designed as a place for all Jump King fans and community members to participate in the **creation and use** of content such as **levels, skins and so on** for Jump King!
 
 ![Workshop Image]({{ site.baseurl }}/images/WorkshopImage.png)
 
 ## What is a level?
 
-
+A level is additional content that can be played just like New Babe Plus and Ghost of the Babe.
 
 ### The level hierarchy
 
