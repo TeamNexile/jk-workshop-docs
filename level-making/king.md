@@ -3,26 +3,38 @@ layout: default
 title: King
 parent: Level Making
 nav_order: 6
-last_modified_date: 2022-12-19 14:05
+last_modified_date: 2023-02-02 17:05
 ---
 
 # Custom King textures
+{: .no_toc }
 
 a different look for the King!<!-- more -->
 {: .fs-6 .fw-300 }
 
-By default, you must have a different *base file*.
+> By default, you must have a different *base file*.
+{: .highlight }
 
-But what is this base file?
-{: .text-gamma }
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## But what is this base file?
 
 <style>
     .skewd {
         position: relative;
         width: 100%;
-        padding-bottom: calc(75% + 4px);
+        padding-bottom: calc(46.1538461538% + 4px);
         transition: 0.5s;
         overflow: hidden;
+    }
+    .skewd:hover {
+        padding-bottom: calc(51% + 4px);
     }
     .skewd:not(:hover) img {
         opacity: 1;
@@ -47,25 +59,60 @@ But what is this base file?
         border-color: red;
     }
     .skewd:hover img:nth-child(2) {
-        transform: translate(11.1%);
-    }
-    .skewd:hover img:nth-child(3) {
-        transform: translate(22.2%);
-    }
-    .skewd:hover img:nth-child(4) {
-        transform: translate(33.3%);
-    }
-    .skewd:hover img:nth-child(5) {
-        transform: translate(44.4%);
+        transform: translateY(11.1%);
     }
 </style>
 
-
 <div class="skewd">
-    <img src="{{ site.baseurl }}/images/level-making/king/base.png" alt="Base">
-    <img src="{{ site.baseurl }}/images/level-making/screens/masked.png" alt="Base">
+    <img src="{{ site.baseurl }}/images/level-making/king/sprite_grid.png" title="Grid" alt="Grid">
+    <img src="{{ site.baseurl }}/images/level-making/king/base.png" title="Base" alt="Base">
 </div>
-![Base]()
 
-The base file is a packed image file that contains every Jump King (jumping, falling, walking, dancing, you name it) and babes texture.
+The base file is a packed image file that contains every Jump King (jumping, falling, walking, dancing, you name it) and babe's ending textures.
 
+### Replace or delete existing base (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Replace or delete existing base (without Worldsmith)
+
+If you are just getting started, you should:
+
+1. Save [the base image]({{ site.baseurl }}/images/level-making/king/base.png){: target="_blank"} by right-clicking it.
+2. Modify as you will.
+3. Convert the image file you worked on into a packed XNB file naming it `base`.
+4. Replacing the already existing base file in the `king` folder.
+
+> If you want to branch out from the classic look and go for a more customized experience, you also [use the grid]({{ site.baseurl }}/images/level-making/king/sprite_grid.png){: target="_blank"} to create a new base and other textures too.
+{: .note }
+
+## Other custom item textures (optional)
+
+Other than the base texture, you can also decide to customize all the other wearable items from the [item's list]({{ site.baseurl }}/api/items){: target="_blank"}.
+
+> Doing custom textures is the same process as making single skins without the hassle of making the XML files; you will need a good image editor that supports at least three layers. In the first layer you will need to put the grid, in the second the base of your choice, and in the third your item texture.
+
+Once you are satisfied with your item texture, you can decide to add it onto your level.
+
+### Adding/replacing/deleting a custom texture (with Worldsmith) 
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding/replacing a custom texture (without Worldsmith) 
+
+1. Convert the image file you worked on into a packed XNB file.
+2. Look out for your **Item** name in the [Items List]({{ site.baseurl }}/api/items){: target="_blank"}.
+3. Open the `skin_settings.xml` and search for the **Item** name.
+4. Use the name you will find in the `texture` tag where you found your Item for your texture. If the file is already existing, replace the file.
+
+### Deleting a custom texture (without Worldsmith)
+
+1. Look out for your **Item** name in the [Items List]({{ site.baseurl }}/api/items){: target="_blank"}.
+3. Open the `skin_settings.xml` and search for the **Item** name.
+4. Delete the file that is called as the `texture` tag where you found your Item.
+
+## Next up
+
+Another folder down! Good job! Let's continue with [**audio stuff**]({{ site.baseurl }}/level-making/audio)!
