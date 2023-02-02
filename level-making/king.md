@@ -3,10 +3,10 @@ layout: default
 title: King
 parent: Level Making
 nav_order: 6
-last_modified_date: 2023-02-02 17:05
+last_modified_date: 2023-02-02 17:10
 ---
 
-# Custom King textures
+# King folder
 {: .no_toc }
 
 a different look for the King!<!-- more -->
