@@ -3,7 +3,7 @@ layout: default
 title: Screen
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-02-01 17:47
+last_modified_date: 2022-02-02 15:28
 ---
 
 # Screens folder
@@ -17,7 +17,7 @@ All of the layers of a screen can be merged to make a result like the example be
 ## Image of contents
 {: .no_toc .text-delta }
 
-<div class="skewd">
+<div class="skewd" id="example">
     <a href="#background">
         <img src="{{ site.baseurl }}/images/level-making/screens/background.png" title="Background" alt="bg">
     </a>
@@ -88,68 +88,226 @@ All of the layers of a screen can be merged to make a result like the example be
 At the lowest ground there's the background.<br>
 The background is commonly used for **skies or gradients** to put on the back end of screens.
 
-|resolution|480x360 pixels|
-|nomenclature|bg`SCREEN NUMBER`|
+### Adding/replacing/removing a background (with Worldsmith)
 
-This size of the file should be **480x360** pixels, the name of the file should be `bg(SCREEN NUMBER).xnb`, or as an example, `bg1.xnb`.
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-![BG](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/background.png)
+### Adding/replacing a background (without Worldsmith)
+
+To add a new or replace an existing background:
+
+1. Convert an image file into a packed XNB file with the following details:
+
+    |**resolution**|480x360 pixels|
+    |**nomenclature**|bg`SCREEN NUMBER`<br>(e.g. bg65)|
+
+2. Place the new packed file in the `screens/background` folder.
+    > If a file is already existing, replace it with the new file.
+    {: .highlight }
+
+### Removing a background (without Worldsmith)
+
+To remove an unwanted background:
+
+1. Navigate to the `screens/background` folder.
+2. Simply delete the file that you don't want.<br>Following the logic, if you don't want the background of your 5th screen, you will remove `bg65.xnb`.
 
 <br>
 
 ## Scrolling images
+{: #scrolling }
 
-<a class="button transparent small" href="https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/scroll.xml"><ion-icon name="code-slash"></ion-icon> Example scroll.xml</a>
+The scrolling texture is commonly used for **mist clouds or birds** flying in the distance [right before the player layer but above the background](#example).
 
-The scrolling texture is usually used for **clouds or birds** flying in the distance (*behind the player*).
+The scrolling images are managed by an .xml file, that determines their texture, position, velocity, layer mode and possible additional frames. In order to have a working scrolling image, you will need to have both the xml file and the packed XNB file.
 
-The scrolling images are managed by an .xml file, that determines their texture, position, velocity and layer mode (see example scroll.xml above). The texture name should be the same as the name file. Which means if you created a new scrolling texture called `clouds.xnb` the name of the texture inside the scroll setting file should be `<texture>clouds</texture>`.
+### Adding/replacing/removing a scrolling image (with Worldsmith)
 
-![Scrolling](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/scroll.png)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding a scrolling image (without Worldsmith)
+
+If you want to add a new scrolling image:
+
+1. Convert an image file into a packed XNB file.
+   > While there aren't any restrictions with how it should be named, avoid using spaces or special characters and it's suggested that you name it in a way that you can retroactively know which file is later on.
+   > An example could be:
+   ```
+   `SCREEN`_[NAME]_[NUMBER] (e.g. 65_clouds_1)
+   ```
+   If you follow such, you can easily tell which screen the scrolling image is used from, what is in the scrolling image, and a number if you have more than one scrolling images.
+   {: .note }
+
+2. Head to the following folder: `screens/scrolling`.
+3. You can put your new packed scrolling image inside the `textures` folder. Write down your scrolling image file name somewhere, this will be used later.
+4. Check if you already have an existing xml file for the screen that you want to add your new scrolling image.
+   > **If the file doesn't exists**, don't worry!
+   > 1. Copy the following snippet:
+    ```xml
+        <?xml version="1.0"?>
+        <ScrollingBGdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <scroll_speed>10</scroll_speed>
+            <layers>
+                <Layer>
+                    <texture>YOUR_SCROLLING_IMAGE_NAME_HERE</texture>
+                    <position>0</position>
+                    <scroll_multiplier>1</scroll_multiplier>
+                </Layer>
+            </layers>
+        </ScrollingBGdata>
+    ```
+   > 2. Create a new xml file called `scroll`SCREEN`` (e.g. scroll65.xml), open it and paste the snippet above
+
+   > **If the file already exists**:
+   > 1. Copy the following snippet:
+    ```xml
+        <Layer>
+            <texture>YOUR_SCROLLING_IMAGE_NAME_HERE</texture>
+            <position>0</position>
+            <scroll_multiplier>1</scroll_multiplier>
+        </Layer>
+    ```
+    > 2. Inside the `layers` tag, below already existing `Layer`s, paste your snippet.
+
+5. Replace `YOUR_SCROLLING_IMAGE_NAME_HERE` with the filename of your new packed scroll image.
+
+### Replacing a scrolling image (without Worldsmith)
+
+To replace an already existing scrolling image:
+
+1. Convert the new scrolling image into a packed XNB file.
+2. Replace the old file with the new file in the `screens/scrolling/textures`.
+   > If your packed file isn't named the same as before, you will need to change the `texture` tag in the xml file(s) that previously had the old file or remove the layer completely.
+   {: .highlight }
+
+### Removing a scrolling image (without Worldsmith)
+
+To remove a scrolling image:
+
+1. Find the scrolling packed image of your choice and remove it.
+2. You will need to remove each  `Layer` tag in the xml file(s) that contained your old file as `texture`.
+   
+If you want the scrolling image to start in a different X position, change the `position` tag into the X value you want. Same goes for the velocity of the scroll image, if you think it's too fast or too slow, change the `scroll_multiplier` to the value that you want. The higher is the number the faster it will go, and dont' worry, the number works both in positive and negative.
+{: .note }
 
 <br>
 
 ## Midground
-Right after the scrolling images, there's the midground.
+Right after the scrolling images, there's the midground.<br>
 The midground is usually used for **platforms and details** that are **behind the player** (the player can go over them).
-This size of the file should be **480x360** pixels, the name of the file should be `(SCREEN NUMBER).xnb`, or as an example, `1.xnb`.
 
-![MG](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/midground.png)
+### Adding/replacing/removing a midground (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding/replacing a midground (without Worldsmith)
+
+To add a new or replace an existing midground:
+
+1. Convert an image file into a packed XNB file with the following details:
+
+    |**resolution**|480x360 pixels|
+    |**nomenclature**|`SCREEN NUMBER`<br>(e.g. 65)|
+
+2. Place the new packed file in the `screens/midground` folder.
+    > If a file is already existing, replace it with the new file.
+    {: .highlight }
+
+### Removing a midground (without Worldsmith)
+
+To remove an unwanted midground:
+
+1. Navigate to the `screens/midground` folder.
+2. Simply delete the file that you don't want.<br>Following the logic, if you don't want the midground of your 5th screen, you will remove `5.xnb`.
 
 <br>
 
-## Masks
-Masks (and so particles) are above the player layer-wise.
-Masks can be used to give more depth to the level, some examples of masks are ash, rain and snow. The mask lets you **display the particles effect only on the blue/cyan mask you are creating**.
+## Masks for particles
+{: #masks }
 
-The animated backgrounds are stored inside the default `particles` folder, to add a particle effect [**head over the particles section**](../particles/#weather-configuration).
+Masks (and so particles) are above the player layer-wise.<br>
+Masks can be used to give more depth to the level.
 
-This size of the file should be **480x360** pixels, the name of the file should be `(MASK NAME)mask(SCREEN NUMBER).xnb`, or as an example `light_snow_bgmask1.xnb`.
+The mask works just like the difference effect on Photoshop, which lets you **display the particles effect only on the blue/cyan mask you are creating**.
 
-![Mask](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/mask.png)
+> The mask only takes effect if a **particle effect is enabled on a certain screen**. Head over in the [__particles section to learn how to add particles__]({{ site.baseurl }}/level-making/particles) on a screen before continuing.
+{: .warning }
 
-> Removing a mask inside a screen that has already a particle effect (written on `particles/weather.xml`) will display the effect on the whole screen.
+### Adding/replacing/removing a midground (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding/replacing a mask (without Worldsmith)
+
+To add a new or replace an existing mask:
+
+1. Make sure you've set the correct particle in your particle configuration file.
+2. Convert an image file into a packed XNB file with the following details:
+
+    |**resolution**|480x360 pixels|
+    |**nomenclature**|`MASK NAME`mask`SCREEN NUMBER`<br>(e.g. ashmask65)|
+
+3. Place the new packed file in the `screens/masks` folder.
+    > If a file is already existing, replace it with the new file.
+    {: .highlight }
+
+### Removing a mask (without Worldsmith)
+
+To remove an unwanted mask:
+
+1. Navigate to the `screens/masks` folder.
+2. Simply delete the file that you don't want.<br>Following the logic, if you don't want the midground of your 5th screen, you will remove whatever file ends with "[...]mask5.xnb".
+
+> Removing a mask inside a screen that has already a particle effect (written on `particles/weather.xml`) will display the effect on the whole screen. If you want to remove the particle effect, see [how you can remove it]({{ site.baseurl }}/level-making/particles).
 
 <br>
 
 ## Foreground
-The foreground work one layer above the masks and particles.
+The foreground work one layer above the masks and particles.<br>
 The foreground is used for **details that are in front of the player**, such as vines or grass.
-This size of the file should be **480x360** pixels, the name of the file should be `fg(SCREEN NUMBER).xnb`, or as an example, `fg1.xnb`.
 
-![FG](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/foreground.png)
+### Adding/replacing/removing a foreground (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding/replacing a foreground (without Worldsmith)
+
+To add a new or replace an existing foreground:
+
+1. Convert an image file into a packed XNB file with the following details:
+
+    |**resolution**|480x360 pixels|
+    |**nomenclature**|fg`SCREEN NUMBER`<br>(e.g. fg65)|
+
+2. Place the new packed file in the `screens/foreground` folder.
+    > If a file is already existing, replace it with the new file.
+    {: .highlight }
+
+### Removing a foreground (with Worldsmith)
+
+To remove an unwanted foreground:
+
+1. Navigate to the `screens/foreground` folder.
+2. Simply delete the file that you don't want.<br>Following the logic, if you don't want the foreground of your 5th screen, you will remove `fg5.xnb`.
+
+---
 
 ## Screens folder recap
 
 Let's recap the main details for the packed files you will need.
 
-Title|Resolution|Nomenclature|Folder
+Title|Resolution|Nomenclature|Folder|Needs XML?
 ---|---|---|---
-Background|480x360 pixels|bg[SCREEN]<br>(e.g. bg65)|`screens/background/`
-Scrolling image|any|any|`screens/scrolling/textures/`
-Midground|480x360 pixels|[SCREEN]<br>(e.g. 65)|`screeens/midground/`
-Mask|480x360 pixels|[MASK_NAME]mask[SCREEN]<br>(e.g. ashmask65)|`screens/masks/`
-Foreground|480x360 pixels|fg[SCREEN]<br>(e.g. fg65)|`screens/foreground/`
+Background|480x360 pixels|bg`SCREEN`<br>(e.g. bg65)|`screens/background/`|❌
+Scrolling image|any|any|`screens/scrolling/textures/`|✔️
+Midground|480x360 pixels|`SCREEN`<br>(e.g. 65)|`screeens/midground/`|❌
+Mask|480x360 pixels|`MASK_NAME`mask`SCREEN`<br>(e.g. ashmask65)|`screens/masks/`|✔️
+Foreground|480x360 pixels|fg`SCREEN`<br>(e.g. fg65)|`screens/foreground/`|❌
 
 ## Next up
 
