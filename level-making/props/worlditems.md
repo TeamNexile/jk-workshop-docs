@@ -4,26 +4,71 @@ title: World Items
 grand_parent: Level Making
 parent: Props
 nav_order: 2
-last_modified_date: 2023-02-01 17:22
+last_modified_date: 2023-02-03 18:59
 ---
 
-## World items
+# World items
+{: .no_toc }
 
-are **items that the player can pick up** by walking on them. These world items have their own texture inside `/mods/props/worlditems`. 
+are **items that the player can pick up** by triggering their hitbox<!-- more -->
+{: .fs-6 .fw-300 }
 
+## Table of contents
+{: .no_toc .text-delta }
 
-In order to have the world items working in-game, the game reads a file called `worlditems.xml` inside the folder specified above. This file contains an `<items>` tag which is an array (multiple instances) of the `<WorldItemState>` tag.
+1. TOC
+{:toc}
 
-### WorldItemState
-<p class="do-i-need-it">optional</p>
+---
 
-contains the information of a single world item.
+## Adding/replacing/removing a hidden wall (with Worldsmith)
 
-`<WorldItemState>` contains:
-- the name of the item (using the `<item>` tag)
-- the number of the screen (using the `<screen>` tag)
-- the position on the screen (using the `<_x>` and `<_x>` tags)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-Following the logic, you'll end up with a `worlditems.xml` file like this:
+## Adding a world item (without Worldsmith)
 
-<script src="https://gist.github.com/Phoenixx19/79522e0b5424f17bc8f5821e65885306.js"></script>
+1. Make sure your [item can be a worlditem]({{site.baseurl}}/api/items){: target="_blank"}.
+2. Open the worlditems xml configuration file located in `props/worlditems`.
+3. Copy the snippet below:
+   ```xml
+        <WorldItemState>
+            <item>YOUR_ITEM_NAME</item>
+            <screen>YOUR_WORLDITEM_SCREEN</screen>
+            <_x>YOUR_WORLDITEM_X_POSITION</_x>
+            <_y>YOUR_WORLDITEM_Y_POSITION</_y>
+        </WorldItemState>
+   ```
+4. Paste it below the closing tag of an already existing `WorldItemState` or below the `items` tag.
+5. Replace `YOUR_ITEM_NAME` with the **Item name** in the item's list.
+6. Replace `YOUR_WORLDITEM_SCREEN` with the screen of your choice.
+7. Replace `YOUR_WORLDITEM_X_POSITION` and `YOUR_WORLDITEM_Y_POSITION` with their own respective <u>relative</u> value.
+
+## Removing a world item (without Worldsmith)
+
+1. Open the worlditems xml configuration file located in `props/worlditems`.
+2. Find the item you want to delete.
+3. Remove the entire `WorldItemState` tag of the world item that you don't like.
+
+## Personalizing a world item (without Worldsmith) (optional)
+
+In the same folders where you found the worlditems xml configuration file you can find some packed XNB files. Each file corresponds to the texture of the world item.
+
+By replacing any of these, you will change the look of your world item.
+
+|Filename|Item|
+|---|---|
+|bug_note|Bug's note|
+|cap|Cap|
+|ghost_fragment|Ghost Fragment|
+|gnome_hat|Philosopher's Hat|
+|shoes_iron|Giant Boots|
+|shroom|Mushroom|
+|silver_coin|Silver Coin|
+|tunic|Tunic|
+|yellow_shoes|Yellow shoes|
+
+## Next up
+
+Enjoy scattering around your new world items!
+Next up, [NPCs]({{site.baseurl}}/level-making/props/npcs).

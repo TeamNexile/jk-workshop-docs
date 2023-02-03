@@ -54,6 +54,8 @@ The props in-game (such as the bonfire in the first screen) are stored in the `p
 
 ### Adding a simple prop (without Worldsmith)
 
+1. Convert
+
 ### Replacing a simple prop (without Worldsmith)
 
 ### Removing a simple prop (without Worldsmith)
