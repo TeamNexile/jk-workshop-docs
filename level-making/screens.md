@@ -3,7 +3,7 @@ layout: default
 title: Screen
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-02-02 15:28
+last_modified_date: 2022-02-03 14:00
 ---
 
 # Screens folder
@@ -142,7 +142,7 @@ If you want to add a new scrolling image:
 
 2. Head to the following folder: `screens/scrolling`.
 3. You can put your new packed scrolling image inside the `textures` folder. Write down your scrolling image file name somewhere, this will be used later.
-4. Check if you already have an existing xml file for the screen that you want to add your new scrolling image.
+4. Check if you already have an existing xml file for the screen that you want to add your new scrolling image, you can easily find it by searching "scroll" and then the screen number (e.g. scroll65.xml).
    > **If the file doesn't exists**, don't worry!
    > 1. Copy the following snippet:
     ```xml
@@ -158,7 +158,7 @@ If you want to add a new scrolling image:
             </layers>
         </ScrollingBGdata>
     ```
-   > 2. Create a new xml file called `scroll`SCREEN`` (e.g. scroll65.xml), open it and paste the snippet above
+   > 2. Create a new xml file called `scroll[SCREEN]` (e.g. scroll65.xml), open it and paste the snippet above
 
    > **If the file already exists**:
    > 1. Copy the following snippet:

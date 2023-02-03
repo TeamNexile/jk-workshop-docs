@@ -4,13 +4,13 @@ title: Props
 parent: Level Making
 nav_order: 5
 has_children: true
-last_modified_date: 2023-02-02 17:31
+last_modified_date: 2023-02-03 14:59
 ---
 
 # Props folder
 {: .no_toc }
 
-contains textures and settings of props used in-game.<!-- more -->
+contains all types of props used in-game<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -19,14 +19,44 @@ contains textures and settings of props used in-game.<!-- more -->
 1. TOC
 {:toc}
 
-## Good practice with props
-Avoid using props in the final screen to prevent slight visual bugs from the game after beating the level.
+---
 
-## Props
+## What is a prop?
 
-are details (that can also be animated!) on screen.
+A prop is essentially a small object that more or less dynamic. In Jump King, there are countless of props around that you don't even know, just to name a few:
+
+- the bonfire at the start of your journey,
+- the Old Man,
+- the hidden cap in the sewer,
+- the hiddle wall preventing you to see the cap,
+- the bird with the gold coin,
+- the gold coin,
+- the merchant in Bargainburg,
+- et cetera...
+
+All of these are a prop, and in the following subcategories, you are going to learn how to create and personalize your props.
+
+But first let's start with the basics,<br>**the bonfire**.
+
+> Good practice with props
+> 
+>Avoid using props in the final screen to prevent slight visual bugs from the game after beating the level.
+{: .note-title }
+
+## Simple prop
 
 The props in-game (such as the bonfire in the first screen) are stored in the `props/textures` folder. Inside this folder, there's a configuration file named `prop_settings.xml` which contains a list of `<PropSetting>` tags.
+
+### Adding/replacing/removing a simple prop (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Adding a simple prop (without Worldsmith)
+
+### Replacing a simple prop (without Worldsmith)
+
+### Removing a simple prop (without Worldsmith)
 
 ### PropSetting
 <p class="do-i-need-it">required</p>
@@ -90,3 +120,7 @@ To add a prop on a screen:
   </Props>
 </PropCollection>
 ```
+
+## Next up
+
+The bonfire has been lit! Let's continue with [**hidden walls**]({{site.baseurl}}/level-making/props/hidden-walls).

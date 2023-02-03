@@ -3,7 +3,7 @@ layout: default
 title: World Items
 grand_parent: Level Making
 parent: Props
-nav_order: 1
+nav_order: 2
 last_modified_date: 2023-02-01 17:22
 ---
 

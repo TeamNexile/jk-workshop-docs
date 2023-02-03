@@ -4,7 +4,7 @@ title: Messages
 grand_parent: Level Making
 parent: Props
 nav_order: 6
-last_modified_date: 2023-02-03 12:21
+last_modified_date: 2023-02-03 14:17
 ---
 
 # Messages
@@ -32,32 +32,33 @@ text "bubbles" that spawn by triggering a hitbox<!-- more -->
    ```xml
    <?xml version="1.0"?>
     <RattmanSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-        <screen>YOUR_MESSAGE_SCREEN</screen>					<!-- screen number -->
-        <hitbox_center>						  <!-- hitbox alignment -->
-            <X>1</X>						      <!-- 0: trigger alignment on the right 1: trigger alignment on the left -->
-            <Y>1</Y>						      <!-- 0: trigger alignment on the bottom 1: trigger alignment on the up -->
+        <screen>YOUR_MESSAGE_SCREEN</screen>
+        <hitbox_center>
+            <X>1</X>    <!-- 0: trigger alignment on the right 1: trigger alignment on the left -->
+            <Y>1</Y>    <!-- 0: trigger alignment on the bottom 1: trigger alignment on the up -->
         </hitbox_center>
-        <hitbox>							      <!-- trigger hitbox -->
-            <X>YOUR_HITBOX_ON_X_AXIS</X>						    <!-- position on the X axis -->
-            <Y>YOUR_HITBOX_ON_Y_AXIS</Y>						    <!-- position on the Y axis -->
-            <Width>YOUR_HITBOX_WIDTH</Width>				  <!-- width of the hitbox -->
-            <Height>YOUR_HITBOX_HEIGHT</Height>				<!-- height of the hitbox -->
+        <hitbox>
+            <X>YOUR_HITBOX_ON_X_AXIS</X>
+            <Y>YOUR_HITBOX_ON_Y_AXIS</Y>
+            <Width>YOUR_HITBOX_WIDTH</Width>
+            <Height>YOUR_HITBOX_HEIGHT</Height>
         </hitbox>
-        <font>Default</font>				<!-- (!) -->
-        <text_anchor>					      <!-- (*) change only if necessary -->
-            <X>YOUR_TEXT_START_X_POSITION</X>					  <!-- (*) change only if necessary -->
+        <font>Default</font>
+        <text_anchor>
+            <X>YOUR_TEXT_START_X_POSITION</X>
             <Y>YOUR_TEXT_START_Y_POSITION</Y>
         </text_anchor>
         <bubble_format>
             <direction>YOUR_TEXT_BUBBLE_ALIGNMENT</direction>	<!-- alignment text -->
-            <anchor>						          <!-- anchoring text directions -->
-                <X>YOUR_TEXT_BUBBLE_ANCHOR_X</X>					        <!-- anchoring to display horizontally; Left or Right -->
-                <Y>YOUR_TEXT_BUBBLE_ANCHOR_Y</Y>					        <!-- anchoring to display horizontally; Up or Down -->
+            <anchor>
+                <X>YOUR_TEXT_BUBBLE_ANCHOR_X</X>
+                <Y>YOUR_TEXT_BUBBLE_ANCHOR_Y</Y>
             </anchor>
-            <width>YOUR_TEXT_BUBBLE_WIDTH</width>				    <!-- width of the bubble -->
+            <width>YOUR_TEXT_BUBBLE_WIDTH</width>
         </bubble_format>
-        <text>								            <!-- contains the texts for the message -->
-            <lines>							            <!-- list of bubble text -->
+        <text>
+            <lines>
+                <!-- your lines here -->
                 <string>This is a short string.</string>
                 <string>This could be a long string which could be somewhat long to show.</string>
             </lines>
