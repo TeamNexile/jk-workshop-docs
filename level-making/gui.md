@@ -2,14 +2,14 @@
 layout: default
 title: GUI
 parent: Level Making
-nav_order: 7
-last_modified_date: 2022-12-19 14:05
+nav_order: 5
+last_modified_date: 2023-02-06 15:08
 ---
 
 # Gui folder
 {: .no_toc }
 
-contains the list of locations and the *earthquake* effect settings.<!-- more -->
+list of locations and the *earthquake* effect<!-- more -->
 {: .fs-6 .fw-300 }
 
 
@@ -19,39 +19,107 @@ contains the list of locations and the *earthquake* effect settings.<!-- more --
 1. TOC
 {:toc}
 
-## Locations settings
-is a configuration file used both by the game and the Discord Rich Presence that contains the list of locations in the custom level. This can be changed editing the `gui/location_settings.xml` file.
+## Locations
 
-### Locations
-<p class="do-i-need-it">required</p>
+The locations are a group of screens that usually represent a specific gameplay or style. Each location have a name, start, end, introduction trigger screen.
 
-contains every location. Locations is an array of `<Location>`, an array means that there could possibly be multiple `<Location>` tags.
+### Adding/replacing/removing a location (with Worldsmith)
 
-#### Location
-contains every detail about the single location such as:
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-|tag|description|type|required|
-|`<start>`|Screen number where location starts|int|Yes|
-|`<end>`|Screen number where location ends|int|Yes|
-|`<unlock>`|Screen number where location name pops up|int|Yes|
-|`<name>`|Location name|string|Yes|
-|`<ignore>`|Disables percentage for a location (from <span class="badge-pill">v1.7.1</span>)|bool|No|
+### Adding a location (without Worldsmith)
 
-If you've done it correctly, it should end up something like this:
+To add a location:
 
-<script src="https://gist.github.com/Phoenixx19/611fccf2f09494f19c5b2b031a94e467.js"></script>
+1. Write down the screen numbers that you want to be part on a location.
+2. Nagivate to `gui` and open `location_settings.xml`.
+3. If this is the first time, should see something like this:
+    ```xml
+    <?xml version="1.0"?>
+    <LocationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <locations>
 
-<br>
+            <Location>
+                <start>1</start>
+                <end>1</end>
+                <unlock>1</unlock>
+                <name>YOUR_LOCATION_NAME</name>
+            </Location>
+
+        </locations>
+    </LocationSettings>
+    ```
+    > **If this is not the first time**, paste the following snippet below the closing tag of the latest location.
+    ```xml
+        <Location>
+            <start>1</start>
+            <end>1</end>
+            <unlock>1</unlock>
+            <name>YOUR_LOCATION_NAME</name>
+        </Location>
+    ```
+4. Replace the `start` value with the first screen of your location.
+5. Replace the `unlock` value with the screen that you want to trigger the location title to show up.
+    > If you don't  want the location title to show up, simply put `0` as a value.
+    {: .highlight }
+
+6. Replace the `end` value with the last screen of your location.
+7. Replace `YOUR_LOCATION_NAME` with the name of your new location.
+
+> Since this is supposed to be a linear location grouping method, if you trigger a later present location, the middle locations won't be triggered.
+{: .disclaimer }
+
+> Make sure your location always ends before starting another one! This can cause problems later on if ignored.
+{: .warning }
+
+### Removing a location (without Worldsmith)
+
+To remove a location:
+
+1. Find what is the name of the location you are looking to remove.
+2. Nagivate to `gui` and open `location_settings.xml`.
+3. Remove the entire `Location` tag where the name equals to the location you want to remove.
+
 
 ## Earthquake effect
 
-Implemented from <span class="badge-pill">**v1.4.0**</span>, this permits to disable/enable the earthquake effect used by Jump King in correspondence of the towers. This is effect consists of moving the screen left and right by one pixel. The earthquake effect can be changed using the `gui/earthquake_settings.xml` file.
+This allows you to replicate the earthquake effect used by Jump King in correspondence of the towers. This is effect consists of moving the screen left and right by one pixel.
 
-By default there's only one screen set to 0, so it will never trigger. In case you want to use it, you will need to name every screen number with:
-```xml
-<int>SCREEN_NUMBER</int>
-```
+### Adding/replacing/removing the earthquake effect on a screen (with Worldsmith)
 
-It should look like the following example: 
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-<script src="https://gist.github.com/Phoenixx19/1c52c7517faf5b92ffa2367b3082b5c9.js"></script>
+### Adding and removing the earthquake effect on a screen (without Worldsmith)
+
+To add the earthquake effect on a screen:
+
+1. Write down the screen number(s) where you want to have the earthquake effect.
+2. Nagivate to `gui` and open `earthquake_settings.xml`.
+3. > By default there's only one screen set to 0, so it will never trigger. Like the following example:
+    ```xml
+    <?xml version="1.0"?>
+        <EarthquakeSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <screens>
+                <int>0</int>
+            </screens>
+        </EarthquakeSettings>
+    ```
+    {: .highlight }
+   
+   To add earthquake effects, you will need to paste the following and replace `SCREEN_NUMBER` with each screen number.
+    ```xml
+    <int>SCREEN_NUMBER</int>
+    ```
+
+To remove an earthquake effect on a screen:
+
+1. Find the screen that you want to remove the effect.
+2. write down the screen number.
+3. Nagivate to `gui` and open `earthquake_settings.xml`.
+4. Remove the entire line where the screen number is present.
+
+## Next up
+
+It's props time! Let's learn [how to make props]({{ site.baseurl }}/level-making/props)!

@@ -3,7 +3,7 @@ layout: default
 title: Screen
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-02-03 14:00
+last_modified_date: 2022-02-06 14:51
 ---
 
 # Screens folder
@@ -311,4 +311,4 @@ Foreground|480x360 pixels|fg`SCREEN`<br>(e.g. fg65)|`screens/foreground/`|❌
 
 ## Next up
 
-You've learned all for what it takes to make a packed screen, let's learn [how to make props]({{ site.baseurl }}/level-making/props)!
+You've learned all for what it takes to make a packed screen, let's [__divide screens into their own locations__]({{site.baseurl}}/level-making/gui) with the GUI folder.
