@@ -3,7 +3,7 @@ layout: default
 title: Audio
 parent: Level Making
 nav_order: 9
-last_modified_date: 2023-02-06 17:59
+last_modified_date: 2023-02-06 11:15
 ---
 
 # Audio folder
@@ -90,14 +90,33 @@ Good, you've set the properties for Jump King to understand that you added a Mus
 4. Change the value of the volume, if the music in-game it's too quiet or loud.
    > The minimum value for the volume is 0 and the maximum value is 1, but all the values in between works. The game is known to crash if the volume is higher than 1.
    {: .disclaimer }
-5. Change the `screens` value to how many screens you want to have the music above.
+5. Change the `screens` value to how many screens you want to have the audio settings above.
    > The `<screens>` tag <u>doesnt work with the name logic of the screen number</u>. This is precisely made to avoid mixmatches.
     **From the first `<AmbienceSave>` it keeps the `<screens>` number counting.** So if you have two AmbienceSaves where the first one has screens with a value of 5 and the second has a value of 2, you would have done already 7 screens of music.
    {: .warning }
+6. If you want, you can add as many `Ambience` tags you wish in a `AmbienceSave`, below a line of `ambience` tag of your wanted `AmbienceSave` add the following snippet:
+   ```xml
+    <Ambience>
+      <name>YOUR_MUSIC_FILENAME</name>
+      <volume>0.85</volume>
+    </Ambience>
+   ```
 
-### Replacing a musical piece (without Worldsmith)
+### Replacing music or ambience (without Worldsmith)
 
-### Removing a musical piece (without Worldsmith)
+To replace your musical piece's audio (if it has the same name), all you need to do is replace the packed audio file found in `audio/background`.
+
+If your file has a different name, you will need to:
+1. Move your new audio packed XNB file in `audio/background`.
+2. Delete the old audio file.
+3. Navigate to `data` and open `values.xml`.
+4. Replace all the references to the old filename with your new filename.
+
+### Removing music or ambience (without Worldsmith)
+
+1. Navigate to `audio/background/data` and open `values.xml`.
+2. Remove the `AmbienceInfo` and all `Ambience`s that contains the name that equals to the audio you want to remove.
+3. And finally, remove the file in `audio/background`.
 
 
 ## Event music
@@ -183,57 +202,3 @@ You can only remove the second and third babe ending music, for the first ending
 ## Next up
 
 You can finally add all the music you wanted to add on full-blast, let's take a final [look at particles]({{site.baseurl}}/level-making/particles) before publishing.
-
----
-
-### Ambient
-The ambient music should be placed inside `audio/background` as an .xnb file.<br>To add this to a specific zone, simply edit the `audio/background/data/values.xml` and add on the AmbienceSave section like so:
-```xml 
-<sections>
-  <AmbienceSave>
-    <ambience>
-      <Ambience>
-        <name>Water</name>
-        <volume>0.7</volume>
-      </Ambience>
-      <!-- more Ambience -->
-    </ambience>
-  </AmbienceSave>
-  <!-- more AmbienceSaves -->
-
-  <screens>5</screens>
-</sections>
-```
-
-### Music
-The music should be placed inside `audio/background` as an .xnb file.<br>To add this to a specific zone, simply edit the `audio/background/data/values.xml` and add on the AmbienceSave section like so:
-
-```xml
-<sections>
-  <AmbienceSave>
-    <ambience>
-      <Ambience>
-        <name>TheBogTwo</name>
-        <volume>0.85</volume>
-      </Ambience>
-      <!-- more Ambience -->
-    </ambience>
-  </AmbienceSave>
-  <!-- more AmbienceSaves -->
-
-  <screens>5</screens>
-</sections>
-```
-
-In the `values.xml` file mentioned above, this needs to be configured as an `AmbienceInfo` as well.
-
-```xml 
-<special_info>
-  <AmbienceInfo>
-    <name>TheBogTwo</name>
-    <type>Music</type>
-    <restart>true</restart>
-  </AmbienceInfo>
-  <!-- more AmbienceInfo -->
-</special_info>
-```
