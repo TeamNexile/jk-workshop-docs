@@ -3,7 +3,7 @@ layout: default
 title: Screen
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-02-06 14:51
+last_modified_date: 2022-02-07 15:45
 ---
 
 # Screens folder
@@ -120,6 +120,9 @@ To remove an unwanted background:
 
 The scrolling texture is commonly used for **mist clouds or birds** flying in the distance [right before the player layer but above the background](#example).
 
+> We are planning to have vertical scrolling images too, so the structure could change in a close future.
+{: .new }
+
 The scrolling images are managed by an .xml file, that determines their texture, position, velocity, layer mode and possible additional frames. In order to have a working scrolling image, you will need to have both the xml file and the packed XNB file.
 
 ### Adding/replacing/removing a scrolling image (with Worldsmith)
@@ -231,7 +234,9 @@ To remove an unwanted midground:
 Masks (and so particles) are above the player layer-wise.<br>
 Masks can be used to give more depth to the level.
 
-The mask works just like the difference effect on Photoshop, which lets you **display the particles effect only on the blue/cyan mask you are creating**.
+![Mask]({{site.baseurl}}/images/level-making/screens/mask.png)
+
+The mask works just like the difference effect on Photoshop, which lets you **display the particles effect only on the blue/cyan (<input type="color" value="#0094FF"> #0094FF) mask you are creating**.
 
 > The mask only takes effect if a **particle effect is enabled on a certain screen**. Head over in the [__particles section to learn how to add particles__]({{ site.baseurl }}/level-making/particles) on a screen before continuing.
 {: .warning }
