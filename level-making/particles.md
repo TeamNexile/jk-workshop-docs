@@ -9,7 +9,7 @@ last_modified_date: 2023-02-07 15:52
 # Particles folder
 {: .no_toc }
 
-contains the details about the particles on screen.<!-- more -->
+contains the details about the particles on screen<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
