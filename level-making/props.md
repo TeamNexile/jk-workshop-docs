@@ -4,7 +4,7 @@ title: Props
 parent: Level Making
 nav_order: 5
 has_children: true
-last_modified_date: 2023-02-08 10:51
+last_modified_date: 2023-02-08 15:21
 ---
 
 # Props folder
@@ -152,6 +152,12 @@ To remove a prop:
 7. Find your prop you want to remove by searching its name again.
 8. Remove the whole `PropSettings` tag containing the `name` that equals the name of your prop. 
 9. Remove the prop packed XNB file from the same folder.
+
+### Disclaimer for animated props
+{: #animation-index }
+
+> The sprite sheet in-game will assign them with an index starting from 0. **The index order is row by row, from top to bottom.**
+{: .warning }
 
 ## Next up
 
