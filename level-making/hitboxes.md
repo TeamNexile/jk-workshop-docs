@@ -3,16 +3,75 @@ layout: default
 title: Hitboxes
 parent: Level Making
 nav_order: 1
-last_modified_date: 2023-01-31 17:18
+last_modified_date: 2023-02-21 11:52
 ---
 
 # Hitbox file
+{: .no_toc }
 
-is a PNG image with alpha channel (or **Texture2D**) that is used to determine the custom level gameplay.
+is a PNG image with transparency that is used to determine the custom level gameplay.<!-- more -->
 {: .fs-6 .fw-300 }
 
-The hitbox file, called `level.xnb`, has the size of **780x585 pixels**, every screen is ordered by column starting from top to bottom which means <u>every screen has 60x45 pixels</u>.<!-- more -->
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Understanding the basics of hitboxes
+
+In order to have a full-functioning hitbox an image file you will need to create a file with the following details:
+
+|Requirements|Details|
+|---|---|
+|Nomenclature|level|
+|Resolution|**780** pixels (*width*) by **585** pixels (*height*)|
+|File placement|Root of the level folder|
+
+The hitbox file resolution needs to be right because the game needs a grid (13 columns by 13 rows) to determine the hitboxes for each screen, that means **each screen** is sized <u>60 by 45 pixels</u>.
+
+> Therefore, that means that one pixel on the hitbox equals to 8 pixels in-game.
+
+> Following this logic you can add an helper grid (with whatever tool you chose to draw hitboxes) to help you find easily the hitbox of your screen without overflowing into a new one.
+{: .note }
+
+Here's an visual example of how hitboxes work in Jump King:
 
 ![Hitbox Example](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/level.png)
+
+> As you can see from the example, **every screen is ordered by column starting from top to bottom**.
+> **Take in mind what the screen number is from the example, since this <u>will get heavily used</u> in the next chapters.**
+{: .disclaimer }
+
+## Dealing with hitboxes
+
+### Modifying the hitboxes (with Worldsmith)
+
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
+
+### Modifying the hitboxes (without Worldsmith)
+
+1. Open the file [you've created above](#understanding-the-basics-of-hitboxes) or unpack existing hitboxes and open it using your tool of choice.
+2. Use the [**block page as a cheat sheet**]({{site.baseurl}}/level-making/blocks){:target="_blank"} or put it page aside your pixel-art program of your choice for reference (you should start with starter blocks only!).
+3. Start drawing your hitboxes!
+    > Don't forget to add a solid block bottom line on the first screen otherwise you will fall forever and you are basically forced to restart.
+    {: .warning }
+4. Once you are satisfied or you want to give it a test, save the image file.
+5. Convert/Pack the image into XNB with the tool of your choice.
+6. Place it in the folder of your level. Replace, if necessary.
+7. [Give it a test!]({{site.baseurl}}/getting-started/map-first-steps).
+   > If your game is already opened from testing it before, simply nagivate to the pause menu and click **Hard Update** and the new hitboxes should show up.
+   {: .note }
+
+## Disclaimer about hitboxes
+
+Even if the details you have planned look good, what matters more is the quality and fair of your hitboxes. Please give a read to [some tricks and tips]({{site.baseurl}}/level-making/tips) from JumpKingPlus' veterans.
+
+## Next up
+
+You've cleared the hitboxes, let's get started with details with [screens (background, midground, foreground and etc.)]({{site.baseurl}}/level-making/screens)!
 
 
