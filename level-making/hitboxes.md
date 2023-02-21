@@ -32,7 +32,7 @@ In order to have a full-functioning hitbox an image file you will need to create
 
 The hitbox file resolution needs to be right because the game needs a grid (13 columns by 13 rows) to determine the hitboxes for each screen, that means **each screen** is sized <u>60 by 45 pixels</u>.
 
-> Therefore, that means that one pixel on the hitbox equals to 8 pixels in-game.
+> Therefore, that means that one pixel on the hitbox equals to 8 pixels in-game. And the total amount of possible screens is 169.
 
 > Following this logic you can add an helper grid (with whatever tool you chose to draw hitboxes) to help you find easily the hitbox of your screen without overflowing into a new one.
 {: .note }
@@ -61,8 +61,8 @@ Here's an visual example of how hitboxes work in Jump King:
     {: .warning }
 4. Once you are satisfied or you want to give it a test, save the image file.
 5. Convert/Pack the image into XNB with the tool of your choice.
-6. Place it in the folder of your level. Replace, if necessary.
-7. [Give it a test!]({{site.baseurl}}/getting-started/map-first-steps).
+6. Place it in the folder of your level. If asked to replace the file, click **Yes**.
+7. [Give it a test!]({{site.baseurl}}/getting-started/map-first-steps#testing).
    > If your game is already opened from testing it before, simply nagivate to the pause menu and click **Hard Update** and the new hitboxes should show up.
    {: .note }
 

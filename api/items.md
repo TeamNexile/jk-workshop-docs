@@ -2,7 +2,7 @@
 layout: default
 title: Items
 parent: API
-last_modified_date: 2023-02-02 19:03
+last_modified_date: 2023-02-21 16:18
 ---
 
 # Items list
@@ -35,3 +35,6 @@ namespace JumpKing.MiscEntities.WorldItems
 |Shroom|Mushrooms|✔️|❌|✔️|
 |BugNote|Bug's Note|❌|❌|✔️|
 |NULL|||||
+
+> The `NULL` item is used for **all skins** (single skins AND skin sets) as the base for retexturing the king.
+{: .note }

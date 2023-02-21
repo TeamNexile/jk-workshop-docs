@@ -2,128 +2,147 @@
 layout: default
 title: Skin Making
 nav_order: 8
-last_modified_date: 2022-12-19 14:05
+last_modified_date: 2023-02-21 16:51
 ---
 
 # Skin Making
 {: .no_toc }
 
-First of all, open the software of your choice and set two layers. The first (or top) layer should be the layer you use for drawing your reskin, the second (or bottom) layer should be the [**base file**](https://raw.githubusercontent.com/JumpKingPlus/JumpKingPlus.github.io/www/workshop/files/base.png); this second layer will help you building a fully working reskin.
+**everything** you need to know for your skin or set!<!-- more -->
+{: .fs-6 .fw-300 }
 
-A simple trick while making a custom reskin is setting the second (or bottom) layer to a lower opacity, like 50%.
+## Table of contents
+{: .no_toc .text-delta }
 
-Once done: 
-> If you are doing a reskin: 
-> 1. Disable the second (bottom) layer. 
-> 2. Save to `(YOUR RESKIN NAME).png`.
+1. TOC
+{:toc}
 
-> If you are doing a collection: 
-> 1. Disable the second layer to all your images.
-> 2. Save them with the current format: `(YOUR COLLECTION NAME)_(YOUR RESKIN NAME or ITEM NAME).png`.<br>
-> This format is not mandatory but it's necessary to simplify the end user to understand what's inside a collection and what not.
+---
 
-### Config file for reskins
-The config file (named as `(YOUR RESKIN NAME).xml`) is needed to define what skin is getting a reskin, and what reskin is enabled, plus other details.
+## Setting the environment to make any skin
 
-**Each reskin needs one config file.**
+First of all, open the software of your choice and set two layers.
 
-|tag|description|
-|---|---|
-|`<isCollection>`|This is field is **required**, set to `false` for **reskins**.|
-|`<skin>`|Can be: Crown, Shoes, CrownNBP, GiantBoots, Cap, GnomeHat, Tunic, YellowShoes, CrownOwl, CapeOwl, NULL (for jump king bases).|
-|`<name>`|Any text (has to be the **same name for the .xnb and .xml**).|
-|`<description>`|Any text or null (optional).|
-|`<enabled>`|Can be: true or false (use true as default).|
+1. The first (or top) layer should be the layer you use for drawing your skin,
+2. the second (or bottom) layer should be the [**base file**]({{site.baseurl}}/images/level-making/king/base.png){:target="_blank"}; this second layer will help you building a fully working skin.
 
-Here's a sample xml file that you can use:
+> A simple trick while making a skin is setting the second (or bottom) layer to a lower opacity, like 50%.
+{: .note }
+
+### Once satisfied with the texture(s)
+
+1. Disable or hide the last (bottom) layer. 
+2. > **If you are doing a single skin**, export the image file but save the filename somewhere since you will need it later.
+   {: .highlight }
+
+   > Otherwise, **if you are doing a skin set** save them with the following format and save the filenames somewhere since you will need them later.
+   ```md
+   (YOUR COLLECTION NAME)_(YOUR ITEM NAME).png
+   ```
+   > This format is not mandatory but can help you identify the items inside your set, in case you need to update something.
+   {: .highlight }
+
+## Why does Jump King need a configuration file?
+
+In order for get the basic data about your skin or set, Jump King (and in the past with JumpKingPlus) uses a configuration file.
+
+This configuration file contains your skin or set: 
+- the boolean that tells you **if the skin/set is enabled**
+- one (if a skin) or multiple (if a set) **filenames** of your packed images
+- one (if a skin) or multiple (if a set) **item** you want to override
+
+## Single skins
+
+The configuration in sigle skins is called `cosmetic_settings.xml`.<br>Open the file and proceed with the settings below. A single skin's configuration file looks like this:
 
 ```xml
 <?xml version="1.0"?>
-<WardrobeSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-	<!-- 
-		JUMPKINGPLUS V1.6.0 by Phoenixx19
-		 https://phoenixx19.github.io/JumpKingPlus/workshop
-		 Wardrobe feature - Custom skins support.
-	-->
-  <isCollection>false</isCollection>
-	<skin>NULL</skin>
-	<name>forsenCD</name>
-	<description>:tf: u mad?</description>
-	<enabled>true</enabled>
-</WardrobeSettings>
+<ReskinSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <skin>Cap</skin>
+  <name>Propeller Hat</name>
+  <enabled>false</enabled>
+</ReskinSettings>
 ```
 
-Save it as `(YOUR RESKIN NAME).xml`.
+### Setting everything (using Worldsmith)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-### Config file for collections
-The config file is needed for collections to define the details of the collection and the list of reskins used in the collection.<br>
-**One collections needs one single config file. Reskins part of collection SHOULD NOT have a config file.**
+### Setting the skin's item (without Worldsmith)
 
-|tag|description|
-|---|---|
-|`<isCollection>`|This is mandatory, set to `true` for **collections**.|
-|`<skin>`|Doesn't get read, but use `NULL` for coherence.|
-|`<name>`|Any text (has to be the same name for the .xnb and .xml).|
-|`<description>`|Any text or null (optional).|
-|`<enabled>`|Can be: true or false (use true as default).|
-|`<collection>`|All the details for the collection.|
-|`<name>`|**Inside the collection tag:** Any text (has to be the same name for the .xml).|
-|`<description>`|**Inside the collection tag:** Any text or null (optional).|
-|`<enabled>`|**Inside the collection tag:** Can be: true or false (use true as default).|
-|`<Reskins>`|Array of Reskin|
-|`<Reskin>`|Contains the skin and name of a singular reskin inside the collection.|
-|`<skin>`|Can be: Crown, Shoes, CrownNBP, GiantBoots, Cap, GnomeHat, Tunic, YellowShoes, CrownOwl, CapeOwl, NULL (for jump king bases).|
-|`<name>`|Any text (has to be the same name for the .xnb).|
+1. Search for "skin" in your XML file.
+   You should find something like this:
+   ```xml
+   <skin>YOUR_SKIN_HERE</skin>
+   ```
+2. Replace `YOUR_SKIN_HERE` with the [**wearable item**]({{site.baseurl}}/api/items){:target="_blank"} of your choice.
+3. Done!
+
+### Setting the skin's filename (without Worldsmith)
+
+1. Search for "name" in your XML file.
+   You should find something like this:
+   ```xml
+   <name>YOUR_NAME_HERE</name>
+   ```
+2. Replace `YOUR_NAME_HERE` with the packed file name of your skin (no extension in the name).
+3. Done!
+
+## Skin sets
+
+The configuration in skin sets is called `set_settings.xml`.<br>Open the file and proceed with the settings below. A skin set's configuration file looks like this:
 
 ```xml
-<WardrobeSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-  <!-- 
-		JUMPKINGPLUS V1.6.0 by Phoenixx19
-		 https://phoenixx19.github.io/JumpKingPlus/workshop
-		 Wardrobe feature - Custom skins support.
-	-->
-  <isCollection>true</isCollection>
-  <skin>NULL</skin>
-  <name></name>
-  <description></description>
+<?xml version="1.0"?>
+<SetSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <enabled>false</enabled>
-  <collection>
-    <name>red</name>
-    <description>:tf: u mad?</description>
-    <enabled>true</enabled>
-    <Reskins>
-      <Reskin>
-        <skin>Tunic</skin>
-        <name>red</name>
-      </Reskin>
-      <Reskin>
-        <skin>NULL</skin>
-        <name>forsenCD</name>
-      </Reskin>
-      <Reskin>
-        <skin>CrownOwl</skin>
-        <name>Celeste Cap</name>
-      </Reskin>
-    </Reskins>
-  </collection>
-</WardrobeSettings>
+  <Reskins>
+    <Reskin>
+      <skin>Crown</skin>
+      <name>RedHorns</name>
+    </Reskin>
+    <Reskin>
+      <skin>NULL</skin>
+      <name>RedBaseSkin</name>
+    </Reskin>
+  </Reskins>
+</SetSettings>
 ```
-Make sure that you have the same filename as the collection name.
 
-### Testing
+### Setting everything (using Worldsmith)
+🚧 Work in Progress. **No trespassing!** 🏗
+{: .disclaimer }
 
-To test a reskin or a collection in-game, you need to:
+### Adding a new skin to the set (without Worldsmith)
 
-1. Convert the images to XNB like explained in the **following category**.
-2. Make sure that all the .xnb and .xml files are inside `Jump King/Content/wardrobe`.
-3. Start up Jump King.
-4. Click "*Inventory*", then "*Reskins*" or "*Collections*" (based on what you are creating).
-5. Click on the skin name you are creating.
-6. Select "*Equip*".
-7. Done!
+1. Search for "Reskins" in your XML file.
+2. Add the following snippet below the opening tag of `Reskins` in a new line:
+   ```xml
+    <Reskin>
+      <skin>YOUR_SKIN_HERE</skin>
+      <name>YOUR_FILENAME_HERE</name>
+    </Reskin>
+   ```
+3. Replace `YOUR_SKIN_HERE` with a [**wearable item**]({{site.baseurl}}/api/items){:target="_blank"} of your choice.
+4. Replace `YOUR_FILENAME_HERE` with the file name of your packed XNB file for your skin.
+5. Repeat step 2 for each skins you want to add. 
+6. Done!
 
-**WARNING**:<br>The following reskins and collections won't work in custom levels:
+### Removing a skin from the set (without Worldsmith)
+
+1. Search for "Reskins" in your XML file and find the [item that you want to remove]({{site.baseurl}}/api/items){:target="_blank"}.
+2. Remove the whole `Reskin` tag that contains `skin` as your unwanted item.
+3. Done!
+
+## Testing
+
+> Testing your skin is currently not available since you can see your skin in the pixel art/image editor of your choice.
+{: .highlight }
+
+<!-- **WARNING**:<br>The following reskins and collections won't work in custom levels:
 - Base reskin
-- Collection that contains a base skin
+- Collection that contains a base skin -->
+
+## Next up
+
+You are set (pun not intended)!<br>Give a read on how to [**publish your single set or skin set**]({{site.baseurl}}/publishing)!
