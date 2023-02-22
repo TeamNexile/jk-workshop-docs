@@ -22,11 +22,17 @@ is a PNG image with transparency that is used to determine the custom level game
 
 ## Understanding the basics of hitboxes
 
+The hitboxes are determined by the pixels that you will draw on the image file, each color has a different use and logic that can be used for plentiful of platforming or effects.
+
+![Hitbox example]({{ site.baseurl }}/images/level-making/hitboxes.png)
+
+## Creating the hitboxes file
+
 In order to have a full-functioning hitbox an image file you will need to create a file with the following details:
 
 |Requirements|Details|
 |---|---|
-|Nomenclature|level|
+|File name|level|
 |Resolution|**780** pixels (*width*) by **585** pixels (*height*)|
 |File placement|Root of the level folder|
 

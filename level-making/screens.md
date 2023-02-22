@@ -100,7 +100,7 @@ To add a new or replace an existing background:
 1. Convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
-    |**nomenclature**|bg`SCREEN NUMBER`<br>(e.g. bg65)|
+    |**File name**|bg`SCREEN NUMBER`<br>(e.g. bg65)|
 
 2. Place the new packed file in the `screens/background` folder.
     > If a file is already existing, replace it with the new file.
@@ -213,7 +213,7 @@ To add a new or replace an existing midground:
 1. Convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
-    |**nomenclature**|`SCREEN NUMBER`<br>(e.g. 65)|
+    |**File name**|`SCREEN NUMBER`<br>(e.g. 65)|
 
 2. Place the new packed file in the `screens/midground` folder.
     > If a file is already existing, replace it with the new file.
@@ -254,7 +254,7 @@ To add a new or replace an existing mask:
 2. Convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
-    |**nomenclature**|`MASK NAME`mask`SCREEN NUMBER`<br>(e.g. ashmask65)|
+    |**File name**|`MASK NAME`mask`SCREEN NUMBER`<br>(e.g. ashmask65)|
 
 3. Place the new packed file in the `screens/masks` folder.
     > If a file is already existing, replace it with the new file.
@@ -287,7 +287,7 @@ To add a new or replace an existing foreground:
 1. Convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
-    |**nomenclature**|fg`SCREEN NUMBER`<br>(e.g. fg65)|
+    |**File name**|fg`SCREEN NUMBER`<br>(e.g. fg65)|
 
 2. Place the new packed file in the `screens/foreground` folder.
     > If a file is already existing, replace it with the new file.
@@ -306,7 +306,7 @@ To remove an unwanted foreground:
 
 Let's recap the main details for the packed files you will need.
 
-Title|Resolution|Nomenclature|Folder|Needs XML?
+Title|Resolution|File name|Folder|Needs XML?
 ---|---|---|---
 Background|480x360 pixels|bg`SCREEN`<br>(e.g. bg65)|`screens/background/`|❌
 Scrolling image|any|any|`screens/scrolling/textures/`|✔️
