@@ -4,7 +4,7 @@ title: Getting started
 has_children: true
 has_toc: false
 nav_order: 2
-last_modified_date: 2023-02-01 15:12
+last_modified_date: 2023-02-22 18:07
 ---
 
 # Introduction to the Workshop
@@ -19,6 +19,21 @@ details you need to know before you starting on your first steps.<!-- more -->
 1. TOC
 {:toc}
 
+<style>
+    div.img-group {
+        display: flex;
+        gap: 1.5rem;
+        position: relative;
+    }
+
+    div.img-group img {
+        flex: 1 1 0px;
+        width: 0;
+    }
+</style>
+
+---
+
 ## What is the Workshop?
 
 The Steam Workshop is designed as a place for all Jump King fans and community members to participate in the **creation and use** of content such as **levels, skins and so on** for Jump King!
@@ -28,6 +43,10 @@ The Steam Workshop is designed as a place for all Jump King fans and community m
 ## What is a level?
 
 A level is additional content that can be played just like New Babe Plus and Ghost of the Babe.
+
+![Level example]({{ site.baseurl }}/images/getting-started/level.png)
+
+> The example above shows a portion of a screen from the level "*Babe of the Heavens*" by Meea.
 
 ### The level hierarchy
 
@@ -156,15 +175,24 @@ A level is made up by a folder with a bunch of files and folders inside of it.
  ┗ 🖼 banner.png
 ``` -->
 
+A downloaded level shows up in Jump King like the following from the Workshop menu.
 
+![Level menu example]({{ site.baseurl }}/images/getting-started/level_set.png)
 
 
 ## What is a skin?
 
-A skin is a cosmetic that replaces an already existing item's texture. 
+A skin is a cosmetic that replaces one or multiple existing item's texture. 
+
+<div class="img-group">
+    <img src="{{ site.baseurl }}/images/getting-started/skin.png" alt="Skin example" title="Single skin example">
+    <img src="{{ site.baseurl }}/images/getting-started/set.png" alt="Set example" title="Skin set example">
+</div>
 
 ### Single skin or set?
 
+If you are looking to skin **one** single **item**, you should do a [**single skin**](#single-skin-hierarchy).<br>
+Otherwise if you are looking to skin **multiple items**, what you need is a [**skin set**](#skin-set-hierarchy).
 
 ### Single skin hierarchy
 
