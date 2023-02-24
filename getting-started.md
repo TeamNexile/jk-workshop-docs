@@ -54,7 +54,7 @@ A level is made up by a folder with a bunch of files and folders inside of it.
 
 > The structure is too complex to show, since it's over 50 files in their own folders.<br>Believe me here, you don't want to see it. Everything will be explained later anyway.
 
-> If you **really want** to see the structure, navigate inside all the [**Sample custom level**]() folders.
+> If you **really want** to see the structure, navigate inside all the [**Sample custom level**]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip) folders.
 
 <!-- ```
 📂 Sample Level

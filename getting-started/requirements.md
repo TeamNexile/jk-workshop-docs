@@ -31,9 +31,9 @@ All you need is:
 > 
 > |Made for|Name|Last updated|
 > |---|---|---|
-> |Level|[__Sample level__](){: target="_blank"}|null|
-> |Single skin|[__Sample single skin__](){: target="_blank"}|null|
-> |Skin set|[__Sample skin set__](){: target="_blank"}|null|
+> |Level|[__Sample level__]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip){: target="_blank"}|null|
+> |Single skin|[__Pizza hat__ by Taft]({{ site.baseurl }}/files/%5BSKIN%5D%20Pizza%20Hat.zip){: target="_blank"}|null|
+> |Skin set|[__Jing__ by Volcanic]({{ site.baseurl }}/files/%5BSET%5D%20Jing.zip){: target="_blank"}|null|
 > 
 > And a **text editor** (that will be used for XML files) such as:
 > - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"} (free, open-source, recommended),
