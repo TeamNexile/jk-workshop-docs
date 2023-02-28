@@ -4,7 +4,7 @@ title: NPCs
 grand_parent: Level Making
 parent: Props
 nav_order: 3
-last_modified_date: 2023-02-08 16:53
+last_modified_date: 2023-02-28 12:23
 ---
 
 # NPCs
@@ -20,6 +20,8 @@ the entities that talk and barter with you.
 {:toc}
 
 ---
+
+![NPC example]({{site.baseurl}}/images/level-making/props/npc_example.png)
 
 > **NPCs are hardcoded** in the game, so they *can not be removed*; but they **can be modified and/or moved** to a screen you are not using (like 0, 169 or 255).
 {: .warning }

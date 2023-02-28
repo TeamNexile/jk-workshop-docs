@@ -4,7 +4,7 @@ title: Messages
 grand_parent: Level Making
 parent: Props
 nav_order: 6
-last_modified_date: 2023-02-03 14:17
+last_modified_date: 2023-02-28 12:18
 ---
 
 # Messages
@@ -20,6 +20,12 @@ text "bubbles" that spawn by triggering a hitbox<!-- more -->
 {:toc}
 
 ---
+
+## What are messages?
+
+Messages are text that pop up from entering a trigger box such as the Billboard in Bargainburg, or the Stones in Bugstalk.
+
+![Message example]({{site.baseurl}}/images/level-making/props/message_example.png)
 
 ## Add a message (with Worldsmith)
 

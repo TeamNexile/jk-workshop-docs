@@ -4,7 +4,7 @@ title: World Items
 grand_parent: Level Making
 parent: Props
 nav_order: 2
-last_modified_date: 2023-02-03 18:59
+last_modified_date: 2023-02-28 12:36
 ---
 
 # World items
@@ -28,9 +28,13 @@ are **items that the player can pick up** by triggering their hitbox<!-- more --
 
 ## Adding a world item (without Worldsmith)
 
+
 1. Make sure your [item can be a worlditem]({{site.baseurl}}/api/items){: target="_blank"}.
-2. Open the worlditems xml configuration file located in `props/worlditems`.
-3. Copy the snippet below:
+2. Choose where you would like to have the world item in-game, writing down the screen number, X and Y positions.
+   
+   ![Worlditem before]({{site.baseurl}}/images/level-making/props/worlditem_before_example.png)
+3. Open the worlditems xml configuration file located in `props/worlditems`.
+4. Copy the snippet below:
    ```xml
         <WorldItemState>
             <item>YOUR_ITEM_NAME</item>
@@ -39,10 +43,27 @@ are **items that the player can pick up** by triggering their hitbox<!-- more --
             <_y>YOUR_WORLDITEM_Y_POSITION</_y>
         </WorldItemState>
    ```
-4. Paste it below the closing tag of an already existing `WorldItemState` or below the `items` tag.
-5. Replace `YOUR_ITEM_NAME` with the **Item name** in the item's list.
-6. Replace `YOUR_WORLDITEM_SCREEN` with the screen of your choice.
-7. Replace `YOUR_WORLDITEM_X_POSITION` and `YOUR_WORLDITEM_Y_POSITION` with their own respective <u>relative</u> value.
+5. Paste it below the closing tag of an already existing `WorldItemState` or below the `items` tag.
+6. Replace `YOUR_ITEM_NAME` with the **Item name** in the item's list.
+7. Replace `YOUR_WORLDITEM_SCREEN` with the screen of your choice.
+8. Replace `YOUR_WORLDITEM_X_POSITION` and `YOUR_WORLDITEM_Y_POSITION` with their own respective <u>relative</u> value.
+
+The world item should be now available like so:
+
+![Worlditem after]({{site.baseurl}}/images/level-making/props/worlditem_after_example.png)
+
+> In the following example, the item name is **Silver**. Here's a preview of my silver's count before collecting the item:
+>
+> ![Inventory before]({{site.baseurl}}/images/level-making/props/worlditem_inv_before_example.png)
+>
+> After interacting with it, the item will disappear from the world and it should:
+> - spawn a **Silver** coin in your inventory if you didn't have one beforehand
+> - add one **Silver** coin to the Silver coin count
+>
+> ![Inventory after]({{site.baseurl}}/images/level-making/props/worlditem_inv_after_example.png)
+> 
+> If the item wouldn't it be stackable and you already had an item present in the inventory, nothing will change in the inventory.
+{: .highlight }
 
 ## Removing a world item (without Worldsmith)
 

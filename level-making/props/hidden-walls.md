@@ -4,7 +4,7 @@ title: Hidden Walls
 grand_parent: Level Making
 parent: Props
 nav_order: 1
-last_modified_date: 2023-02-03 18:11
+last_modified_date: 2023-02-28 12:21
 ---
 
 # Hidden walls
@@ -25,6 +25,14 @@ props that disappear by triggering a hitbox<!-- more -->
 ## What are they used for?
 
 Hidden walls are used in-game to hide areas or make the screen more realistic, the hidden wall works as foreground until the player gets into its position where it becomes transparent.
+
+### Before (without hidden wall)
+![Before]({{site.baseurl}}/images/level-making/props/hidden_wall_before_example.png){:title="Before adding the hidden wall"}
+### After (with hidden wall)
+![After]({{site.baseurl}}/images/level-making/props/hidden_wall_after_example.png){:title="After adding the hidden wall"}
+
+
+## Dealing with hidden walls
 
 ### Adding/replacing/removing a hidden wall (with Worldsmith)
 

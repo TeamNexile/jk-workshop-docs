@@ -4,7 +4,7 @@ title: Ravens
 grand_parent: Level Making
 parent: Props
 nav_order: 5
-last_modified_date: 2023-02-07 16:40
+last_modified_date: 2023-02-28 11:54
 ---
 
 # Ravens
@@ -20,6 +20,12 @@ the annoying feathered friends
 {:toc}
 
 ---
+
+## How do they work?
+
+Ravens use a sequence of multiple positions and can be used to "carry" and "drop items" paired with a graphic showing a raven. The raven will get scared away by getting very close to it, from the current position it will move to the following one.
+
+This will repeat until there are no more positions. You can modify to have it drop an item before flying away for the last time.
 
 ### Types
 
