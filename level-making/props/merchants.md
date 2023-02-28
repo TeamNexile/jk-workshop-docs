@@ -4,7 +4,7 @@ title: Merchants
 grand_parent: Level Making
 parent: Props
 nav_order: 4
-last_modified_date: 2023-02-08 17:30
+last_modified_date: 2023-02-28 15:29
 ---
 
 # Merchant
@@ -20,6 +20,30 @@ extension of the normal NPCs, that can also barter items!
 {:toc}
 
 ---
+
+## How does a merchant work?
+
+The merchant has three main values that gets used for the bargain:
+- **the selling item** (the item is selling to you),
+- **the currency** (the item used as currency),
+- **the price** (the item quantity needed for the trade).
+
+For example, the shroom guy in the Philosopher's Forest wants you to get **9 Shrooms**, this speech ([sale lines](#sale-lines-before-payment)) is usually presented right after the introduction.
+
+![Merchant before]({{site.baseurl}}/images/level-making/props/merchant_before_2.png)
+
+While you haven't collected the wanted amount of shrooms, the merchant will trigger the [not-enough-currency lines](#not-enough-currency-lines).
+
+Once you got all the shrooms, the trading speech ([selling line](#selling-line-during-payment)) will show up.
+
+![Merchant inv before]({{site.baseurl}}/images/level-making/props/merchant_before.png)
+![Merchant after]({{site.baseurl}}/images/level-making/props/merchant_after_2.png)
+
+Once finished with the selling line, that's finished you will get the [sold lines](#sold-lines-after-payment) and your item will be automatically worn on you (if the selling item is wearable).
+
+![Merchant inv after]({{site.baseurl}}/images/level-making/props/merchant_after.png)
+
+## Types of merchant
 
 Here's a list of 5 merchant NPC you can freely modify as you will:
 
@@ -51,6 +75,7 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 1. Search for the `sale_item` tag.
 2. Modify the `sale_item` to the item you want to use give to the user.
+
 
 #### Setting the merchant's selling currency (without Worldsmith)
 {: .no_toc }
@@ -130,6 +155,9 @@ In addition the massive list of settings that the normal NPC brings, the merchan
    > You can even add as many quotes as you want by copying the `OldManQuote` tag and pasting it below the closing tag of the previous `OldManQuote`.
    {: .highlight }
 
+### Speech extensions
+
+If you want to display the price in-game through a speech, use `[gold_count]` as the value.
 
 ## Next up
 
