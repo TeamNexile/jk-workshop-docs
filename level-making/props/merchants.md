@@ -42,6 +42,7 @@ Once you got all the shrooms, the trading speech ([selling line](#selling-line-d
 Once finished with the selling line, that's finished you will get the [sold lines](#sold-lines-after-payment) and your item will be automatically worn on you (if the selling item is wearable).
 
 ![Merchant inv after]({{site.baseurl}}/images/level-making/props/merchant_after.png)
+![Merchant after]({{site.baseurl}}/images/level-making/props/merchant_after_3.png)
 
 ## Types of merchant
 
