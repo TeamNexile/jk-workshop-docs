@@ -22,10 +22,12 @@ Let's get started!<!-- more -->
 
 ## Installation
 
-1. Extract the contents of the `Sample single skin` or `Sample skin set` zip file in a folder you want.
+1. Extract the contents of the `Pizza Hat` or `Jing` zip file in a folder you want.
    > Save it somewhere where you won't delete it by mistake!
    {: .warning }
-2. You are set!
+2. You are set if you have a folder like the following:
+
+   ![Skin hierarchy]({{site.baseurl}}/images/getting-started/skin_hierarchy.png)
 
 ## Testing
 

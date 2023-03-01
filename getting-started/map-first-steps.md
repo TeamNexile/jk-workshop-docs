@@ -22,10 +22,13 @@ Let's get started!<!-- more -->
 
 ## Installation
 
+
 1. Extract the contents of the `Sample custom level` zip file in a folder you want.
    > Save it somewhere where you won't delete it by mistake!
    {: .warning }
-2. You are set!
+2. You are set if you have a folder like the following:
+
+   ![Level hierarchy]({{site.baseurl}}/images/getting-started/level_hierarchy.png)
 
 > Before continuing, make sure you know how to get the path of your folder by: 
 > - by right-clicking the sample level folder: `Properties > Security > Object name`
