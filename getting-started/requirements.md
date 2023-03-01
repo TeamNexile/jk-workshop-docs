@@ -3,7 +3,7 @@ layout: default
 title: Requirements
 parent: Getting started
 nav_order: 1
-last_modified_date: 2023-01-16 15:21
+last_modified_date: 2023-03-01 11:35
 ---
 
 # General requirements
@@ -31,9 +31,9 @@ All you need is:
 > 
 > |Made for|Name|Last updated|
 > |---|---|---|
-> |Level|[__Sample level__]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip){: target="_blank"}|null|
-> |Single skin|[__Pizza hat__ by Taft]({{ site.baseurl }}/files/%5BSKIN%5D%20Pizza%20Hat.zip){: target="_blank"}|null|
-> |Skin set|[__Jing__ by Volcanic]({{ site.baseurl }}/files/%5BSET%5D%20Jing.zip){: target="_blank"}|null|
+> |Level|[__Sample level__]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip){: target="_blank"}|{{ 2023-02-24 | date: "%-d %B %Y" }}|
+> |Single skin|[__Pizza hat__ by Taft]({{ site.baseurl }}/files/%5BSKIN%5D%20Pizza%20Hat.zip){: target="_blank"}|{{ 2023-02-24 | date: "%-d %B %Y" }}|
+> |Skin set|[__Jing__ by Volcanic]({{ site.baseurl }}/files/%5BSET%5D%20Jing.zip){: target="_blank"}|{{ 2023-02-24 | date: "%-d %B %Y" }}|
 > 
 > And a **text editor** (that will be used for XML files) such as:
 > - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"} (free, open-source, recommended),
