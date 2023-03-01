@@ -3,7 +3,7 @@ layout: default
 title: JumpKingManager
 parent: Level helping tools
 grand_parent: Tools
-last_modified_date: 2023-01-13 17:22
+last_modified_date: 2023-03-01 12:45
 ---
 
 # Jump King Manager
@@ -27,7 +27,18 @@ is a helpful tool to load/save positions and teleport to any screen; made by [**
 
 1. Open the executable.
 2. Make sure you have opened Jump King.
+   ![JKM Before]({{site.baseurl}}/images/tools/jumpkingmanager_before.png)
 3. Click on a location to teleport in.
-4. If you need to be more specific, you can open the select box and click "*Go*" once chosen a specific screen.
-5. If you want, you can save the position by click "*Save Position*". If you ever wanted to go back to that point, click "*Load Position*".
-6. Done!
+   ![JKM on button click]({{site.baseurl}}/images/tools/jumpkingmanager_after_button.png)
+   
+   > If you need to be **more specific**, you can open the select box and click "*Go*" once chosen a specific screen.
+   >
+   > ![JKM on dropdown]({{site.baseurl}}/images/tools/jumpkingmanager_after_dropdown.png)
+   {: .highlight }
+   
+   > If you want, you can save the position by click "*Save Position*". If you ever wanted to go back to that point, click "*Load Position*". Or you can enter the **absolute coordinates** directly under "**Level Coordinates**".
+   > 
+   > ![JKM on dropdown]({{site.baseurl}}/images/tools/jumpkingmanager_after_coordinates.png)
+   {: .highlight }
+
+4. Done!
