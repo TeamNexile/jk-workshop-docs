@@ -3,7 +3,7 @@ layout: default
 title: Audio
 parent: Level Making
 nav_order: 9
-last_modified_date: 2023-02-06 11:15
+last_modified_date: 2023-03-02 11:58
 ---
 
 # Audio folder
@@ -45,7 +45,11 @@ To differentiate music from ambience, Jump King uses a special tag called `Ambie
 
 1. Convert your audio file into a packed XNB file [making sure it isn't too big](#file-size) (usually a song shouldn't go over 45-50 MB).
 2. Place your packed file in `audio/background`.
+   
+   ![File]({{site.baseurl}}/images/level-making/audio/audio_file.png)
 3. Navigate into the `data` folder and open the `values.xml` file.
+   
+   ![Folder]({{site.baseurl}}/images/level-making/audio/audio_folder.png)
 4. **If you are adding a generic ambience (doesn't need fade-in/out), you can [skip to the next steps](#adding-to-level)**.
 5. Copy the following snippet:
    ```xml
@@ -56,6 +60,8 @@ To differentiate music from ambience, Jump King uses a special tag called `Ambie
    ```
 6. In a new line after the opening tag of `special_info`, paste the snippet.
 7. Replace `YOUR_AUDIO_FILENAME` with the filename of the audio file.
+   
+   ![Basic]({{site.baseurl}}/images/level-making/audio/audio_ambienceinfo_basic.png)
 8. Being a song, you should leave the `type` as **Music**, otherwise use **Ambience**. [**API Reference**]({{site.baseurl}}/api/music){: target="_blank"}.
    
     > If you want the audio to stop and play from the start again once returned to the screens where it is added, add the following snippet below your `type` tag:
@@ -69,6 +75,8 @@ To differentiate music from ambience, Jump King uses a special tag called `Ambie
         <fade_in_length>YOUR_FADE_IN_SECONDS</fade_in_length>
       ```
     {: .highlight }
+
+   ![Completed]({{site.baseurl}}/images/level-making/audio/audio_ambienceinfo_completed.png)
 
 Good, you've set the properties for Jump King to understand that you added a Music piece, now let's add it on the first screen.
 {: #adding-to-level }
@@ -94,6 +102,8 @@ Good, you've set the properties for Jump King to understand that you added a Mus
    > The `<screens>` tag <u>doesnt work with the name logic of the screen number</u>. This is precisely made to avoid mixmatches.
     **From the first `<AmbienceSave>` it keeps the `<screens>` number counting.** So if you have two AmbienceSaves where the first one has screens with a value of 5 and the second has a value of 2, you would have done already 7 screens of music.
    {: .warning }
+   
+   ![Logic]({{site.baseurl}}/images/level-making/audio/audio_ambiencesave_logic.png)
 6. If you want, you can add as many `Ambience` tags you wish in a `AmbienceSave`, below a line of `ambience` tag of your wanted `AmbienceSave` add the following snippet:
    ```xml
     <Ambience>
@@ -101,6 +111,8 @@ Good, you've set the properties for Jump King to understand that you added a Mus
       <volume>0.85</volume>
     </Ambience>
    ```
+   
+   ![Multiple]({{site.baseurl}}/images/level-making/audio/audio_ambiencesave_multiple.png)
 
 ### Replacing music or ambience (without Worldsmith)
 
