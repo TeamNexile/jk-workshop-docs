@@ -3,7 +3,7 @@ layout: default
 title: Particles
 parent: Level Making
 nav_order: 10
-last_modified_date: 2023-02-07 15:52
+last_modified_date: 2023-03-02 11:29
 ---
 
 # Particles folder
@@ -39,14 +39,25 @@ The weather is a particle effect that can help to create depth in your level.
 ### Adding/removing weather (without Worldsmith) 
 
 1. Make a list of the screens where you want to add a specific weather.
+   
+   ![List screens]({{site.baseurl}}/images/level-making/particles/weather_screen.png)
 2. Navigate to `particles` and open `weather.xml`.
+   
+   ![Navigate]({{site.baseurl}}/images/level-making/particles/weather_folder.png)
 3. Inside this file you should see plenty of pre-existing particles that can be used for your level. Find [**which weather to use**]({{site.baseurl}}/api/particles){: target="_blank"}.
 4. Navigate to the `Weather` tag that contains your chosen value.
+   
+   ![Find]({{site.baseurl}}/images/level-making/particles/weather_find_tag.png)
 5. Inside `screens`, add the following snippet and replace `YOUR_HITBOX_SCREEN` with the screen number for each screen you want to have the weather in:
    ```xml
     <int>YOUR_HITBOX_SCREEN</int>
    ```
+
+   ![Done]({{site.baseurl}}/images/level-making/particles/weather_done.png)
 6. If you want to modify the velocity, you can tinker with the `fps` value.
+   
+   ![FPS]({{site.baseurl}}/images/level-making/particles/weather_fps.png)
+
     > Despite the weather is behind the player by default, the **weather can be on the foreground** by adding the following snippet in the `Weather` tag.
       ```xml
         <foreground>true</foreground>
@@ -56,8 +67,14 @@ The weather is a particle effect that can help to create depth in your level.
 To remove the weather from one or multiple screens:
 
 1. Write down the screen(s) you want to remove the weather.
+
+   ![List screens]({{site.baseurl}}/images/level-making/particles/weather_remove_screen.png)
 2. Navigate to `particles` and open `weather.xml`.
+   
+   ![Navigate]({{site.baseurl}}/images/level-making/particles/weather_folder.png)
 3. Search for each screen number and remove their entire `int` tag.
+   
+   ![Navigate]({{site.baseurl}}/images/level-making/particles/weather_remove_done.png)
 
 ### Custom sized weather
 
