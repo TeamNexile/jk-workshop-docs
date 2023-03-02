@@ -23,6 +23,8 @@ list of locations and the *earthquake* effect<!-- more -->
 
 The locations are a group of screens that usually represent a specific gameplay or style. Each location have a name, start, end, introduction trigger screen.
 
+![Location example]({{site.baseurl}}/images/level-making/location.png)
+
 ### Adding/replacing/removing a location (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
