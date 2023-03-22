@@ -25,14 +25,15 @@ blockquote.disclaimer-title > p:nth-child(2) { margin-top: 0; }
 
 blockquote.disclaimer-title > p:last-child { margin-bottom: 0; }
 
-#main-content {
+#main-content a[target=_blank]::after {
+    content: " 🔗";
+}
+
+.main-header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10;
-
-  a[target=_blank]::after {
-      content: " 🔗";
-  }
 }
 
 kbd {
