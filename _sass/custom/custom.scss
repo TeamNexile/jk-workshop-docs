@@ -25,8 +25,14 @@ blockquote.disclaimer-title > p:nth-child(2) { margin-top: 0; }
 
 blockquote.disclaimer-title > p:last-child { margin-bottom: 0; }
 
-#main-content a[target=_blank]::after {
-    content: " 🔗";
+#main-content {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  a[target=_blank]::after {
+      content: " 🔗";
+  }
 }
 
 kbd {
@@ -53,19 +59,20 @@ kbd {
 }
 
 table.vertical thead th {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    padding: 0.25rem;
-    font-weight: 600;
-    vertical-align: bottom;
-  }
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  padding: 0.25rem;
+  font-weight: 600;
+  vertical-align: bottom;
+}
 
-  table.vertical thead th:first-child {
-    writing-mode: unset;
-    text-orientation: unset;
-  }
+table.vertical thead th:first-child {
+  writing-mode: unset;
+  text-orientation: unset;
+}
 
-  table.vertical th,
-  table.vertical td {
-    min-width: 0;
-  }
+table.vertical th,
+table.vertical td {
+  min-width: 0;
+}
+
