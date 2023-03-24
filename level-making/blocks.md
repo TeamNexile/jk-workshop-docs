@@ -3,7 +3,7 @@ layout: default
 title: Blocks
 parent: Level Making
 nav_order: 2
-last_modified_date: 2023-02-01 15:19
+last_modified_date: 2023-03-24 10:46
 ---
 
 <style>
@@ -40,14 +40,13 @@ every color defines a block, a mechanic and more!<!-- more -->
 
 ---
 
-## Blocks for starters
+## Blocks for new users
 
-If you are just getting started creating levels, you should learn what each block is cabable of. These are the most simple blocks, since they dont have any implication or real big understanding behind them.
-You could call hese blocks, the foundation for Jump King levels.
+Below are the basic blocks you use to build your level. Make sure to read up what each of the colours do before you start making your hitboxes.
 
 > Pro-tip!
 > 
->If you are starting out, you should take some time tinkering with each, see what you can do with it!
+> Try each colour out and test them ingame to develop an understanding for what they do.
 {: .note-title }
 
 By clicking or hovering the color box you can see the RGB color that you will need to use in the hitbox.
@@ -161,19 +160,17 @@ The low gravity block is an area block that slows you down but amplifies your ju
 
 ## Blocks for intermediate users
 
-These aren't inherently hard for starters, but it's better to not put too much at once especially when you have over ten blocks to start with, it can start to be messy... once you feel more confident with the starter blocks, you should check out the following blocks.
+These are just different colours but have more advanced functions. It is preferred to not touch these until you are proficient with the starter blocks.
 
 ### <input type="color" title="RGB(182,255,0)" value="#B6FF00">Quark block
 
-The quark block is a block that rounds the player to the closer in-game pixel (8 pixel distance) the player's Y position
-to make falls less inconsistent.
+The quark block is a block that rounds the player to the closer in-game pixel (8 pixel distance) the player's Y position to make falls less inconsistent.
 
 In order to get the full potential of a quark block:
 1. It has to be used when player is in full falling velocity
 2. It has to be used on one of the side of the screen
 
 ![Usage](https://media.discordapp.net/attachments/623779998494490624/782275174916685864/unknown.png)
-(thanks to Erkstock for the image and the explanation!)
 
 - It is not solid,
 - you can't walk on it,
@@ -229,9 +226,9 @@ RGB(223,255,0) of the original strength of the wind. The one-way wind will never
 
 ---
 
-## Blocks for experts only
+## Blocks for expert users
 
-Once you've mastered all the previous blocks, you should learn the two missing.
+These are the most complex blocks. It is preferred to learn them last.
 
 > You should follow the following blocks only if you really know what you are doing!
 {: .warning }
@@ -241,6 +238,7 @@ Once you've mastered all the previous blocks, you should learn the two missing.
 The semi-solid block is a solid block that is solid only in one side.
 
 Solid side|Red channel value
+---|---
 Top|65
 Right|66
 Bottom|67
@@ -399,3 +397,7 @@ Remembering all blocks can be hard
 [^4]: The slope can be not solid if the one or all adjacent blocks are missing.
 [^5]: You can't slide on a fake block unless it's connected to a slope block.
 [^6]: The one-way block is solid only on one side, depending on the color chosen.
+
+## Next up
+
+Once proficient with at least the [blocks for new users](#blocks-for-new-users). [**Head to Screens**]({{site.baseurl}}/level-making/screens).

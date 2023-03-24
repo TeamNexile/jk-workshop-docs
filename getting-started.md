@@ -4,7 +4,7 @@ title: Getting started
 has_children: true
 has_toc: false
 nav_order: 2
-last_modified_date: 2023-02-22 18:07
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Introduction to the Workshop
@@ -251,4 +251,4 @@ Before getting started you need to know the difference between a reskin and a co
 
 ## Next up
 
-[Get all your requirements]({{ site.baseurl }}/getting-started/requirements) before starting fresh and don't forget to [read the guidelines]({{ site.baseurl }}/getting-started/guidelines).
+[Get all your requirements]({{ site.baseurl }}/getting-started/requirements) before starting and [read the guidelines]({{ site.baseurl }}/getting-started/guidelines).

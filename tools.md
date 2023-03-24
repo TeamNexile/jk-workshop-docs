@@ -4,7 +4,7 @@ title: Tools
 has_children: true
 has_toc: false
 nav_order: 4
-last_modified_date: 2023-01-27 11:18
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Tools overhaul
@@ -15,4 +15,4 @@ last_modified_date: 2023-01-27 11:18
 
 Without Worldsmith, every modification you do from hitboxes and textures to music or sound effects, needs to be compiled (or packed) in order for Jump King to be updated, in the following section called [**Content packing tools**]({{ site.baseurl }}/tools/alternatives) we'll go over the pro and cons of these alternatives.
 
-Below the Content packing tools section there are [**Level helping tools**]({{ site.baseurl }}/tools/map-tools); these tools are not necessary but can enhance your productivity on creating a custom level.
+Below the Content packing tools section there are [**Level helping tools**]({{ site.baseurl }}/tools/map-tools); these are quality of life tools that help make level making faster.

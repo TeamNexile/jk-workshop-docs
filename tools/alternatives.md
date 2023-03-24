@@ -4,14 +4,18 @@ title: Content packing tools
 has_children: true
 parent: Tools
 nav_order: 2
-last_modified_date: 2023-01-27 18:08
+last_modified_date: 2023-03-24 10:46
 ---
 
+<!-- 
 # Alternatives to Worldsmith
+-->
 
-While Worldsmith can be helpful for starters, it might be not the case for you especially if you would like to do everything by yourself. And that's fine because we got this aspect covered too, that's why we made a list of alternative tools to achieve the same result.
+# Content packing tools
 
-Before going on detail on every tool's detail in the next pages; it's fair that every person chooses their software based on what they think it's better for their own productivity.
+<!-- While Worldsmith can be helpful for starters, it might be not the case for you especially if you would like to do everything by yourself. And that's fine because we got this aspect covered too, that's why we made a list of alternative tools to achieve the same result. -->
+
+Choose your software based on what you think it’s better for your goals.
 
 The following table explains every image/sound conversion tool on their pros and cons.<!-- more -->
 

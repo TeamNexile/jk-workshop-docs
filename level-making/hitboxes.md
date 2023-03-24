@@ -3,7 +3,7 @@ layout: default
 title: Hitboxes
 parent: Level Making
 nav_order: 1
-last_modified_date: 2023-02-21 11:52
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Hitbox file
@@ -24,7 +24,10 @@ is a PNG image with transparency that is used to determine the custom level game
 
 The hitboxes are determined by the pixels that you will draw on the image file, each color has a different use and logic that can be used for plentiful of platforming or effects.
 
-![Hitbox example]({{ site.baseurl }}/images/level-making/hitboxes.png)
+<figure class="mb-5">
+   <img src="{{ site.baseurl }}/images/level-making/hitboxes.png" alt="Completion on tool">
+   <figcaption class="text-grey-dk-000 text-epsilon">Blocks will be explained in the <a href="{{site.baseurl}}/level-making/blocks">Block</a> page. This is just an example of a platform.</figcaption>
+</figure>
 
 ## Creating the hitboxes file
 
@@ -78,6 +81,4 @@ Even if the details you have planned look good, what matters more is the quality
 
 ## Next up
 
-You've cleared the hitboxes, let's get started with details with [screens (background, midground, foreground and etc.)]({{site.baseurl}}/level-making/screens)!
-
-
+Read up on [**Starter Blocks**]({{site.baseurl}}/level-making/blocks/#blocks-for-new-users) then head to [**Screens**]({{site.baseurl}}/level-making/screens/).

@@ -3,7 +3,7 @@ layout: default
 title: Skin&#58; First steps
 parent: Getting started
 nav_order: 4
-last_modified_date: 2023-01-16 12:15
+last_modified_date: 2023-03-24 10:46
 ---
 
 # First steps with skins
@@ -36,6 +36,5 @@ Let's get started!<!-- more -->
 
 ## Next up
 
-Good!<br>
-Let's proceed on [**designing your skin**]({{ site.baseurl }}/skin-making)!
+[**Skin making**]({{ site.baseurl }}/skin-making)
 

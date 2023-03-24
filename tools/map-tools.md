@@ -4,14 +4,14 @@ title: Level helping tools
 has_children: true
 parent: Tools
 nav_order: 3
-last_modified_date: 2023-01-03 15:47
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Level helping tools
 
-*might* help you enhance your level making productivity even more.
+these can help your level making productivity
 {: .fs-6 .fw-300 }
 
-As the subtitle says, the following tools are not required but are welcome if you want additional help or speed up the process. The process of making a level is pretty tedious already, so why not sweeten it more?
+[Hitbox2Screens]({{ site.baseurl }}/tools/map-tools/hitbox2screens) lets you convert full hitbox images (with all screens) into individual screen images
 
-[JumpKingManager]({{ site.baseurl }}/tools/map-tools/jumpkingmanager) is highly recommended for testing levels.
+[JumpKingManager]({{ site.baseurl }}/tools/map-tools/jumpkingmanager) is **highly recommended** for testing levels.

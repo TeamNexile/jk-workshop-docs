@@ -3,7 +3,7 @@ layout: default
 title: Requirements
 parent: Getting started
 nav_order: 1
-last_modified_date: 2023-03-01 11:35
+last_modified_date: 2023-03-24 10:46
 level_update: 2023-02-24 17:27
 skin_update: 2023-02-24 17:26
 set_update: 2023-02-24 17:26
@@ -17,7 +17,7 @@ all the software you need to make your own item!<!-- more -->
 
 All you need is:
 1. Basic knowledge on how to deal with files in Windows (cut, paste, copy, move and create files).
-2. A simple **pixel art editor** or a **good image editor** such as:
+2. A simple **pixel art editor** or a **image editor** such as:
   - [Aseprite](https://www.aseprite.org/){:target="_blank"} (paid, open-source),
   - [Krita](https://krita.org/){:target="_blank"} (free, open-source),
   - [GraphicsGale](https://graphicsgale.com/us/){:target="_blank"} (free),

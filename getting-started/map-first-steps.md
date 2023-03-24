@@ -3,7 +3,7 @@ layout: default
 title: Level&#58; First steps
 parent: Getting started
 nav_order: 3
-last_modified_date: 2023-01-31 17:41
+last_modified_date: 2023-03-24 10:46
 ---
 
 # First steps with levels
@@ -37,15 +37,16 @@ Let's get started!<!-- more -->
 
 ## Testing
 
-Testing is the most important phase of your level that should take you a **good portion of your time**; a good level has every single fall calculated, nothing is left to be random. [**Check out some more tips**]({{ site.baseurl }}/level-making/tips){:target="_blank"}.
+Take time testing your level. Have others also test your level to make sure you are achieving your intended experience. [**Check out some more tips**]({{ site.baseurl }}/level-making/tips){:target="_blank"}.
 
 To test your level, you can choose two different approaches:
 
 ### Setting it up once
 
-Choosing this approach is easier for starters since **once it's setup all you need to do is open the game** but can be annoying if you want to test multiple levels since you will **always have to modify the launch options** through Steam. 
+Choosing this approach is easier for starters since **once it's setup all you need to do is open the game** but can be tedious if you want to test multiple levels since you will **always have to modify the launch options** through Steam. 
 
 > If you want to **return to the base game**, remove everything from the **Launch options** and open the game.
+{ .disclaimer }
 
 1. Open Steam.
 2. Right-click Jump King and click **Properties...**
@@ -69,4 +70,4 @@ Choosing this approach might be a bit more complicated since **you have to do th
 
 ## Next up
 
-Congratulations on setting it all up and testing the level for the first time!<br>Let's proceed into creating your [**level details**]({{ site.baseurl }}/level-making) by learning how the configuration file works!
+Go to [**level details**]({{ site.baseurl }}/level-making) by learning to learn how the configuration file works.

@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2023-01-10 17:59
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Jump King Workshop Documentation<span class="label label-yellow fs-4 fw-500">beta</span>
@@ -16,7 +16,7 @@ Welcome to your in-depth and definitive documentation for creating custom levels
         <h2 style="display:inline-block;">What's new</h2>
     </summary>
     <dl>
-        <dt>2023.02</dt>
+        <dt>2023.03</dt>
         <dd>Released as part of the public beta</dd>
     </dl>
 </details>

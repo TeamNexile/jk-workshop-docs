@@ -4,13 +4,13 @@ title: Level Making
 has_children: true
 has_toc: false
 nav_order: 7
-last_modified_date: 2023-01-31 14:58
+last_modified_date: 2023-03-24 10:46
 ---
 
 # Level Making
 {: .no_toc }
 
-**everything** you need to know for your full-fledged custom level!<!-- more -->
+**everything** you need to know to make a custom level.<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -157,7 +157,7 @@ For the other babes, repeat the process replacing your search query with "Second
 
 To add a new Credit simply add another Credit like the example above.
 
-> A lil' bit of localization
+> Localization
 > 
 > Inside the Ending Lines, it's possible to use the default library for translations included in the game. LanguageJK includes all the possible text in Jump King based by your localization language.
 > [Check out all the possible combinations!]({{ site.baseurl }}/api/LanguageJK.xml){: target="_blank"}
@@ -165,4 +165,4 @@ To add a new Credit simply add another Credit like the example above.
 
 ## Next up
 
-After understanding or filling out your new configuration file, let's get to [work on those hitboxes]({{ site.baseurl }}/level-making/hitboxes)!
+Once you understand the configuration file, go to [**hitboxes**]({{ site.baseurl }}/level-making/hitboxes).
