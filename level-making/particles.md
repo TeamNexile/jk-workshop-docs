@@ -3,7 +3,7 @@ layout: default
 title: Particles
 parent: Level Making
 nav_order: 10
-last_modified_date: 2023-03-02 11:29
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Particles folder
@@ -31,12 +31,12 @@ The weather is a particle effect that can help to create depth in your level.
 > We are planning to change the weather to make it more customizable in the future. As of now, it works in the same way JumpKingPlus did.
 {: .new }
 
-### Adding/removing weather (with Worldsmith) 
+<!-- ### Adding/removing weather (with Worldsmith) 
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/removing weather (without Worldsmith) 
+### Adding/removing weather 
 
 1. Make a list of the screens where you want to add a specific weather.
    
@@ -87,12 +87,12 @@ The snow hitbox/mechanic can let you decide which type of snow particles you wou
 > This is an optional, therefore if you don't want a different snow type you can leave it as is and it will default to no particles used.
 {: .highlight }
 
-### Adding/removing a snow particle (with Worldsmith) 
+<!-- ### Adding/removing a snow particle (with Worldsmith) 
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/removing a snow particle (without Worldsmith) 
+### Adding/removing a snow particle 
 
 To add a snow particle:
 
@@ -129,4 +129,4 @@ To remove a snow particle:
 
 ## Next up
 
-You are done! You've learned everything you needed to know on how to make a level. Give a quick read on some [community tips and tricks]({{site.baseurl}}/level-making/tips) or learn [how to publish your level]({{site.baseurl}}/publishing)!
+You have gone through all steps for level making. If you want suggestions from the community, read [**Tips & Tricks**]({{site.baseurl}}/level-making/tips). For publishing a finished level, go to [**Publishing**]({{site.baseurl}}/publishing).

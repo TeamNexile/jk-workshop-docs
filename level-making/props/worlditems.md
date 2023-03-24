@@ -4,7 +4,7 @@ title: World Items
 grand_parent: Level Making
 parent: Props
 nav_order: 2
-last_modified_date: 2023-02-28 12:36
+last_modified_date: 2023-03-24 13:32
 ---
 
 # World items
@@ -21,15 +21,15 @@ are **items that the player can pick up** by triggering their hitbox<!-- more --
 
 ---
 
-## Adding/replacing/removing a hidden wall (with Worldsmith)
+<!-- ## Adding/replacing/removing a hidden wall (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-## Adding a world item (without Worldsmith)
+## Adding a world item
 
 
-1. Make sure your [item can be a worlditem]({{site.baseurl}}/api/items){: target="_blank"}.
+1. Make sure the [item]({{site.baseurl}}/api/items){: target="_blank"} you want to use can be a world item.
 2. Choose where you would like to have the world item in-game, writing down the screen number, X and Y positions.
    
    ![Worlditem before]({{site.baseurl}}/images/level-making/props/worlditem_before_example.png)
@@ -65,13 +65,13 @@ The world item should be now available like so:
 > If the item wouldn't it be stackable and you already had an item present in the inventory, nothing will change in the inventory.
 {: .highlight }
 
-## Removing a world item (without Worldsmith)
+## Removing a world item
 
 1. Open the worlditems xml configuration file located in `props/worlditems`.
 2. Find the item you want to delete.
 3. Remove the entire `WorldItemState` tag of the world item that you don't like.
 
-## Personalizing a world item (without Worldsmith) (optional)
+## Personalizing a world item (optional)
 
 In the same folders where you found the worlditems xml configuration file you can find some packed XNB files. Each file corresponds to the texture of the world item.
 
@@ -91,5 +91,4 @@ By replacing any of these, you will change the look of your world item.
 
 ## Next up
 
-Enjoy scattering around your new world items!
-Next up, [NPCs]({{site.baseurl}}/level-making/props/npcs).
+[NPCs]({{site.baseurl}}/level-making/props/npcs).

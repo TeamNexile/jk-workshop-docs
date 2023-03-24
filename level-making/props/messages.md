@@ -4,7 +4,7 @@ title: Messages
 grand_parent: Level Making
 parent: Props
 nav_order: 6
-last_modified_date: 2023-02-28 12:18
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Messages
@@ -27,12 +27,12 @@ Messages are text that pop up from entering a trigger box such as the Billboard 
 
 ![Message example]({{site.baseurl}}/images/level-making/props/message_example.png)
 
-## Add a message (with Worldsmith)
+<!-- ## Add a message (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-## Add a message (without Worldsmith)
+## Add a message
 
 1. Copy the following snippet:
    ```xml
@@ -161,4 +161,4 @@ So if you want to add more text, simply add a new line with:
 
 ## Next up
 
-That's all the props for you! Let's move on to setting new [**sprites for your king**]({{site.baseurl}}/level-making/king)!
+Creating sprites for the [**King**]({{site.baseurl}}/level-making/king)  (player character).

@@ -3,7 +3,7 @@ layout: default
 title: Level&#58; First steps
 parent: Getting started
 nav_order: 3
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-24 13:32
 ---
 
 # First steps with levels
@@ -37,7 +37,7 @@ Let's get started!<!-- more -->
 
 ## Testing
 
-Take time testing your level. Have others also test your level to make sure you are achieving your intended experience. [**Check out some more tips**]({{ site.baseurl }}/level-making/tips){:target="_blank"}.
+Take time testing your level. Have others also test your level to make sure you are achieving your intended experience. Here are some community [**tips**]({{ site.baseurl }}/level-making/tips){:target="_blank"}.
 
 To test your level, you can choose two different approaches:
 
@@ -46,7 +46,7 @@ To test your level, you can choose two different approaches:
 Choosing this approach is easier for starters since **once it's setup all you need to do is open the game** but can be tedious if you want to test multiple levels since you will **always have to modify the launch options** through Steam. 
 
 > If you want to **return to the base game**, remove everything from the **Launch options** and open the game.
-{ .disclaimer }
+{: .disclaimer }
 
 1. Open Steam.
 2. Right-click Jump King and click **Properties...**

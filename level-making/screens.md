@@ -3,7 +3,7 @@ layout: default
 title: Screens
 parent: Level Making
 nav_order: 4
-last_modified_date: 2022-02-07 15:45
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Screens folder
@@ -88,12 +88,12 @@ All of the layers of a screen can be merged to make a result like the example be
 At the lowest ground there's the background.<br>
 The background is commonly used for **skies or gradients** to put on the back end of screens.
 
-### Adding/replacing/removing a background (with Worldsmith)
+<!-- ### Adding/replacing/removing a background (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing a background (without Worldsmith)
+### Adding/replacing a background
 
 To add a new or replace an existing background:
 
@@ -106,7 +106,7 @@ To add a new or replace an existing background:
     > If a file is already existing, replace it with the new file.
     {: .highlight }
 
-### Removing a background (without Worldsmith)
+### Removing a background
 
 To remove an unwanted background:
 
@@ -125,12 +125,12 @@ The scrolling texture is commonly used for **mist clouds or birds** flying in th
 
 The scrolling images are managed by an .xml file, that determines their texture, position, velocity, layer mode and possible additional frames. In order to have a working scrolling image, you will need to have both the xml file and the packed XNB file.
 
-### Adding/replacing/removing a scrolling image (with Worldsmith)
+<!-- ### Adding/replacing/removing a scrolling image (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding a scrolling image (without Worldsmith)
+### Adding a scrolling image
 
 If you want to add a new scrolling image:
 
@@ -176,7 +176,7 @@ If you want to add a new scrolling image:
 
 5. Replace `YOUR_SCROLLING_IMAGE_NAME_HERE` with the filename of your new packed scroll image.
 
-### Replacing a scrolling image (without Worldsmith)
+### Replacing a scrolling image
 
 To replace an already existing scrolling image:
 
@@ -185,7 +185,7 @@ To replace an already existing scrolling image:
    > If your packed file isn't named the same as before, you will need to change the `texture` tag in the xml file(s) that previously had the old file or remove the layer completely.
    {: .highlight }
 
-### Removing a scrolling image (without Worldsmith)
+### Removing a scrolling image
 
 To remove a scrolling image:
 
@@ -201,12 +201,12 @@ If you want the scrolling image to start in a different X position, change the `
 Right after the scrolling images, there's the midground.<br>
 The midground is usually used for **platforms and details** that are **behind the player** (the player can go over them).
 
-### Adding/replacing/removing a midground (with Worldsmith)
+<!-- ### Adding/replacing/removing a midground (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing a midground (without Worldsmith)
+### Adding/replacing a midground
 
 To add a new or replace an existing midground:
 
@@ -219,7 +219,7 @@ To add a new or replace an existing midground:
     > If a file is already existing, replace it with the new file.
     {: .highlight }
 
-### Removing a midground (without Worldsmith)
+### Removing a midground
 
 To remove an unwanted midground:
 
@@ -241,12 +241,12 @@ The mask works just like the difference effect on Photoshop, which lets you **di
 > The mask only takes effect if a **particle effect is enabled on a certain screen**. Head over in the [__particles section to learn how to add particles__]({{ site.baseurl }}/level-making/particles) on a screen before continuing.
 {: .warning }
 
-### Adding/replacing/removing a midground (with Worldsmith)
+<!-- ### Adding/replacing/removing a midground (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing a mask (without Worldsmith)
+### Adding/replacing a mask
 
 To add a new or replace an existing mask:
 
@@ -260,7 +260,7 @@ To add a new or replace an existing mask:
     > If a file is already existing, replace it with the new file.
     {: .highlight }
 
-### Removing a mask (without Worldsmith)
+### Removing a mask
 
 To remove an unwanted mask:
 
@@ -275,12 +275,12 @@ To remove an unwanted mask:
 The foreground work one layer above the masks and particles.<br>
 The foreground is used for **details that are in front of the player**, such as vines or grass.
 
-### Adding/replacing/removing a foreground (with Worldsmith)
+<!-- ### Adding/replacing/removing a foreground (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing a foreground (without Worldsmith)
+### Adding/replacing a foreground
 
 To add a new or replace an existing foreground:
 
@@ -293,7 +293,7 @@ To add a new or replace an existing foreground:
     > If a file is already existing, replace it with the new file.
     {: .highlight }
 
-### Removing a foreground (with Worldsmith)
+### Removing a foreground
 
 To remove an unwanted foreground:
 
@@ -316,4 +316,4 @@ Foreground|480x360 pixels|fg`SCREEN`<br>(e.g. fg65)|`screens/foreground/`|❌
 
 ## Next up
 
-You've learned all for what it takes to make a packed screen, let's [__divide screens into their own locations__]({{site.baseurl}}/level-making/gui) with the GUI folder.
+Go to [**GUI**]({{site.baseurl}}/level-making/gui) to learn where to put the screens in the GUI folder.

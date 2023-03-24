@@ -4,13 +4,13 @@ title: Merchants
 grand_parent: Level Making
 parent: Props
 nav_order: 4
-last_modified_date: 2023-02-28 15:29
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Merchant
 {: .no_toc }
 
-extension of the normal NPCs, that can also barter items!
+extensions to normal NPCs. They can also barter items.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -56,7 +56,7 @@ Here's a list of 5 merchant NPC you can freely modify as you will:
 |owl_shroom_guy|`props/textures/old_man/owl_chars`|`owl_shroom_guy`|
 |owl_mold_man|`props/textures/old_man/owl_chars`|`owl_mold_man`|
 
-## Retexturing a merchant NPC (without Worldsmith)
+## Retexturing a merchant NPC
 
 To replace a spritesheet of an NPC:
 
@@ -71,20 +71,20 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 ### Selling item settings
 
-#### Setting the merchant's selling item (without Worldsmith)
+#### Setting the merchant's selling item
 {: .no_toc }
 
 1. Search for the `sale_item` tag.
 2. Modify the `sale_item` to the item you want to use give to the user.
 
 
-#### Setting the merchant's selling currency (without Worldsmith)
+#### Setting the merchant's selling currency
 {: .no_toc }
 
 1. Search for the `currency_type` tag.
 2. Modify the `currency_type` to the item of currency you want to use. It is recommended that you use an [item]({{site.baseurl}}/api/items){: target="_blank"} that is **stackable**.
 
-#### Setting the merchant's selling price (without Worldsmith)
+#### Setting the merchant's selling price
 {: .no_toc }
 
 1. Search for the `price_increase` tag.
@@ -92,7 +92,7 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 ### Sale lines (before payment)
 
-#### Setting sale lines (without Worldsmith)
+#### Setting sale lines
 {: .no_toc }
 
 1. Search for the `sale_lines` tag.
@@ -109,7 +109,7 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 ### Selling line (during payment)
 
-#### Setting the selling line (without Worldsmith)
+#### Setting the selling line
 {: .no_toc }
 
 1. Search for the `sell_quote` tag.
@@ -124,7 +124,7 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 ### Sold lines (after payment)
 
-#### Setting sold lines (without Worldsmith)
+#### Setting sold lines
 {: .no_toc }
 
 1. Search for the `sold_lines` tag.
@@ -141,7 +141,7 @@ In addition the massive list of settings that the normal NPC brings, the merchan
 
 ### Not-enough-currency lines
 
-#### Setting not-enough-currency lines (without Worldsmith)
+#### Setting not-enough-currency lines
 {: .no_toc }
 
 1. Search for the `no_gold_lines` tag.
@@ -162,4 +162,4 @@ If you want to display the price in-game through a speech, use `[gold_count]` as
 
 ## Next up
 
-You've finally done it! You've learned all you needed to know about NPCs! Let's move to something more easy like [ravens]({{site.baseurl}}/level-making/props/ravens).
+[**Ravens**]({{site.baseurl}}/level-making/props/ravens).

@@ -4,7 +4,7 @@ title: Props
 parent: Level Making
 nav_order: 5
 has_children: true
-last_modified_date: 2023-02-08 15:21
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Props folder
@@ -23,20 +23,18 @@ contains all types of props used in-game<!-- more -->
 
 ## What is a prop?
 
-A prop is essentially a small object that more or less dynamic. In Jump King, there are countless of props around that you don't even know, just to name a few:
+A prop is a (sometimes dynamic) object. It can be any of the following examples:
 
 - the bonfire at the start of your journey,
 - the Old Man,
 - the hidden cap in the sewer,
-- the hiddle wall preventing you to see the cap,
+- the hidden wall covering the cap in the sewer,
 - the bird with the gold coin,
 - the gold coin,
 - the merchant in Bargainburg,
 - et cetera...
 
-All of these are a prop, and in the following subcategories, you are going to learn how to create and personalize your props.
-
-But first let's start with the basics,<br>**the bonfire**.
+All of these are props, the following subcategories cover each different type of prop.
 
 > Good practice with props
 > 
@@ -49,12 +47,12 @@ But first let's start with the basics,<br>**the bonfire**.
 
 The props in-game (such as the bonfire in the first screen) are stored in the `props/textures` folder. Inside this folder, there's a configuration file named `prop_settings.xml` which contains a list of `<PropSetting>` tags.
 
-### Adding/replacing/removing a simple prop (with Worldsmith)
+<!-- ### Adding/replacing/removing a simple prop (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding a simple prop (without Worldsmith)
+### Adding a simple prop
 
 > For starters, you should try having a single sprite sheet (just an image).
 
@@ -125,7 +123,7 @@ Good, you've added a prop so the game can understand its various data. Now let's
 3. Replace `YOUR_PROP_X_POSITION` and `YOUR_PROP_Y_POSITION` to the relative position of your prop.
 
 
-### Replacing a simple prop (without Worldsmith)
+### Replacing a simple prop
 
 If you want to keep the same prop but change its texture:
 
@@ -139,7 +137,7 @@ If you want to replace a prop in a specific screen with another:
 2. Navigate to the `props` folder and open the `prop[SCREEN].xml` file with [SCREEN] as your screen number (e.g., 65th screen = prop65.xml).
 3. Find the prop you want to replace by searching its name, change the `type` value to your new prop.
 
-### Removing a simple prop (without Worldsmith)
+### Removing a simple prop
 
 To remove a prop:
 
@@ -161,4 +159,4 @@ To remove a prop:
 
 ## Next up
 
-The bonfire has been lit! Let's continue with [**hidden walls**]({{site.baseurl}}/level-making/props/hidden-walls).
+[**Hidden walls**]({{site.baseurl}}/level-making/props/hidden-walls).

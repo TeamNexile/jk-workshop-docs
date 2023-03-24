@@ -3,7 +3,7 @@ layout: default
 title: Hitboxes
 parent: Level Making
 nav_order: 1
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Hitbox file
@@ -56,12 +56,12 @@ Here's an visual example of how hitboxes work in Jump King:
 
 ## Dealing with hitboxes
 
-### Modifying the hitboxes (with Worldsmith)
+<!-- ### Modifying the hitboxes (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Modifying the hitboxes (without Worldsmith)
+### Modifying the hitboxes
 
 1. Open the file [you've created above](#understanding-the-basics-of-hitboxes) or unpack existing hitboxes and open it using your tool of choice.
 2. Use the [**block page as a cheat sheet**]({{site.baseurl}}/level-making/blocks){:target="_blank"} or put it page aside your pixel-art program of your choice for reference (you should start with starter blocks only!).

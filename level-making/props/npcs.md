@@ -4,13 +4,13 @@ title: NPCs
 grand_parent: Level Making
 parent: Props
 nav_order: 3
-last_modified_date: 2023-02-28 12:23
+last_modified_date: 2023-03-24 13:32
 ---
 
 # NPCs
 {: .no_toc }
 
-the entities that talk and barter with you.
+entities that talk and barter with you.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -69,7 +69,7 @@ Here's a list of 27 normal NPC you can freely modify as you will:
 |owl_boss_gargoyle|`props/textures/old_man/owl_chars`|`owl_boss_gargoyle`|
 |owl_gargoyles|`props/textures/old_man/owl_chars`|`owl_gargoyles`|
 
-## Retexturing a normal NPC (without Worldsmith)
+## Retexturing a normal NPC
 
 To replace a spritesheet of an NPC:
 
@@ -99,7 +99,7 @@ Settings related to the principal details of the NPC such as:
 
 The sprite sheet (or sprite cells) is the combination of the rows and columns count.
 
-#### Setting the sprite sheet (without Worldsmith)
+#### Setting the sprite sheet
 {: .no_toc }
 
 1. Search for the `sprite_cells` tag.
@@ -110,13 +110,13 @@ The sprite sheet (or sprite cells) is the combination of the rows and columns co
 
 The following settings are related to the position of your NPC. The home screen will set the NPC to a specific screen, meanwhile the position will set the position inside the screen of your choice with X and Y coordinates.
 
-#### Setting the position (without Worldsmith)
+#### Setting the position
 {: .no_toc }
 
 1. Search for the `position` tag.
 2. Modify the X and Y values with the relative values of your choice.
 
-#### Setting the home screen (without Worldsmith)
+#### Setting the home screen
 {: .no_toc }
 
 1. Search for the `home_screen` tag.
@@ -133,7 +133,7 @@ Other settings can be:
 |npc_layer|The layer of the NPC|[PersonRenderingLayer API]({{site.baseurl}}/api/props#PersonRenderingLayer){:target="_blank"}|
 |random_count|Randomizes the order of the frames|a integer number between 0 and total number of frames in the sprite sheet|
 
-#### Setting one of the settings above (without Worldsmith)
+#### Setting one of the settings above
 {: .no_toc }
 
 1. Check if the tag you are looking exists.
@@ -151,7 +151,7 @@ All settings that will about triggering the NPC, its talk speed, talk delay and 
 
 The bubble format can help you format text the way you want it; by aligning it differently, setting the anchor for your text and deciding the maximum width of the NPC's speech.
 
-#### Setting the speech bubble format (without Worldsmith)
+#### Setting the speech bubble format
 {: .no_toc }
 
 1. Search for the `bubble_format` tag.
@@ -163,7 +163,7 @@ The bubble format can help you format text the way you want it; by aligning it d
 
 The `trigger_box` tag is needed to trigger the NPC to speak.
 
-#### Setting the trigger box (without Worldsmith)
+#### Setting the trigger box
 {: .no_toc }
 
 1. Search for the `trigger_box` tag.
@@ -181,14 +181,14 @@ You can also change:
 - **the talk delay**, which is the delay from when you enter the NPC's hitbox and when the NPC start talking;
 - **the talking speed**, which is the speed of which every letter spawns on-screen
 
-#### Setting the talk delay (without Worldsmith)
+#### Setting the talk delay
 {: .no_toc }
 
 1. Search for the `talk_delay` tag.
 2. Modify the `talk_delay` to whatever value you want.
    > The value equals in seconds.
 
-#### Setting the talking speed (without Worldsmith)
+#### Setting the talking speed
 {: .no_toc }
 
 1. Search for the `talking_speed` tag.
@@ -201,7 +201,7 @@ With the following settings you can set the main two animation cycles: talking a
 
 ### Talk animation
 
-#### Setting the talk frames (without Worldsmith)
+#### Setting the talk frames
 {: .no_toc }
 
 To add new talk frames:
@@ -231,7 +231,7 @@ To remove a talk frame:
 
 ### Busy animation
 
-#### Setting the busy frames (without Worldsmith)
+#### Setting the busy frames
 {: .no_toc }
 
 The process is the same as the [talk animation](#talk-animation) but you need to search for the `busy_animation` instead.
@@ -251,11 +251,11 @@ There are 6 different types of speeches which can be used and their use can vary
 |Item quotes|Unlocks new quotes if the user is wearing an item.|Yes.|
 |Fall quotes|Unlocks new quotes by reaching a range of falls.|Yes.|
 
-Before starting you should understand the difference between quote and strings. Strings are usually made of a phrase or portions or a phrase (depending on the size of the speech bubble); a group of strings will play one string after another without big pauses. A quote is a group of strings that the NPC will read through before being quiet for some seconds.
+Make sure you understand the difference between quotes and strings before you start. Strings are usually made of a phrase or portions or a phrase (depending on the size of the speech bubble); a group of strings will play one string after another without big pauses. A quote is a group of strings that the NPC will read through before being quiet for some seconds.
 
 ### Intro quote
 
-#### Setting an intro quote (without Worldsmith)
+#### Setting an intro quote
 {: .no_toc }
 
 1. Search for the `intro_quote` tag.
@@ -281,7 +281,7 @@ Before starting you should understand the difference between quote and strings. 
 
 ### Flag quotes
 
-#### Setting flag quotes (without Worldsmith)
+#### Setting flag quotes
 {: .no_toc }
 
 1. Search for the `flag_quotes` tag.
@@ -320,7 +320,7 @@ Before starting you should understand the difference between quote and strings. 
 
 ### Looping quotes
 
-#### Setting looping quotes (without Worldsmith)
+#### Setting looping quotes
 {: .no_toc }
 
 1. Search for the `looping_lines` tag.
@@ -350,7 +350,7 @@ Before starting you should understand the difference between quote and strings. 
 
 ### Screen quotes
 
-#### Setting screen quotes (without Worldsmith)
+#### Setting screen quotes
 {: .no_toc }
 
 1. Search for the `screens` tag.
@@ -391,7 +391,7 @@ Before starting you should understand the difference between quote and strings. 
 
 ### Item quotes
 
-#### Setting item quotes (without Worldsmith)
+#### Setting item quotes
 {: .no_toc }
 
 1. Search for the `items` tag.
@@ -432,7 +432,7 @@ Before starting you should understand the difference between quote and strings. 
 
 ### Fall quotes
 
-#### Setting fall quotes (without Worldsmith)
+#### Setting fall quotes
 {: .no_toc }
 
 1. Search for the `falls` tag.
@@ -476,4 +476,4 @@ Before starting you should understand the difference between quote and strings. 
 # Next up
 {: .text-beta }
 
-The NPC hell is not over yet! [**Merchants**]({{site.baseurl}}/level-making/props/merchants) are missing!
+[**Merchants**]({{site.baseurl}}/level-making/props/merchants).

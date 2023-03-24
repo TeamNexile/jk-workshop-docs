@@ -3,13 +3,13 @@ layout: default
 title: King
 parent: Level Making
 nav_order: 6
-last_modified_date: 2023-02-02 17:10
+last_modified_date: 2023-03-24 13:32
 ---
 
 # King folder
 {: .no_toc }
 
-a different look for the King!<!-- more -->
+how to change the look for the player character.<!-- more -->
 {: .fs-6 .fw-300 }
 
 > By default, you must have a different *base file*.
@@ -70,12 +70,12 @@ a different look for the King!<!-- more -->
 
 The base file is a packed image file that contains every Jump King (jumping, falling, walking, dancing, you name it) and babe's ending textures.
 
-### Replace or delete existing base (with Worldsmith)
+<!-- ### Replace or delete existing base (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Replace or delete existing base (without Worldsmith)
+### Replace or delete existing base
 
 If you are just getting started, you should:
 
@@ -91,23 +91,23 @@ If you are just getting started, you should:
 
 Other than the base texture, you can also decide to customize all the other wearable items from the [item's list]({{ site.baseurl }}/api/items){: target="_blank"}.
 
-> Doing custom textures is the same process as making single skins without the hassle of making the XML files; you will need a good image editor that supports at least three layers. In the first layer you will need to put the grid, in the second the base of your choice, and in the third your item texture.
+> Making custom textures is the same process as making single skins without making the XML files; you need a image editor that supports at least three layers. In the first layer you will need to put the grid, in the second the base of your choice, and in the third your item texture.
 
 Once you are satisfied with your item texture, you can decide to add it onto your level.
 
-### Adding/replacing/deleting a custom texture (with Worldsmith) 
+<!-- ### Adding/replacing/deleting a custom texture (with Worldsmith) 
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing a custom texture (without Worldsmith) 
+### Adding/replacing a custom texture 
 
 1. Convert the image file you worked on into a packed XNB file.
 2. Look out for your **Item** name in the [Items List]({{ site.baseurl }}/api/items){: target="_blank"}.
 3. Open the `skin_settings.xml` and search for the **Item** name.
 4. Use the name you will find in the `texture` tag where you found your Item for your texture. If the file is already existing, replace the file.
 
-### Deleting a custom texture (without Worldsmith)
+### Deleting a custom texture
 
 1. Look out for your **Item** name in the [Items List]({{ site.baseurl }}/api/items){: target="_blank"}.
 3. Open the `skin_settings.xml` and search for the **Item** name.
@@ -115,4 +115,4 @@ Once you are satisfied with your item texture, you can decide to add it onto you
 
 ## Next up
 
-Another folder down! Good job! Let's continue with [**audio stuff**]({{ site.baseurl }}/level-making/audio)!
+Modifying [**Audio**]({{ site.baseurl }}/level-making/audio).

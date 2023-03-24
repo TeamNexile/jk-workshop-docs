@@ -3,7 +3,7 @@ layout: default
 title: Audio
 parent: Level Making
 nav_order: 9
-last_modified_date: 2023-03-02 11:58
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Audio folder
@@ -32,16 +32,16 @@ all the sound related content<!-- more -->
 
 ## Ambience or music?
 
-All ambience can be all background sounds (bonfire, birds, rain or wind sounds) that can complete the immersion of the player. Meanwhile [music is already what you already know.](https://www.youtube.com/watch?v=90I3pWDfbxU){:target="_blank"}
+All ambience can be all background sounds (bonfire, birds, rain or wind sounds). Music is a soundtrack on a different layer.
 
 To differentiate music from ambience, Jump King uses a special tag called `AmbienceInfo` that you will need to create. You can still add ambience pieces in the `AmbienceInfo` tag if you want to use the restart, fade-in or fade-out option but it will need to have its own `type` value to differentiate.
 
-### Adding/replacing/removing music or ambience (with Worldsmith)
+<!-- ### Adding/replacing/removing music or ambience (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding music or ambience (without Worldsmith)
+### Adding music or ambience
 
 1. Convert your audio file into a packed XNB file [making sure it isn't too big](#file-size) (usually a song shouldn't go over 45-50 MB).
 2. Place your packed file in `audio/background`.
@@ -78,7 +78,7 @@ To differentiate music from ambience, Jump King uses a special tag called `Ambie
 
    ![Completed]({{site.baseurl}}/images/level-making/audio/audio_ambienceinfo_completed.png)
 
-Good, you've set the properties for Jump King to understand that you added a Music piece, now let's add it on the first screen.
+After having added references to your sound files in the Jump King properties you can now add it to the first screen (or any screen).
 {: #adding-to-level }
 
 1. Copy the following snippet:
@@ -104,7 +104,7 @@ Good, you've set the properties for Jump King to understand that you added a Mus
    {: .warning }
    
    ![Logic]({{site.baseurl}}/images/level-making/audio/audio_ambiencesave_logic.png)
-6. If you want, you can add as many `Ambience` tags you wish in a `AmbienceSave`, below a line of `ambience` tag of your wanted `AmbienceSave` add the following snippet:
+6. You can add as many `Ambience` tags as you wish in a `AmbienceSave`, below a line of `ambience` tag of your wanted `AmbienceSave` add the following snippet:
    ```xml
     <Ambience>
       <name>YOUR_MUSIC_FILENAME</name>
@@ -114,9 +114,9 @@ Good, you've set the properties for Jump King to understand that you added a Mus
    
    ![Multiple]({{site.baseurl}}/images/level-making/audio/audio_ambiencesave_multiple.png)
 
-### Replacing music or ambience (without Worldsmith)
+### Replacing music or ambience
 
-To replace your musical piece's audio (if it has the same name), all you need to do is replace the packed audio file found in `audio/background`.
+To replace your musical piece's audio (if it has the same name), you need to replace the packed audio file found in `audio/background`.
 
 If your file has a different name, you will need to:
 1. Move your new audio packed XNB file in `audio/background`.
@@ -124,7 +124,7 @@ If your file has a different name, you will need to:
 3. Navigate to `data` and open `values.xml`.
 4. Replace all the references to the old filename with your new filename.
 
-### Removing music or ambience (without Worldsmith)
+### Removing music or ambience
 
 1. Navigate to `audio/background/data` and open `values.xml`.
 2. Remove the `AmbienceInfo` and all `Ambience`s that contains the name that equals to the audio you want to remove.
@@ -135,12 +135,12 @@ If your file has a different name, you will need to:
  
 The event music is **music that can be triggered** and get **triggered once**, such as the sound on the last babe screen, the gargoyles in Ghost of the Babe, or the lightning sound in New Babe Plus.
 
-### Adding/replacing/removing an event music (with Worldsmith)
+<!-- ### Adding/replacing/removing an event music (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding an event music (without Worldsmith)
+### Adding an event music
 
 To add an event music:
 
@@ -158,7 +158,7 @@ To add an event music:
 6. Replace `YOUR_SCREEN_NUMBER` with the screen number where you want the event music to trigger.
 7. Replace `YOUR_EVENT_MUSIC_NAME` with the name of your packed event music filename.
 
-### Replacing an event music (without Worldsmith)
+### Replacing an event music
 
 If you want to replace an existing event music's position, you will need to:
 
@@ -173,7 +173,7 @@ If you want to replace an existing event music's song, you will need to:
 4. Open the `events.xml` file in the same folder.
 5. Replace the old `song_name` value of your event with the new filename.
 
-### Removing an ending music (without Worldsmith)
+### Removing an ending music
 
 To remove an event music:
 
@@ -192,12 +192,12 @@ The ending music is the audio played once the the player has beaten the game (re
 |Third babe|`ending3`|
 
 
-### Adding/replacing/removing an ending music (with Worldsmith)
+<!-- ### Adding/replacing/removing an ending music (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing an ending music (without Worldsmith)
+### Adding/replacing an ending music
 
 In order to add it:
 
@@ -207,10 +207,10 @@ In order to add it:
    > If the file already exists, override it.
    {: .highlight }
 
-### Removing an ending music (without Worldsmith)
+### Removing an ending music
 
 You can only remove the second and third babe ending music, for the first ending, you will need to manually paste the original ending music from the gamefiles (can be found in `Jump King/Content/audio/music/ending.xnb`).
 
 ## Next up
 
-You can finally add all the music you wanted to add on full-blast, let's take a final [look at particles]({{site.baseurl}}/level-making/particles) before publishing.
+Adding [**particles**]({{site.baseurl}}/level-making/particles).

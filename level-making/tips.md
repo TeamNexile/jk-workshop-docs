@@ -3,13 +3,14 @@ layout: default
 title: Tips & Tricks
 parent: Level Making
 nav_order: 20
-last_modified_date: 2023-02-01 15:10
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Tips & Tricks for making a good level
 {: .no_toc }
 
-Here are some secret tips that you can pick to make a great level.<br>You don't necessarily need to follow any of these below, they are just tips after all!
+Here are some tips from the community. You are not required to follow them in order to publish a level.<!-- more -->
+{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

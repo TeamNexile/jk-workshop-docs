@@ -41,7 +41,7 @@ Below are Nexile's internal guidelines. It is not required to follow these to pu
 ### Polished levels
 
 Level design in Jump King is a balance between fairness and hardness.
-<u>Nexile is unlikely to endorse polished levels that do not follow their guidelines.</u>
+<u>Nexile is unlikely to endorse polished levels that do not follow Nexile guidelines.</u>
 
 {% include rules/levels.md %}
 

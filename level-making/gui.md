@@ -3,7 +3,7 @@ layout: default
 title: GUI
 parent: Level Making
 nav_order: 5
-last_modified_date: 2023-03-02 11:29
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Gui folder
@@ -19,18 +19,23 @@ list of locations and the *earthquake* effect<!-- more -->
 1. TOC
 {:toc}
 
+---
+
+> 🚧 If you do not understand how the text works in the example below. Go back to [File Types]({{site.baseurl}}/getting-started/filetypes) and read up on XML. 🏗
+{: .disclaimer }
+
 ## Locations
 
-The locations are a group of screens that usually represent a specific gameplay or style. Each location have a name, start, end, introduction trigger screen.
+The locations (also known as areas) are a group of screens that usually represent a specific gameplay or style. Each location have a name, start, end, introduction trigger screen.
 
 ![Location example]({{site.baseurl}}/images/level-making/location.png)
 
-### Adding/replacing/removing a location (with Worldsmith)
+<!-- ### Adding/replacing/removing a location (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding a location (without Worldsmith)
+### Adding a location
 
 To add a location:
 
@@ -75,7 +80,7 @@ To add a location:
 > Make sure your location always ends before starting another one! This can cause problems later on if ignored.
 {: .warning }
 
-### Removing a location (without Worldsmith)
+### Removing a location
 
 To remove a location:
 
@@ -88,12 +93,12 @@ To remove a location:
 
 This allows you to replicate the earthquake effect used by Jump King in correspondence of the towers. This is effect consists of moving the screen left and right by one pixel.
 
-### Adding/replacing/removing the earthquake effect on a screen (with Worldsmith)
+<!-- ### Adding/replacing/removing the earthquake effect on a screen (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding and removing the earthquake effect on a screen (without Worldsmith)
+### Adding and removing the earthquake effect on a screen
 
 To add the earthquake effect on a screen:
 
@@ -124,4 +129,4 @@ To remove an earthquake effect on a screen:
 
 ## Next up
 
-It's props time! Let's learn [how to make props]({{ site.baseurl }}/level-making/props)!
+Go to [**props**]({{ site.baseurl }}/level-making/props).

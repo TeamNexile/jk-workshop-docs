@@ -2,13 +2,13 @@
 layout: default
 title: Updating
 nav_order: 11
-last_modified_date: 2023-01-12 17:14
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Updating
 {: .no_toc }
 
-Updating the content of your item in the Workshop in few easy steps!<!-- more -->
+how to update the content of your items in the Workshop.<!-- more -->
 {: .fs-6 .fw-300 }
 
 <style>
@@ -23,13 +23,11 @@ Updating the content of your item in the Workshop in few easy steps!<!-- more --
 1. TOC
 {:toc}
 
-Hotfixes, bugs you want to fix, pixels that are wrongly colored in that one cranny... you name it! Here you can find how you can update your item in no time!
-
 ---
 
-## Steps (using Worldsmith)
+<!-- ## Steps (using Worldsmith)
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
 ## Steps (using Workshop Manager)
 
@@ -103,7 +101,8 @@ Once completed, you can navigate on your item's page thanks to the completion pr
 
 ![Step 7a]({{ site.baseurl }}/images/updating/Step7a.png)
 
-{: .warning }
 > This only works if you change the contents of the item, if you change the thumbnail, you won't see any change note.
+{: .warning }
 
-The changelog text comes very handy when you plan to have multiple versions of your work. This way you can easily identify each version and revert back if you need to!
+> You can use the changelog text when you plan to have multiple versions of your work. That way you can identify each version and revert back if you need to.
+{: .note }

@@ -4,7 +4,7 @@ title: Level Making
 has_children: true
 has_toc: false
 nav_order: 7
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Level Making
@@ -35,11 +35,11 @@ This configuration file contains your level:
 - **ending extra images** (letting you choose what item can trigger the secondary ending image)
 - **end credits** (once you finish your level, after the cutscene)
 
-## Steps (using Worldsmith)
+<!-- ## Steps (using Worldsmith)
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-## Steps (without Worldsmith)
+## Steps 
 
 ### Setting your level title
 

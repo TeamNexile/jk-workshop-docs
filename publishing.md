@@ -2,13 +2,13 @@
 layout: default
 title: Publishing
 nav_order: 10
-last_modified_date: 2023-02-01 15:10
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Publishing
 {: .no_toc }
 
-Final steps to get your item on the Workshop!<!-- more -->
+Final steps to get your item on the Workshop.<!-- more -->
 {: .fs-6 .fw-300 }
 
 <style>
@@ -23,7 +23,7 @@ Final steps to get your item on the Workshop!<!-- more -->
 1. TOC
 {:toc}
 
-Long gone are the times of following all the steps taken by JumpKingPlus' verification and waiting for approval. Each item you upload is [publicly available*](#steams-eula-agreement) in <strong>a matter of seconds</strong>!
+Each item you upload is [publicly available*](#steams-eula-agreement) usually in under a minute (longer for levels).
 
 ---
 
@@ -33,18 +33,18 @@ Long gone are the times of following all the steps taken by JumpKingPlus' verifi
 
 Make sure you have accepted [Steam's EULA agreement](https://steamcommunity.com/workshop/workshoplegalagreement/){:target="_blank"}, if you haven't accepted it, your item won't be available to be seen by anyone but you.
 
-### Don't forget the guidelines!
+### Read Nexile's guidelines
 
-Just like JumpKingPlus had some *rules*, the Steam Workshop has **guidelines**. That means you don't have to strictly follow the rules to get your item published. That being said level design in Jump King is a delicate balance between fairness and hardness and <u>Nexile is unlikely to endorse levels that do not follow </u>[their guidelines]({{ site.baseurl }}/getting-started/guidelines).
+<u>Nexile is unlikely to endorse levels that do not follow </u>[Nexile guidelines]({{ site.baseurl }}/getting-started/guidelines/#nexiles-guidelines).
 
-### Don't forget to playtest your level!
+### Playtest your level
 
-Few people wants to play a **poorly tested level** where **jumps don't work** as intended or you get **stuck** on slopes after **so much progress**, so please take your time to test it for both bugs and balance before releasing it. Publishing a poorly tested level <u>will not work in your favor</u>.
+Make sure you have read the [**Testing**]({{site.baseurl}}/getting-started/map-first-steps/#testing) section of Level: First steps.
 
 
-## Steps (using Worldsmith)
+<!-- ## Steps (using Worldsmith)
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
 ## Steps (using Workshop Manager)
 
@@ -95,7 +95,7 @@ Few people wants to play a **poorly tested level** where **jumps don't work** as
    ![Step 6]({{ site.baseurl }}/images/publishing/Step6.png)
 
 
-## Next steps
+## Next
 Once the upload is completed, it will ask you if you to see it on the Steam Workshop's page, from there you can further modify its page by adding more images, improve your description or decide to remove your item.
 
 <figure class="mb-5">
@@ -108,4 +108,4 @@ Once the upload is completed, it will ask you if you to see it on the Steam Work
    <figcaption class="text-grey-dk-000 text-epsilon">Steam Workshop page of the uploaded item. Tags are automatically given by the uploading tool chosen by the user.</figcaption>
 </figure>
 
-If you want to modify the item's content, head over to the [Updating]({{ site.baseurl }}/updating) page.
+If you want to modify the item's content, head over to the [**Updating**]({{ site.baseurl }}/updating) page.

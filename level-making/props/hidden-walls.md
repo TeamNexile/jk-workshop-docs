@@ -4,7 +4,7 @@ title: Hidden Walls
 grand_parent: Level Making
 parent: Props
 nav_order: 1
-last_modified_date: 2023-02-28 12:21
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Hidden walls
@@ -24,22 +24,22 @@ props that disappear by triggering a hitbox<!-- more -->
 
 ## What are they used for?
 
-Hidden walls are used in-game to hide areas or make the screen more realistic, the hidden wall works as foreground until the player gets into its position where it becomes transparent.
+Hidden walls are graphics placed in front of other layers to hide them. They become transparent when the player touches them.
 
-### Before (without hidden wall)
-![Before]({{site.baseurl}}/images/level-making/props/hidden_wall_before_example.png){:title="Before adding the hidden wall"}
-### After (with hidden wall)
-![After]({{site.baseurl}}/images/level-making/props/hidden_wall_after_example.png){:title="After adding the hidden wall"}
+### Before touching the hidden wall
+![Before]({{site.baseurl}}/images/level-making/props/hidden_wall_before_example.png){:title="Before touching the hidden wall"}
+### After touching the hidden wall
+![After]({{site.baseurl}}/images/level-making/props/hidden_wall_after_example.png){:title="After touching the hidden wall"}
 
 
 ## Dealing with hidden walls
 
-### Adding/replacing/removing a hidden wall (with Worldsmith)
+<!-- ### Adding/replacing/removing a hidden wall (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding a hidden wall (without Worldsmith)
+### Adding a hidden wall
 
 If you want to add a new hidden wall:
 
@@ -95,7 +95,7 @@ If you want to add a new hidden wall:
 5. Replace `YOUR_HIDDEN_WALL_NAME` with the filename of your new packed hidden wall.
 6. Replace the X and Y (`YOUR_HIDDEN_WALL_X_POSITION` and `YOUR_HIDDEN_WALL_Y_POSITION`) with the relative position of the top-left corner.
 
-### Replacing a hidden wall (without Worldsmith)
+### Replacing a hidden wall
 
 To replace an already existing hidden wall image:
 
@@ -104,7 +104,7 @@ To replace an already existing hidden wall image:
    > If your packed file isn't named the same as before, you will need to change the `texture_name` tag in the xml file(s) that previously had the old file or remove the layer completely.
    {: .highlight }
 
-### Removing a hidden wall (without Worldsmith)
+### Removing a hidden wall
 
 To remove a hidden wall image:
 
@@ -117,14 +117,18 @@ Hidden walls can have props too!<br>
 
 Hidden walls props work in the same normal props work, but the xml configuration file is set on a different folder. Please [__read how to make normal props before continuing__]({{site.baseurl}}/level-making/props).
 
-### Adding/replacing/removing a hidden wall prop (with Worldsmith)
+<!-- ### Adding/replacing/removing a hidden wall prop (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding/replacing/removing wall prop (without Worldsmith)
+### Adding/replacing/removing wall prop
 
 Hidden wall props are just like [simple props]({{site.baseurl}}/level-making/props#simple-prop).
 
 > The only difference from the simple prop is the directory of the xml configuration file, that is `props/hidden walls props` instead of `props`.
 {: .warning }
+
+## Next up
+
+Go to [**World Items**]({{site.baseurl}}/level-making/props/worlditems).

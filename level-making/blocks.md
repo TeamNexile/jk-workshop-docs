@@ -3,7 +3,7 @@ layout: default
 title: Blocks
 parent: Level Making
 nav_order: 2
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-24 13:32
 ---
 
 <style>
@@ -389,6 +389,10 @@ Remembering all blocks can be hard
   </tbody>
 </table>
 
+## Next up
+
+Once proficient with at least the [blocks for new users](#blocks-for-new-users). [**Head to Screens**]({{site.baseurl}}/level-making/screens).
+
 ### Notes
 
 [^1]: You can walk on it until you are not wearing Giant Boots.
@@ -397,7 +401,3 @@ Remembering all blocks can be hard
 [^4]: The slope can be not solid if the one or all adjacent blocks are missing.
 [^5]: You can't slide on a fake block unless it's connected to a slope block.
 [^6]: The one-way block is solid only on one side, depending on the color chosen.
-
-## Next up
-
-Once proficient with at least the [blocks for new users](#blocks-for-new-users). [**Head to Screens**]({{site.baseurl}}/level-making/screens).

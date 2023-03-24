@@ -2,13 +2,13 @@
 layout: default
 title: Skin Making
 nav_order: 8
-last_modified_date: 2023-02-21 16:51
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Skin Making
 {: .no_toc }
 
-**everything** you need to know for your skin or set!<!-- more -->
+**everything** you need to know for your skin or set.<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -21,12 +21,12 @@ last_modified_date: 2023-02-21 16:51
 
 ## Setting the environment to make any skin
 
-First of all, open the software of your choice and set two layers.
+First of, open the software of your choice and set two layers.
 
 1. The first (or top) layer should be the layer you use for drawing your skin,
 2. the second (or bottom) layer should be the [**base file**]({{site.baseurl}}/images/level-making/king/base.png){:target="_blank"}; this second layer will help you building a fully working skin.
 
-> A simple trick while making a skin is setting the second (or bottom) layer to a lower opacity, like 50%.
+> A simple trick while making a skin is setting the second (or bottom) layer to a lower opacity, for example 50%.
 {: .note }
 
 ### Once satisfied with the texture(s)
@@ -64,11 +64,11 @@ The configuration in sigle skins is called `cosmetic_settings.xml`.<br>Open the 
 </ReskinSettings>
 ```
 
-### Setting everything (using Worldsmith)
+<!-- ### Setting everything (using Worldsmith)
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Setting the skin's item (without Worldsmith)
+### Setting the skin's item
 
 1. Search for "skin" in your XML file.
    You should find something like this:
@@ -78,7 +78,7 @@ The configuration in sigle skins is called `cosmetic_settings.xml`.<br>Open the 
 2. Replace `YOUR_SKIN_HERE` with the [**wearable item**]({{site.baseurl}}/api/items){:target="_blank"} of your choice.
 3. Done!
 
-### Setting the skin's filename (without Worldsmith)
+### Setting the skin's filename
 
 1. Search for "name" in your XML file.
    You should find something like this:
@@ -109,11 +109,11 @@ The configuration in skin sets is called `set_settings.xml`.<br>Open the file an
 </SetSettings>
 ```
 
-### Setting everything (using Worldsmith)
+<!-- ### Setting everything (using Worldsmith)
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Adding a new skin to the set (without Worldsmith)
+### Adding a new skin to the set
 
 1. Search for "Reskins" in your XML file.
 2. Add the following snippet below the opening tag of `Reskins` in a new line:
@@ -123,14 +123,14 @@ The configuration in skin sets is called `set_settings.xml`.<br>Open the file an
       <name>YOUR_FILENAME_HERE</name>
     </Reskin>
    ```
-3. Replace `YOUR_SKIN_HERE` with a [**wearable item**]({{site.baseurl}}/api/items){:target="_blank"} of your choice.
+3. Replace `YOUR_SKIN_HERE` with a **wearable** [**item**]({{site.baseurl}}/api/items){:target="_blank"} of your choice.
 4. Replace `YOUR_FILENAME_HERE` with the file name of your packed XNB file for your skin.
 5. Repeat step 2 for each skins you want to add. 
 6. Done!
 
-### Removing a skin from the set (without Worldsmith)
+### Removing a skin from the set
 
-1. Search for "Reskins" in your XML file and find the [item that you want to remove]({{site.baseurl}}/api/items){:target="_blank"}.
+1. Search for "Reskins" in your XML file and find the [**item**]({{site.baseurl}}/api/items){:target="_blank"} that you want to remove.
 2. Remove the whole `Reskin` tag that contains `skin` as your unwanted item.
 3. Done!
 
@@ -145,4 +145,4 @@ The configuration in skin sets is called `set_settings.xml`.<br>Open the file an
 
 ## Next up
 
-You are set (pun not intended)!<br>Give a read on how to [**publish your single set or skin set**]({{site.baseurl}}/publishing)!
+Once you are done with your skin, read [**Publishing**]({{site.baseurl}}/publishing).

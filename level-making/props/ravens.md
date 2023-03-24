@@ -4,13 +4,13 @@ title: Ravens
 grand_parent: Level Making
 parent: Props
 nav_order: 5
-last_modified_date: 2023-02-28 11:54
+last_modified_date: 2023-03-24 13:32
 ---
 
 # Ravens
 {: .no_toc }
 
-the annoying feathered friends
+the birds that can move and carry an item
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -38,12 +38,12 @@ You can have up to 4 different ravens in your level, which are the following:
 |fly|The **really** annoying fly in Ghost of the Babe|
 |tsuchinoko|The red bird with human feet in Ghost of the Babe|
 
-### Customizing/removing a raven (with Worldsmith)
+<!-- ### Customizing/removing a raven (with Worldsmith)
 
 🚧 Work in Progress. **No trespassing!** 🏗
-{: .disclaimer }
+{: .disclaimer } -->
 
-### Customizing a raven's texture (without Worldsmith)
+### Customizing a raven's texture
 
 To customize use the following image as base for your raven:
 
@@ -58,14 +58,14 @@ Once done customizing it:
 2. Name it based on [what raven you want to use](#types).
 3. Place the file in `props/textures/raven` and replace the file.
 
-### Customizing a raven's details (without Worldsmith)
+### Customizing a raven's details
 
 1. Navigate to `props/textures/raven` and open the raven's `ravset` file (it's an xml file).
 2. Replace the `item` value as your chosen [**Item**]({{site.baseurl}}/api/items).
    > If you want you can replace the `fly_sfx` to either **bird_fly**, **white_bird_fly** or **bug_fly** depending which flight sound effect you want to have.
 
 
-### Customizing a raven's path (without Worldsmith)
+### Customizing a raven's path
 
 Make sure you have a list of screen numbers and relative positions for your raven to spawn in.
 
@@ -92,7 +92,7 @@ Make sure you have a list of screen numbers and relative positions for your rave
 8. Replace `YOUR_FLY_DIRECTION` to either **Left** or **Right**.
 9.  Repeat Step 3 for each raven position.
 
-### Removing a raven (without Worldsmith)
+### Removing a raven
 
 While you can't inherently remove the files of the raven and that will get rid of your raven there is a tricky way to get it to not spawn in the visible area.
 
@@ -114,4 +114,4 @@ While you can't inherently remove the files of the raven and that will get rid o
 
 ## Next up
 
-Im-peck-able! Let's now learn how to create [secret messages]({{site.baseurl}}/level-making/props/messages)!
+[Messages]({{site.baseurl}}/level-making/props/messages).
