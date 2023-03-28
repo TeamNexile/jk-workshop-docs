@@ -8,7 +8,7 @@ last_modified_date: 2023-03-24 13:32
 # Publishing
 {: .no_toc }
 
-Final steps to get your item on the Workshop.<!-- more -->
+final steps to get your item on the Workshop.<!-- more -->
 {: .fs-6 .fw-300 }
 
 <style>
