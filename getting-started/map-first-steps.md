@@ -6,11 +6,8 @@ nav_order: 3
 last_modified_date: 2023-03-24 13:32
 ---
 
-# First steps with levels
+# First steps with levels<!-- more -->
 {: .no_toc }
-
-Let's get started!<!-- more -->
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

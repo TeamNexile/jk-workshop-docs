@@ -2,13 +2,13 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-29 10:09
 ---
 
 # Jump King Workshop Documentation<span class="label label-yellow fs-4 fw-500">beta</span>
 {: .fs-8 }
 
-Welcome to your in-depth and definitive documentation for creating custom levels, skins and sets on Jump King!
+This is an in-depth documentation for creating custom levels, skins and sets on Jump King.
 {: .fs-6 .fw-300 .my-4 }
 
 <details open>
@@ -17,7 +17,7 @@ Welcome to your in-depth and definitive documentation for creating custom levels
     </summary>
     <dl>
         <dt>2023.03</dt>
-        <dd>Released as part of the public beta</dd>
+        <dd>Released as part of the closed beta</dd>
     </dl>
 </details>
 

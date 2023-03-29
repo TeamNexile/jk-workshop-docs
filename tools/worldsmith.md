@@ -5,6 +5,7 @@ parent: Tools
 nav_order: 1
 last_modified_date: 2023-01-11 15:31
 nav_exclude: true
+search_exclude: true
 ---
 
 # Jump King Worldsmith

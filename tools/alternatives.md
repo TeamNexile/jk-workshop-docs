@@ -15,9 +15,10 @@ last_modified_date: 2023-03-24 10:46
 
 <!-- While Worldsmith can be helpful for starters, it might be not the case for you especially if you would like to do everything by yourself. And that's fine because we got this aspect covered too, that's why we made a list of alternative tools to achieve the same result. -->
 
-Choose your software based on what you think it’s better for your goals.
+choose your software based on what you think it’s better for your goals.<!-- more -->
+{: .fs-6 .fw-300 }
 
-The following table explains every image/sound conversion tool on their pros and cons.<!-- more -->
+The following table explains every image/sound conversion tool on their pros and cons.
 
 |tool|pros|cons|
 |---|---|---|

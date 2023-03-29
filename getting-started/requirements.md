@@ -3,7 +3,7 @@ layout: default
 title: Requirements
 parent: Getting started
 nav_order: 1
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-29 10:10
 level_update: 2023-02-24 17:27
 skin_update: 2023-02-24 17:26
 set_update: 2023-02-24 17:26
@@ -12,7 +12,7 @@ set_update: 2023-02-24 17:26
 # General requirements
 {: .no_toc }
 
-all the software you need to make your own item!<!-- more -->
+all the software you need to make your own item.<!-- more -->
 {: .fs-6 .fw-300 }
 
 All you need is:
@@ -30,7 +30,7 @@ All you need is:
 1. <!-- [**Jump King Worldsmith**]({{ site.baseurl }}/tools/worldsmith) or other alternative --> Tools to convert images and sounds into XNB (in-depth details in the [following category]({{ site.baseurl }}/tools/alternatives/)).
 
 {: .highlight }
-> If you are making <u>anything</u> without using Jump King Worldsmith, you also need to choose the following requirement depending on what you are planning to do:
+> You also need to choose the following requirement depending on what you are planning to do:
 > 
 > |Made for|Name|Last updated|
 > |---|---|---|

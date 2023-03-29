@@ -3,7 +3,7 @@ layout: default
 title: Blocks
 parent: Level Making
 nav_order: 2
-last_modified_date: 2023-03-24 13:32
+last_modified_date: 2023-03-29 11:27
 ---
 
 <style>
@@ -78,7 +78,7 @@ The fake block is a block that is not solid and the sole purpose is to create a 
 
 - It is not solid,
 - you can't walk on it,
-- you can't slide on it [^5],
+- you can't slide on it,
 - it can affect your direction [^3].
 
 ### <input type="color" title="RGB(0,255,255)" value="#00FFFF">Ice block
@@ -164,7 +164,7 @@ These are just different colours but have more advanced functions. It is preferr
 
 ### <input type="color" title="RGB(182,255,0)" value="#B6FF00">Quark block
 
-The quark block is a block that rounds the player to the closer in-game pixel (8 pixel distance) the player's Y position to make falls less inconsistent.
+When the player touches a quark block, their **Y (height) position is rounded** to the closest value on the base of 4 (4,8,12,16,etc). Using **TWO** quark blocks together rounds the player position by one full in-game pixel (8 pixels on the .png/hitboxes), giving a more "consistent" outcome.
 
 In order to get the full potential of a quark block:
 1. It has to be used when player is in full falling velocity
@@ -307,7 +307,7 @@ Remembering all blocks can be hard
       <td class="label-red">✖</td>
       <td class="label-red">✖</td>
       <td class="label-red">✖</td>
-      <td class="label-yellow"><a href="#fn:6">~<sup role="doc-noteref">6</sup></a></td>
+      <td class="label-yellow"><a href="#fn:5">~<sup role="doc-noteref">5</sup></a></td>
       <td class="label-red">✖</td>
     </tr>
     <tr>
@@ -333,7 +333,7 @@ Remembering all blocks can be hard
       <td>slideable? <sup role="doc-noteref"><a href="#fn:2">2</a></sup></td>
       <td class="label-green">✔</td>
       <td class="label-green">✔</td>
-      <td class="label-yellow"><a href="#fn:5">~<sup role="doc-noteref">5</sup></a></td>
+      <td class="label-red">✖</td>
       <td class="label-green">✔</td>
       <td class="label-green">✔</td>
       <td class="label-red">✖</td>

@@ -6,11 +6,8 @@ nav_order: 4
 last_modified_date: 2023-03-24 10:46
 ---
 
-# First steps with skins
+# First steps with skins<!-- more -->
 {: .no_toc }
-
-Let's get started!<!-- more -->
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

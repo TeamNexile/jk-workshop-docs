@@ -4,13 +4,13 @@ title: Getting started
 has_children: true
 has_toc: false
 nav_order: 2
-last_modified_date: 2023-03-24 10:46
+last_modified_date: 2023-03-29 10:10
 ---
 
 # Introduction to the Workshop
 {: .no_toc }
 
-details you need to know before you starting on your first steps.<!-- more -->
+what you need to know to get started.<!-- more -->
 {: .fs-6 .fw-300 }
 
 ## Table of contents
