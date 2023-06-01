@@ -18,7 +18,7 @@ namespace JumpKing.MiscEntities.WorldItems
 |---|---|
 |Crown|Crown (Main Babe)|❌|✔️|❌|
 |Shoes|Shoes|❌|✔️|❌|
-|GoldRing|Gold Ring|✔️|❌|❌|
+|GoldRing|Gold Ring|✔️|❌|✔️|
 |CrownNBP|Magic Crown (New Babe Plus)|❌|✔️|❌|
 |Ruby|Ruby|✔️|❌|✔️|
 |SnakeRing|Snake Ring|❌|✔️|❌|
