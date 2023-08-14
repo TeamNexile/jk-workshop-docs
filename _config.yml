@@ -153,4 +153,6 @@ compress_html:
 
 plugins:
 - jekyll-seo-tag
+
+gems:
 - jekyll-feed
