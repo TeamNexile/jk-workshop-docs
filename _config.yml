@@ -3,7 +3,7 @@ description: An in-depth documentation for developing User Generated Content for
 remote_theme: "just-the-docs/just-the-docs"
 # local only!
 # theme: just-the-docs
-url: https://TeamNexile.github.io/jk-workshop-docs
+url: https://TeamNexile.github.io
 logo: /assets/images/Workshop_Full_Title_Logo.png
 baseurl: "/jk-workshop-docs" # the subpath of your site, e.g. /blog
 
