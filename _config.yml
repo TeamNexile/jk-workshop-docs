@@ -1,6 +1,8 @@
 title: Workshop Docs
 description: An in-depth documentation for developing User Generated Content for Jump King!
 remote_theme: "just-the-docs/just-the-docs"
+# local only!
+# theme: just-the-docs
 url: https://TeamNexile.github.io/jk-workshop-docs
 logo: /assets/images/Workshop_Full_Title_Logo.png
 baseurl: "/jk-workshop-docs" # the subpath of your site, e.g. /blog
@@ -32,6 +34,9 @@ exclude:
    - package-lock.json
    - Rakefile
    - README.md
+
+feed:
+  posts_limit: 3
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
