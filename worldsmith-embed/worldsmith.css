@@ -1,0 +1,160 @@
+:root {
+    --primary: #BD9800;
+    --primary-click: #725B00;
+    --primary-muted: #7A6D3A;
+    --danger: #B00200;
+    --danger-click: #721D1C;
+    --danger-muted: #713737;
+    --success: #09B200;
+    --success-click: #247120;
+    --success-muted: #3E773B;
+    --link: #006BCC;
+    --link-click: #174C72;
+    --link-hover: #006BCC;
+    --link-muted: #000; /* missing */
+
+    --primary-bg: #000;
+    --primary-click-bg: #222;
+    --primary-muted-bg: #444;
+
+    --menu: #727272;
+    --text: #FFF;
+    --muted: #888;
+    --hover: #111;
+    --extra: #191919;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--text);
+}
+
+html {
+    background: #191919;
+}
+
+/* images */
+.crisp {
+    image-rendering: crisp-edges;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: auto;
+scrollbar-color: #bd9800 #000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+background: #000;
+}
+
+*::-webkit-scrollbar-track:hover {
+background: #111;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #bd9800;
+border-radius: 0px;
+border: 0px none #ffffff;
+}
+
+/* fonts */
+@font-face {
+    font-family: EnterCommand;
+    src: url(EnterCommand.ttf) format("truetype");
+}
+@font-face {
+    font-family: EnterCommand;
+    font-weight: bold;
+    src: url(EnterCommand-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: EnterCommand;
+    font-style: italic;
+    src: url(EnterCommand-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: LitterLover2;
+    src: url(LitterLover2.ttf) format("truetype");
+}
+@font-face {
+    font-family: LitterLover2;
+    font-weight: bold;
+    src: url(LitterLover2-Bold.ttf) format("truetype");
+}
+
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: EnterCommand;
+}
+p, span, th, td, li, ul, ol {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+code, pre {
+    font-family: monospace;
+}
+pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+    tab-size: 4;
+}
+pre[data-lang]::before {
+    content: attr(data-lang);
+    display: block;
+}
+
+h1 {
+font-size: 48px;
+}
+
+h2 {
+font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* misc */
+hr {
+    border: 0;
+    border-top: 1px solid var(--menu);
+}
+a {
+    color: var(--link);
+}
+a:hover {
+    color: var(--link-hover);
+}
+a:focus {
+    color: var(--link-click);
+}
+table {
+    border: 1px solid var(--primary-muted-bg);
+    background: var(--primary-click-bg);
+}
