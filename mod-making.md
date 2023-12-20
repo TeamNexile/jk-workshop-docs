@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Mod Making
+has_children: true 
+has_toc: false # true if you want the list of subpages
 nav_order: 9
 last_modified_date: 2023-12-20 15:29 # remember to change this when updating a file (just for UI effect)!
 ---
