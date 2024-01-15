@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Private beta for the Workshop is out!
+title: Private beta for the Steam Workshop is out!
 date: 2024-01-15
 ---
 
-# It's happening fellas
+# It is happening fellas
 
 buckle up fuckers get ready to smith some worlds
 
