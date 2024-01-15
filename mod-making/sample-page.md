@@ -20,7 +20,7 @@ subtitle.<!-- more -->
 
 ---
 
-## Sample
+## Also under construction
 
 :) 
 
