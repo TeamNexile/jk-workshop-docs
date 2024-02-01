@@ -311,7 +311,7 @@ Title|Resolution|File name|Folder|Needs XML?
 Background|480x360 pixels|bg`SCREEN`<br>(e.g. bg65)|`screens/background/`|❌
 Scrolling image|any|any|`screens/scrolling/textures/`|✔️
 Midground|480x360 pixels|`SCREEN`<br>(e.g. 65)|`screeens/midground/`|❌
-Mask|480x360 pixels|`MASK_NAME`mask`SCREEN`<br>(e.g. ashmask65)|`screens/masks/`|✔️
+Mask|480x360 pixels|`MASK_NAME`mask`SCREEN`<br>(e.g. ashmask65)|`screens/masks/`|❌
 Foreground|480x360 pixels|fg`SCREEN`<br>(e.g. fg65)|`screens/foreground/`|❌
 
 ## Next up

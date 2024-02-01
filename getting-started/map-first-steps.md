@@ -23,7 +23,7 @@ last_modified_date: 2023-03-24 13:32
 1. Extract the contents of the `Sample custom level` zip file in a folder you want.
    > Save it somewhere where you won't delete it by mistake!
    {: .warning }
-2. You are set if you have a folder like the following:
+2. You are set if you have a folder like the following (banner.png is optional):
 
    ![Level hierarchy]({{site.baseurl}}/images/getting-started/level_hierarchy.png)
 

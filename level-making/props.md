@@ -75,7 +75,7 @@ The props in-game (such as the bonfire in the first screen) are stored in the `p
 7. Replace `YOUR_PROP_FRAMES_PER_SECOND` to how many frames you want to see per second. If it's your first prop, set it to 10, later on you can always change it.
 8. Replace `YOUR_PROP_SHEET_COLUMNS_NUMBER` and `YOUR_PROP_SHEET_ROWS_NUMBER` with the sprite sheet size you wrote down; if it's your first time change both to `1`.
 
-> If you want to change the duration of your frames, you should copy the example below and customize it to your preference. You can add and remove as many `float` as you wish.
+> If you want to change the duration of your frames, you should copy the example below and customize it to your preference. You can add and remove as many `float` as you wish. Mind that adding floats will negate the `fps` value of the prop itself. It's also recommended to have the same number of `float`s as your spritesheet so that each frame uses their relative `float`. (If you have a spritesheet made by 3 columns and 3 rows (9 frames) and you have 8 `float`s, the 9th frame will read the first `float`, therefore creating a misalignment on the frames)
   ```xml
     <frames>
       <float>3.8</float>
