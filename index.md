@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2023-03-29 10:09
+last_modified_date: 2024-02-01 11:06
 ---
 
 # Jump King Workshop Documentation<span class="label label-yellow fs-4 fw-500">beta</span>
@@ -16,8 +16,17 @@ This is an in-depth documentation for creating custom levels, skins and sets on 
         <h2 style="display:inline-block;">What's new</h2>
     </summary>
     <dl>
-        <dt>2023.03</dt>
-        <dd>Released as part of the closed beta</dd>
+        <dt>2024.02</dt>
+        <dd>
+            <p>
+            Fixed minor details in Props, Screens and First steps on level and skins
+                    <i>(thanks to Cloudy!)</i>
+            </p>
+        </dd>
+    </dl>
+    <dl>
+        <dt>2024.01</dt>
+        <dd>Released as part of the open beta</dd>
     </dl>
 </details>
 
