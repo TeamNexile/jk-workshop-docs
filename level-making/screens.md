@@ -97,7 +97,7 @@ The background is commonly used for **skies or gradients** to put on the back en
 
 To add a new or replace an existing background:
 
-1. Convert an image file into a packed XNB file with the following details:
+1. If you are not using Worldsmith, convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
     |**File name**|bg`SCREEN NUMBER`<br>(e.g. bg65)|
@@ -134,7 +134,7 @@ The scrolling images are managed by an .xml file, that determines their texture,
 
 If you want to add a new scrolling image:
 
-1. Convert an image file into a packed XNB file.
+1. If you are not using Worldsmith, convert an image file into a packed XNB file.
    > While there aren't any restrictions with how it should be named, avoid using spaces or special characters and it's suggested that you name it in a way that you can retroactively know which file is later on.
    > An example could be:
    ```
@@ -210,7 +210,7 @@ The midground is usually used for **platforms and details** that are **behind th
 
 To add a new or replace an existing midground:
 
-1. Convert an image file into a packed XNB file with the following details:
+1. If you are not using Worldsmith, convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
     |**File name**|`SCREEN NUMBER`<br>(e.g. 65)|
@@ -251,7 +251,7 @@ The mask works just like the difference effect on Photoshop, which lets you **di
 To add a new or replace an existing mask:
 
 1. Make sure you've set the correct particle in your particle configuration file.
-2. Convert an image file into a packed XNB file with the following details:
+2. If you are not using Worldsmith, convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
     |**File name**|`MASK NAME`mask`SCREEN NUMBER`<br>(e.g. ashmask65)|
@@ -284,7 +284,7 @@ The foreground is used for **details that are in front of the player**, such as 
 
 To add a new or replace an existing foreground:
 
-1. Convert an image file into a packed XNB file with the following details:
+1. If you are not using Worldsmith, convert an image file into a packed XNB file with the following details:
 
     |**resolution**|480x360 pixels|
     |**File name**|fg`SCREEN NUMBER`<br>(e.g. fg65)|
