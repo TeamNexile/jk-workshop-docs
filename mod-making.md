@@ -13,10 +13,8 @@ last_modified_date: 2024-02-19 18:28 # remember to change this when updating a f
 {: .no_toc}
 <!-- the .no_toc class prevents to add the title to the following table of contents -->
 
-awesome subtitle
 <!-- more -->
 <!-- cuts text for "seo"/embed -->
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

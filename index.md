@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2024-02-01 11:06
+last_modified_date: 2024-02-19 18:37
 ---
 
 # Jump King Workshop Documentation<span class="label label-yellow fs-4 fw-500">beta</span>
@@ -18,6 +18,10 @@ This is an in-depth documentation for creating custom levels, skins and sets on 
     <dl>
         <dt>2024.02</dt>
         <dd>
+            <p>
+            Added a portion of the Mod Making documentation
+                    <i>(thanks to PhantomBadger!)</i>
+            </p>
             <p>
             Fixed minor details in Props, Screens and First steps on level and skins
                     <i>(thanks to Cloudy!)</i>
