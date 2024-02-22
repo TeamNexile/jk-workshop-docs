@@ -3,7 +3,7 @@ layout: default
 title: Block Behaviours
 parent: Mod Making
 nav_order: 3
-last_modified_date: 2024-02-20 18:04
+last_modified_date: 2024-02-22 12:09
 ---
 
 # Block Behaviours 
@@ -36,7 +36,7 @@ public static void OnLevelStart()
     }
 }
 ```
-A more detailed example of this can be found in the [Low Grabity Mod example](Example-LowGravityMod.md)
+A more detailed example of this can be found in the [Low Grabity Mod example]({{site.baseurl}}/mod-making/examples/low-gravity-block)
 
 ## Example - IceBlockBehaviour
 All of the block behaviours used by the base game follow this API - for example, the code that controls how Ice affects the player is driven by the `IceBlockBehaviour` implementation.
