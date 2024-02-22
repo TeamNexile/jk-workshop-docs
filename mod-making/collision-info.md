@@ -1,9 +1,9 @@
 ---
 layout: default
-title: CollisionInfo
+title: Collision Info
 parent: Mod Making
 nav_order: 2
-last_modified_date: 2024-02-19 18:29
+last_modified_date: 2024-02-20 18:03
 ---
 
 # Collision Info

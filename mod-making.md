@@ -4,7 +4,7 @@ title: Mod Making
 has_children: true 
 has_toc: false # true if you want the list of subpages
 nav_order: 9
-last_modified_date: 2024-02-19 18:28 # remember to change this when updating a file (just for UI effect)!
+last_modified_date: 2024-02-20 18:03 # remember to change this when updating a file (just for UI effect)!
 ---
 
 <!-- your content -->
@@ -96,8 +96,8 @@ Coming Soon
 - [Player Behaviour]({{site.baseurl}}/mod-making/player-behaviour)
     - A rundown on how the Player functions within Jump King and how you can interface with it using your mod
 - [Collision Info]({{site.baseurl}}/mod-making/collision-info)
-    - A rundown on how the Player collides within Jump King and how you can interface with it using your mod 
+    - A rundown on how the Player collides within Jump King and how you can interface with it using your mod
 - [Block Behaviours]({{site.baseurl}}/mod-making/block-behaviours)
-    - Coming Soon™️
+    - A rundown on how blocks can influence how the player behaves in Jump King
 - [Advanced Modding using Harmony]({{site.baseurl}}/mod-making/harmony)
-    - Coming Soon™️
+    - A brief introduction into 'Harmony' - an open source library that can help you make more advanced mods
