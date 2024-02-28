@@ -4,7 +4,7 @@ title: Mod Making
 has_children: true 
 has_toc: false # true if you want the list of subpages
 nav_order: 9
-last_modified_date: 2024-02-28 11:33 # remember to change this when updating a file (just for UI effect)!
+last_modified_date: 2024-02-28 12:15 # remember to change this when updating a file (just for UI effect)!
 ---
 
 <!-- your content -->
@@ -94,7 +94,9 @@ A project/mod should have a single entry point, but it can be used to setup what
 
 
 ### Jump King Mod Template (Visual Studio 2022)
-The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer. You can download this free version of Visual Studio [here.](https://visualstudio.microsoft.com/vs/community/)
+The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer, there is a [free version of Visual Studio](https://visualstudio.microsoft.com/vs/community/) available for everyone.
+
+[Download Jump King Mod Template]({{ site.baseurl }}/files/JumpKingModProjectTemplateWizard.vsix){: .btn .btn-blue }
 
 Once installed you can select the Jump King Mod Project template when creating your project.
 
