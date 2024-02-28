@@ -4,7 +4,7 @@ title: Mod Making
 has_children: true 
 has_toc: false # true if you want the list of subpages
 nav_order: 9
-last_modified_date: 2024-02-28 12:15 # remember to change this when updating a file (just for UI effect)!
+last_modified_date: 2024-02-28 12:25 # remember to change this when updating a file (just for UI effect)!
 ---
 
 <!-- your content -->
@@ -34,8 +34,28 @@ The mods you create may end up being a combination of these three categories. He
 
 ## Setting up Mod Projects
 
-### Manual Setup (Visual Studio 2022)
-Mods that contain custom blocks and/or behaviours will be comprised of a C# project that outputs a Library (.dll), targeting .NET Framework 4.5. If you are using Visual Studio it is advised to use Visual Studio 2022.
+Mods that contain custom blocks and/or behaviours will be comprised of a C# project that outputs a Library (.dll), targeting .NET Framework 4.5. If you are using Visual Studio it is advised to use Visual Studio 2022. If you cannot use Visual Studio 2022 and you are on a previous version, read [how to manually set up your project](#manual-setup-visual-studio-2022-or-previous).
+
+### Jump King Mod Template (Visual Studio 2022)
+The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer, there is a [free version of Visual Studio](https://visualstudio.microsoft.com/vs/community/) available for everyone.
+
+[Download Jump King Mod Template]({{ site.baseurl }}/files/JumpKingModProjectTemplateWizard.vsix){: .btn .btn-blue } v1.0.0 - 28/02/2024
+
+Once installed you can select the Jump King Mod Project template when creating your project.
+
+![Select the "Jump King Mod" template]({{ site.baseurl }}/images/mod-making/image-6.png)
+
+![Name your Mod project]({{ site.baseurl }}/images/mod-making/image-7.png)
+
+You will get a pop-up from the "Jump King Mod Project Wizard" asking you to point it to the location of your Jump King game. This is so it can properly set up your project.
+
+![Input the path to your Jump King game and click 'OK'. Click the '...' button for easier selection]({{ site.baseurl }}/images/mod-making/image-8.png)
+
+Once complete your project will open! Be sure to update the text inside the `JumpKingMod` attribute to something more fitting for your mod.
+
+![Update the 'JumpKingMod' attribute, and get coding!]({{ site.baseurl }}/images/mod-making/image-9.png)
+
+### Manual Setup (Visual Studio 2022 or previous)
 
 ![Select the "Class Library (.NET Framework)" option from the Visual Studio templates]({{ site.baseurl }}/images/mod-making/image-1.png)
 
@@ -48,6 +68,8 @@ To make use of the attributes and types referenced by Jump King you will need to
 ![Select 'Assemblies' then click 'Browse' in the bottom right]({{ site.baseurl }}/images/mod-making/image-4.png)
 
 ![Navigate to your Jump King install directory and include JumpKing.exe and MonoGame.Framework.dll]({{ site.baseurl }}/images/mod-making/image-5.png)
+
+## How a mod works under the hood
 
 Your project has a single entry point, denoted by the `[JumpKingMod]` attribute affixed to a static class. This attribute should contain a unique name to identify your mod, this will help you debug any errors that may arise during the authoring of your work.
 
@@ -69,7 +91,7 @@ This attribute is what tells Jump King where to look to find the 'setup' logic f
 - **OnLevelStartAttribute** - Called when a Level is loaded and the player has been created, but before the user gets a chance to see/act on anything. You should use this entry point for the registration of any behaviours that will affect the player.
 - **OnLevelEndAttribute** - Called when the player stops playing a Level and moved back to the Main Menu, whether this be through the pause menu or by beating the map.
 
-A mod making use of these attributes would look like this
+A mod making use of these attributes would look like this:
 ```cs
 using JumpKing.Mods;
 
@@ -92,26 +114,6 @@ namespace MyCoolMod
 
 A project/mod should have a single entry point, but it can be used to setup whatever suite of behaviours and logic your mod requires! 
 
-
-### Jump King Mod Template (Visual Studio 2022)
-The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer, there is a [free version of Visual Studio](https://visualstudio.microsoft.com/vs/community/) available for everyone.
-
-[Download Jump King Mod Template]({{ site.baseurl }}/files/JumpKingModProjectTemplateWizard.vsix){: .btn .btn-blue } v1.0.0 - 28/02/2024
-
-Once installed you can select the Jump King Mod Project template when creating your project.
-
-![Select the "Jump King Mod" template]({{ site.baseurl }}/images/mod-making/image-6.png)
-
-![Name your Mod project]({{ site.baseurl }}/images/mod-making/image-7.png)
-
-You will get a pop-up from the "Jump King Mod Project Wizard" asking you to point it to the location of your Jump King game. This is so it can properly set up your project.
-
-![Input the path to your Jump King game and click 'OK'. Click the '...' button for easier selection]({{ site.baseurl }}/images/mod-making/image-8.png)
-
-Once complete your project will open! Be sure to update the text inside the `JumpKingMod` attribute to something more fitting for your mod.
-
-![Update the 'JumpKingMod' attribute, and get coding!]({{ site.baseurl }}/images/mod-making/image-9.png)
-
 ### Debugging & Testing
 In order to test your mod locally, you need only build it into a .dll, and then place this file (and any dependencies!) in the /Content/JKMods/ folder in your Jump King game's Steam install directory. It will now be loaded when the game is ran.
 
@@ -120,9 +122,6 @@ In order to test your mod locally, you need only build it into a .dll, and then 
 > If you're struggling - you can add `Debugger.Launch()` to your mod temporarily, which will prompt you to attach a debugger instance to the game when it is hit.
 
 Additional logs about the game's `ModLoadLog.txt` and `crashlog.log` files respectively, which should both be found next to the JumpKing.exe
-
-### Visual Studio Project Templates
-Coming Soon
 
 ## Further Reading
 - [Player Behaviour]({{site.baseurl}}/mod-making/player-behaviour)
