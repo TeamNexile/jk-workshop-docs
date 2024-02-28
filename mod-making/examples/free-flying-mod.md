@@ -8,7 +8,7 @@ last_modified_date: 2024-02-19 18:19
 
 ## Entry Class
 In this example we will make a custom `IBodyCompBehaviour` implementation. This behaviour, when registered to the player, will give you the ability to enter a 'Free Flying' mode in the game.
-Let's get started with our new project and entry point as described in the [Getting Started](GettingStarted.md) document. We will call this class `FreeFlyingModEntry` to make its purpose clear.
+Let's get started with our new project and entry point as described in the [Getting Started](../) document. We will call this class `FreeFlyingModEntry` to make its purpose clear.
 
 In this case, since we want to modify the Player's behaviour within the world, we will want to make use of the `OnLevelStart` attribute, since we need to make sure a player has been created for us to modify
 ```cs

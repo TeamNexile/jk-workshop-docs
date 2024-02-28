@@ -14,7 +14,7 @@ We have a few requirements for a custom block to be correctly used by the game, 
 ## Entry Class
 In this example we will create a 'Low Gravity' custom block, create custom behaviour for the player to run when encountering it, and tell the game how to create this block when loading a level that uses it. 
 
-Let's get started with our new project and entry point as described in the [Getting Started](GettingStarted.md) document. We will call this class `LowGravityBlockModEntry` to make its purpose clear.
+Let's get started with our new project and entry point as described in the [Getting Started](../) document. We will call this class `LowGravityBlockModEntry` to make its purpose clear.
 
 In this case, we need to both tell the game how to make our block when it's loading a level, and tell the player how to interact with our block. So we will make use of both the `BeforeLevelLoad` and `OnLevelStart` attributes
 ```cs
