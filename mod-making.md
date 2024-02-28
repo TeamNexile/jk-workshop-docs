@@ -96,7 +96,7 @@ A project/mod should have a single entry point, but it can be used to setup what
 ### Jump King Mod Template (Visual Studio 2022)
 The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer, there is a [free version of Visual Studio](https://visualstudio.microsoft.com/vs/community/) available for everyone.
 
-[Download Jump King Mod Template]({{ site.baseurl }}/files/JumpKingModProjectTemplateWizard.vsix){: .btn .btn-blue }
+[Download Jump King Mod Template]({{ site.baseurl }}/files/JumpKingModProjectTemplateWizard.vsix){: .btn .btn-blue } v1.0.0 - 28/02/2024
 
 Once installed you can select the Jump King Mod Project template when creating your project.
 
