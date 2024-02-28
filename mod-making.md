@@ -4,7 +4,7 @@ title: Mod Making
 has_children: true 
 has_toc: false # true if you want the list of subpages
 nav_order: 9
-last_modified_date: 2024-02-20 18:03 # remember to change this when updating a file (just for UI effect)!
+last_modified_date: 2024-02-28 11:33 # remember to change this when updating a file (just for UI effect)!
 ---
 
 <!-- your content -->
@@ -33,9 +33,21 @@ Jump King has a world of modding capabilities, and as part of the Workshop updat
 The mods you create may end up being a combination of these three categories. Here we will run you through the authoring process for creating some simple options to get you on your way to making your first mod.
 
 ## Setting up Mod Projects
-Mods that contain custom blocks and/or behaviours will be comprised of a C# project that outputs a Library (.dll), it is advised that you target .NET Framework 4.5.
+
+### Manual Setup (Visual Studio 2022)
+Mods that contain custom blocks and/or behaviours will be comprised of a C# project that outputs a Library (.dll), targeting .NET Framework 4.5. If you are using Visual Studio it is advised to use Visual Studio 2022.
+
+![Select the "Class Library (.NET Framework)" option from the Visual Studio templates]({{ site.baseurl }}/images/mod-making/image-1.png)
+
+![Name your project and ensure it is targeting .NET Framework v4.5]({{ site.baseurl }}/images/mod-making/image-2.png)
 
 To make use of the attributes and types referenced by Jump King you will need to add it as a reference to your project, how to do this varies depending on your IDE of choice. For Visual Studio, go to the Solution Explorer and right click on the 'References' option underneath your project and select 'Add Reference', then select the 'Browse...' button in the bottom right and navigate to the JumpKing.exe in your Steam install directory.
+
+![Right click on 'References' under your project in the Visual Studio Solution Explorer and select 'Add Reference...']({{ site.baseurl }}/images/mod-making/image-3.png)
+
+![Select 'Assemblies' then click 'Browse' in the bottom right]({{ site.baseurl }}/images/mod-making/image-4.png)
+
+![Navigate to your Jump King install directory and include JumpKing.exe and MonoGame.Framework.dll]({{ site.baseurl }}/images/mod-making/image-5.png)
 
 Your project has a single entry point, denoted by the `[JumpKingMod]` attribute affixed to a static class. This attribute should contain a unique name to identify your mod, this will help you debug any errors that may arise during the authoring of your work.
 
@@ -79,6 +91,24 @@ namespace MyCoolMod
 ```
 
 A project/mod should have a single entry point, but it can be used to setup whatever suite of behaviours and logic your mod requires! 
+
+
+### Jump King Mod Template (Visual Studio 2022)
+The 'Jump King Mod Project' template will streamline the process of setting up your mod. This template will only function on Visual Studio 2022 or newer. You can download this free version of Visual Studio [here.](https://visualstudio.microsoft.com/vs/community/)
+
+Once installed you can select the Jump King Mod Project template when creating your project.
+
+![Select the "Jump King Mod" template]({{ site.baseurl }}/images/mod-making/image-6.png)
+
+![Name your Mod project]({{ site.baseurl }}/images/mod-making/image-7.png)
+
+You will get a pop-up from the "Jump King Mod Project Wizard" asking you to point it to the location of your Jump King game. This is so it can properly set up your project.
+
+![Input the path to your Jump King game and click 'OK'. Click the '...' button for easier selection]({{ site.baseurl }}/images/mod-making/image-8.png)
+
+Once complete your project will open! Be sure to update the text inside the `JumpKingMod` attribute to something more fitting for your mod.
+
+![Update the 'JumpKingMod' attribute, and get coding!]({{ site.baseurl }}/images/mod-making/image-9.png)
 
 ### Debugging & Testing
 In order to test your mod locally, you need only build it into a .dll, and then place this file (and any dependencies!) in the /Content/JKMods/ folder in your Jump King game's Steam install directory. It will now be loaded when the game is ran.

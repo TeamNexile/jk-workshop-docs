@@ -3,7 +3,7 @@ layout: default
 title: Low gravity block
 parent: Mod examples
 grand_parent: Mod Making
-last_modified_date: 2024-02-19 18:21
+last_modified_date: 2024-02-28 11:31
 ---
 
 We have a few requirements for a custom block to be correctly used by the game, these are:
@@ -14,7 +14,7 @@ We have a few requirements for a custom block to be correctly used by the game, 
 ## Entry Class
 In this example we will create a 'Low Gravity' custom block, create custom behaviour for the player to run when encountering it, and tell the game how to create this block when loading a level that uses it. 
 
-Let's get started with our new project and entry point as described in the [Getting Started](../) document. We will call this class `LowGravityBlockModEntry` to make its purpose clear.
+Let's get started with our new project and entry point as described in the [Getting Started](../../#getting-started) document. We will call this class `LowGravityBlockModEntry` to make its purpose clear.
 
 In this case, we need to both tell the game how to make our block when it's loading a level, and tell the player how to interact with our block. So we will make use of both the `BeforeLevelLoad` and `OnLevelStart` attributes
 ```cs
@@ -196,7 +196,7 @@ public static void BeforeLevelLoad()
 ## Low Gravity Block Behaviour
 We now have our custom block, and a way for the game to make it when it loads a map that uses it, however our player character has no way of knowing how to act when it encounters our block. To change this we need to create an implementation of `IBlockBehaviour` and register it to our player.
 
-The `IBlockBehaviour` interface gives us plenty of options, for this case we only care about the `ExecuteBlockBehaviour` and `ModifyGravity` functions, and the `BlockPriority` and `IsPlayerOnBlock` properties. For more information on this API check out the [Block Behaviours](BlockBehaviours.md) documentation.
+The `IBlockBehaviour` interface gives us plenty of options, for this case we only care about the `ExecuteBlockBehaviour` and `ModifyGravity` functions, and the `BlockPriority` and `IsPlayerOnBlock` properties. For more information on this API check out the [Block Behaviours]({{ site.baseurl }}/mod-making/block-behaviours/) documentation.
 
 ```cs
 using JumpKing.API;

@@ -3,12 +3,12 @@ layout: default
 title: Free Flying Mod
 parent: Mod examples
 grand_parent: Mod Making
-last_modified_date: 2024-02-19 18:19
+last_modified_date: 2024-02-28 11:31
 ---
 
 ## Entry Class
 In this example we will make a custom `IBodyCompBehaviour` implementation. This behaviour, when registered to the player, will give you the ability to enter a 'Free Flying' mode in the game.
-Let's get started with our new project and entry point as described in the [Getting Started](../) document. We will call this class `FreeFlyingModEntry` to make its purpose clear.
+Let's get started with our new project and entry point as described in the [Getting Started](../../#getting-started) document. We will call this class `FreeFlyingModEntry` to make its purpose clear.
 
 In this case, since we want to modify the Player's behaviour within the world, we will want to make use of the `OnLevelStart` attribute, since we need to make sure a player has been created for us to modify
 ```cs
@@ -82,7 +82,7 @@ namespace JumpKingFreeFlyingMod
     }
 }
 ```
-For more information on how the Player and Player Behaviours function, check out the [Player Behaviour](PlayerBehaviour.md) documentation.
+For more information on how the Player and Player Behaviours function, check out the [Player Behaviour]({{ site.baseurl }}/mod-making/player-behaviour/) documentation.
 
 We now have our entry method all set up, this will be ran by the game and acts as the starting point for our mod. From here we need to define what `FreeFlyBehaviour` actually does!
 
