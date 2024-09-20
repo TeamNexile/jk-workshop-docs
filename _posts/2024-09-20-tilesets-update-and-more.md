@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Phoenixx19
-title: Tile-sets Update & more
+title: Tile-sets Update and more
 date: 2024-09-20
 ---
 
