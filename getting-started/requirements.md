@@ -3,7 +3,7 @@ layout: default
 title: Requirements
 parent: Getting started
 nav_order: 1
-last_modified_date: 2024-04-10 16:22
+last_modified_date: 2024-09-02 15:23
 level_update: 2023-02-24 17:27
 skin_update: 2023-02-24 17:26
 set_update: 2023-02-24 17:26
@@ -48,7 +48,7 @@ The following items are not required but nice to have for tinkering down the lin
 
 - **If you are making a level**, [SaveStates (checkpoint maker)](https://steamcommunity.com/sharedfiles/filedetails/?id=3161216998) or [JumpKingManager](https://steamcommunity.com/sharedfiles/filedetails/?id=3169568082) can help out testing you level further by saving/loading your position.
 
-<details class="expander">
+<!-- <details class="expander">
    <summary markdown="1">
 ## Steps (without Worldsmith)
    </summary>
@@ -67,6 +67,6 @@ If you are not planning to use **Jump King Worldsmith**, you will also need to c
 |Skin set|[__Jing__ by Volcanic]({{ site.baseurl }}/files/%5BSET%5D%20Jing.zip){: target="_blank"}|{{ page.set_update | date: "%-d %B %Y at %R" }}|
 
 <!-- todo: update these files -->
-
+<!--
 </div>
-</details>
+</details> -->

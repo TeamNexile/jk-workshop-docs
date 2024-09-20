@@ -2,63 +2,36 @@
 layout: default
 title: Home
 nav_order: 1
-last_modified_date: 2024-08-30 18:23
+last_modified_date: 2024-09-20 11:39
 ---
 
-# Jump King Workshop Documentation<span class="label label-green fs-4 fw-500" title="Release candidate">relcan</span>
-{: .fs-8 }
+#### Release Candidate 2
+{: #top }
 
-This is an in-depth documentation for creating custom levels, skins and sets on Jump King.
+# Jump King Workshop Documentation
+{: .mt-0 .fs-8 }
+
+This is the official in-depth documentation for creating all kinds of user-generated content for Jump King.
 {: .fs-6 .fw-300 .my-4 }
 
-<details open>
-    <summary>
-        <h2 style="display:inline-block;">What's new</h2>
-    </summary>
-    <dl>
-        <dt>2024.08</dt>
-        <dd>
-            <p>Added mods that use Harmony as example.</p>
-        </dd>
-    </dl>
-    <dl>
-        <dt>2024.05</dt>
-        <dd>
-            <p>Fixed Right wind gradients color text <i>(thanks to .Gotch(ごっち)!)</i></p>
-            <p>Added vertical scrolling images!</p>
-        </dd>
-    </dl>
-    <dl>
-        <dt>2024.04</dt>
-        <dd>
-            <p>Updated status from beta to release candidate.</p>
-            <p>Updated all pages distinguishing Worldsmith steps to non-Worldsmith steps.
-            <br>Removed particles page to redistribute content between the Screens and Blocks page.
-            <br>Added step-by-step guides (with images) on everything that has been implemented on Worldsmith.</p>
-            <p>Added step-by-step guide on how to create a level and skin in the first steps.
-            <br>Distinguisting Worldsmith steps to non-Worldsmith steps.
-            <br>Updated publishing and updating pages to add Worldsmith guide.
-            <br>Added Worldsmith to the list of tools.</p>
-        </dd>
-    </dl>
-    <dl>
-        <dt>2024.02</dt>
-        <dd>
-            <p>
-            Added the Mod Making documentation
-                    <i>(thanks to PhantomBadger!)</i>
-            </p>
-            <p>
-            Fixed minor details in Props, Screens and First steps on level and skins
-                    <i>(thanks to Cloudy!)</i>
-            </p>
-        </dd>
-    </dl>
-    <dl>
-        <dt>2024.01</dt>
-        <dd>Released as part of the open beta</dd>
-    </dl>
-</details>
+<h2 style="display:inline-block;">What's new</h2>
+{% assign count = 0 %}
+{% for log in site.data.changelog.logs reversed %}
+{% assign count = count | plus: 1 %}
+{% if count <= 3 %}
+<dl>
+    <dt>{{ log.name }}</dt>
+    <dd>
+    {% for change in log.changes %}
+        <p>{{ change }}</p>
+    {% endfor %}
+    </dd>
+</dl>
+{% endif %}
+{% endfor %}
+{% if count > 3 %}
+<a class="btn" href="{{ site.baseurl }}/changelogs/" style="margin-left: 10em;">Older changes</a>
+{% endif %}
 
 <br>
 

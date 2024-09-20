@@ -1,0 +1,42 @@
+{
+    "logs": [
+        {
+            "name": "2024.01",
+            "changes": [ "Released as part of the open beta" ]
+        },
+        {
+            "name": "2024.02",
+            "changes": [
+                "Added the Mod Making documentation <i>(thanks to PhantomBadger!)</i>",
+                "Fixed minor details in Props, Screens and First steps on level and skins <i>(thanks to Cloudy!)</i>"
+            ]
+        },
+        {
+            "name": "2024.04",
+            "changes": [
+                "Updated status from beta to release candidate.",
+                "Updated all pages distinguishing Worldsmith steps to non-Worldsmith steps.<br>Removed particles page to redistribute content between the Screens and Blocks page.<br>Added step-by-step guides (with images) on everything that has been implemented on Worldsmith.",
+                "Added step-by-step guide on how to create a level and skin in the first steps.<br>Distinguisting Worldsmith steps to non-Worldsmith steps.<br>Updated publishing and updating pages to add Worldsmith guide.<br>Added Worldsmith to the list of tools."
+            ]
+        },
+        {
+            "name": "2024.05",
+            "changes": [
+                "Fixed Right wind gradients color text <i>(thanks to .Gotch(ごっち)!)</i>",
+                "Added vertical scrolling images!"
+            ]
+        },
+        {
+            "name": "2024.08",
+            "changes": [
+                "Added mods that use Harmony as example."
+            ]
+        },
+        {
+            "name": "2024.09",
+            "changes": [
+                "Added getting started section for tilesets and mods.<br>Added first steps pages for tilesets and mods.<br>Reorganized mod making page to accomodate the first steps page.<br>Added step-by-step guide on how to create a mod and tileset in the first steps.<br>Added the Tileset Making documentation.<br>Added step-by-step guide on how to install Harmony to an existing mod.<br>Added changelog page for older changes.<br>Added step-by-step guide to add a scrolling image, world item, NPCs, merchants, messages, props, hidden wall props and audio pieces on a screen."
+            ]
+        }
+    ]
+}

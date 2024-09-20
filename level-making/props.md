@@ -4,7 +4,7 @@ title: Props
 parent: Level Making
 nav_order: 6
 has_children: true
-last_modified_date: 2024-04-18 15:05
+last_modified_date: 2024-09-20 16:25
 ---
 
 # Props folder
@@ -77,8 +77,20 @@ You've successfully added a prop in the prop list. Now you can add it on your sc
 
 #### Adding a prop to a screen
 
-Adding a prop to a screen has not been yet implemented inside Worldsmith. If you'd like to do add a prop to a screen, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith).
-{: .disclaimer }
+To add a prop on a screen:
+
+1. Navigate to the **Screens** page.
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *Props*, then *Prop*.
+
+    ![Prop right click]({{ site.baseurl }}/images/level-making/props/prop_right_click.png)
+
+3. Once clicked, a prompt will ask you a few details. You will need to select which prop you want to add, choose its position and if you want to prop to be horizontally flipped.
+
+    ![Prop details]({{ site.baseurl }}/images/level-making/props/prop_prompt.png)
+
+4. Once done setting it up, click **Add**.<br>Your prop should appear on your preview.
+
+    ![Prop added successfully]({{ site.baseurl }}/images/level-making/props/prop_add_success.png)
 
 #### Changing/removing a prop from a screen
 

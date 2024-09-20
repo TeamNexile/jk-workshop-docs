@@ -4,7 +4,7 @@ title: Getting started
 has_children: true
 has_toc: false
 nav_order: 2
-last_modified_date: 2023-03-29 10:10
+last_modified_date: 2024-09-02 15:21
 ---
 
 # Introduction to the Workshop
@@ -20,13 +20,13 @@ what you need to know to get started.<!-- more -->
 {:toc}
 
 <style>
-    div.img-group {
+    div.group {
         display: flex;
         gap: 1.5rem;
         position: relative;
     }
 
-    div.img-group img {
+    div.group > * {
         flex: 1 1 0px;
         width: 0;
     }
@@ -46,15 +46,15 @@ A level is additional content that can be played just like New Babe Plus and Gho
 
 ![Level example]({{ site.baseurl }}/images/getting-started/level.png)
 
-> The example above shows a portion of a screen from the level "*Babe of the Heavens*" by Meea.
+> The example above shows a portion of a screen from the level [*Babe of the Heavens* by Meea](https://steamcommunity.com/sharedfiles/filedetails/?id=3143173374).
 
 ### The level hierarchy
 
-A level is made up by a folder with a bunch of files and folders inside of it.
+A level is made up by a folder with a bunch of folders and files inside of them.
 
-> The structure is too complex to show, since it's over 50 files in their own folders.<br>Believe me here, you don't want to see it. Everything will be explained later anyway.
+> The structure is too complex to show, since it's over 50 files and folders combined.<br>Everything will be explained later so there's no need to see the structure as of now.
 
-> If you **really want** to see the structure, navigate inside all the [**Sample custom level**]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip) folders.
+<!-- > If you **really want** to see the structure, navigate inside all the [**Sample custom level**]({{ site.baseurl }}/files/%5BLEVEL%5D%20Sample%20Level.zip) folders. -->
 
 <!-- ```
 📂 Sample Level
@@ -175,21 +175,18 @@ A level is made up by a folder with a bunch of files and folders inside of it.
  ┗ 🖼 banner.png
 ``` -->
 
-A downloaded level shows up in Jump King like the following from the Workshop menu.
-
-![Level menu example]({{ site.baseurl }}/images/getting-started/level_set.png)
-
-
 ## What is a skin?
 
 A skin is a cosmetic that replaces one or multiple existing item's texture. 
 
-<div class="img-group">
+<div class="group">
     <img src="{{ site.baseurl }}/images/getting-started/skin.png" alt="Skin example" title="Single skin example">
     <img src="{{ site.baseurl }}/images/getting-started/set.png" alt="Set example" title="Skin set example">
 </div>
 
-### Single skin or set?
+> The examples above show a single skin and a skin set, respectively Dunce Hat by IntroCar and Old Man by Volcanic.
+
+### Difference between single skin and skin set
 
 If you are looking to skin **one** single **item**, you should do a [**single skin**](#single-skin-hierarchy).<br>
 Otherwise if you are looking to skin **multiple items**, what you need is a [**skin set**](#skin-set-hierarchy).
@@ -199,16 +196,14 @@ Otherwise if you are looking to skin **multiple items**, what you need is a [**s
 A single skin is made up by a folder with group of files:
 
 - a configuration file **always called** `cosmetic_settings.xml` that tells the game, which item skins, its enable state and the filename;
-- the packed/converted XNB file that contains the skin, the name should the same as stated as the filename in the configuration file above;
-- the steam thumbnail; *(optional, for ease of use)*{: .text-grey-dk-000 }
+- a PNG[^xnb] file that contains the skin, the name should the same as stated as the filename in the configuration file above
 
 Following the example, this could be a possible outcome for a single skin:
 
 ```
 📂 Brown Tunic
  ┣ 📜 cosmetic_settings.xml
- ┣ 📦 Brown Tunic.xnb
- ┗ 🖼 banner.png
+ ┗ 🖼 Brown Tunic.png
 ```
 
 ### Skin set hierarchy
@@ -216,39 +211,106 @@ Following the example, this could be a possible outcome for a single skin:
 A skin set is made up by a folder with group of files:
 
 - a configuration file **always called** `set_settings.xml` that tells the game, which items are skinned, its enable state and the filenames of all skins;
-- all the packed/converted XNB files that contains the set, the names should the same as stated as the filename in the configuration file above; *(for ease of use you should use a format to easily find which packed file is a skin, just like the following example)*{: .text-grey-dk-000 }
-- the steam thumbnail; *(optional, for ease of use)*{: .text-grey-dk-000 }
+- all the PNG[^xnb] files that contains the set, the names should the same as stated as the filename in the configuration file above; *(for ease of use you should use a text format on each file name to easily identify which packed file is a skin, just like the following example)*{: .text-grey-dk-000 }
 
 Following the example, this could be a possible outcome for a skin set:
 
 ```
 📂 Jing
  ┣ 📜 set_settings.xml
- ┣ 📦 Jing_Crown.xnb
- ┣ 📦 Jing_Shoes.xnb
- ┣ 📦 Jing_Cape.xnb
- ┗ 🖼 banner.png
+ ┣ 🖼 Jing_Crown.png
+ ┣ 🖼 Jing_Shoes.png
+ ┗ 🖼 Jing_Cape.png
 ```
 
+{: .note-title }
+> Tip
+>
 > You could think of this as multiple single skins with one unified configuration file.
 
-<!-- ## Custom levels
+## What is a tileset?
 
-### Disclaimer
-When it comes to Custom levels, folders that this document refer to are meant to be inside `Jump King/Content/mods`. 
+Making a level can be quite long and tedious, tilesets can help you and everyone else in the community to speed the detailing process further, therefore a tileset is a collection of tiles that can be used to design and create a level faster.
 
-<br>
+### Tileset hierarchy
 
-## Reskins/collections
-### Disclaimer
-If you are working on a Jump King Base reskin, enabling and disabling it will work only in the title screen (currently) and they won't be working on custom levels since it would overlay the already existing base for the custom level.
+A tileset is made up by a folder with 2 files:
 
-### Reskin or collection?
-Before getting started you need to know the difference between a reskin and a collection.
+1. a configuration file **always called** `tileset_settings.xml` that tells Worldsmith (not the game), where each tile is located and which tags it contains;
+2. a PNG file **always called** `tileset.png` that contains the tileset
 
-- A **reskin** is a *single custom skin* that can be toggled singularly in the `Reskins` menu.
-- A **collection** is a *group of skins* that can be toggled together in the `Collections` menu. -->
+Following the example, this should be the outcome for a tileset:
+
+
+```
+📂 Bricks and Plants Pack
+ ┣ 📜 tileset_settings.xml
+ ┗ 🖼 tileset.png
+```
+
+[^xnb]:
+    This file will need to be packed into the XNB format in order for the game to be able to read it, this will be mentioned later.
+
+## What is a mod?
+
+A mod is a C# (programming language) code library that can change core mechanics of the game.
+
+{: .highlight }
+> In order to make a mod you need to have at least a good knowledge of programming.
+
+A few examples of mods:
+
+<div class="group">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3197746608">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/2461853153296780135/C248C5A0D00BFEA06D4A38A3C639D938121B279B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+        alt="Chat Ravens by PhantomBadger">
+        <b>Chat Ravens</b> by PhantomBadger
+    </a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3217622959">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/2505765138563901327/3F1198649860CB5C75B54C135C7F7DFB858805A0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" 
+        alt="King vs Fly by Zebra">
+        <b>King vs Fly</b> by Zebra
+    </a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3180199536">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/2440459605704352221/44EF8D822BBD41439C7DE8D745B6ED76CBF90D45/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+        alt="HitboxChanger by Phoenixx19">
+        <b>HitboxResizer</b> by Phoenixx19
+    </a>
+</div>
+
+### Mod hierarchy
+
+The root folder of your mod should look like this:
+
+```
+📂 Random Jump Charge
+ ┣ 📂 Properties
+ ┃ ┗ 📜 AssemblyInfo.cs
+ ┣ 📜 ModEntry.cs
+ ┗ 📜 RandomJumpCharge.csproj
+```
+
+When building/testing your mod, new folders will appear:
+
+```
+📂 Random Jump Charge
+ ┣ 📂 bin
+ ┃ ┣ 📂 Debug
+ ┃ ┗ 📂 Release
+ ┗ 📂 obj
+```
+
+The `bin/Debug` folder is the default folder for when you build in "Debug", this folder might include more files since it includes additional debug files that can help your editor/IDE to find bugs easily. The `bin/Release` folder is the default folder for when you build in "Release", this folder defines when a mod is ready to be uploaded. The `obj` contents is necessary to build the mod.
+
+#### Compiled
+
+When compiled (whatever the configuration is between Debug or Release), the mod folder should look like a list of DLL (compiled library) files which should be your code and your additional dependencies if you have any.
 
 ## Next up
 
 [Get all your requirements]({{ site.baseurl }}/getting-started/requirements) before starting and [read the guidelines]({{ site.baseurl }}/getting-started/guidelines).
+
+---
+
+### Footnotes
+{: .no_toc }

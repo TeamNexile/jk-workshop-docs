@@ -4,7 +4,7 @@ title: World Items
 grand_parent: Level Making
 parent: Props
 nav_order: 2
-last_modified_date: 2024-04-18 16:17
+last_modified_date: 2024-09-20 16:48
 ---
 
 # World items
@@ -28,8 +28,18 @@ are **items that the player can pick up** by triggering their hitbox<!-- more --
 
 ### Adding a world item on a screen
 
-Adding a world item to a screen has not been yet implemented inside Worldsmith. If you'd like to do add a world item to a screen, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith).
-{: .disclaimer }
+1. Navigate to the **Screens** page.
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *Worlditem*.
+
+    ![Worlditem right click]({{ site.baseurl }}/images/level-making/props/worlditem_right_click.png)
+
+3. Once clicked, a prompt will ask you to select the Worlditem that you want to add onto the current screen.
+
+    ![Worlditem details]({{ site.baseurl }}/images/level-making/props/worlditem_prompt.png)
+
+4. Once selected, click **Add**.<br>Your Worlditem should appear on your preview.
+
+    ![Worlditem added successfully]({{ site.baseurl }}/images/level-making/props/worlditem_add_success.png)
 
 ### Changing/removing a world item from a screen
 

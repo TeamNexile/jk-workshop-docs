@@ -3,7 +3,7 @@ layout: default
 title: Audio
 parent: Level Making
 nav_order: 9
-last_modified_date: 2024-04-16 17:12
+last_modified_date: 2024-09-20 16:34
 ---
 
 # Audio folder
@@ -61,6 +61,21 @@ All ambience can be all **background sounds** (bonfire, birds, rain or wind soun
 
 Replacing and removing an audio piece have not been yet implemented inside Worldsmith. If you'd like to replace or remove them, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith).
 {: .disclaimer }
+
+### Adding an audio piece on a screen
+
+1. Navigate to the **Screens** page.
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *Sound*.
+
+    ![Sound right click]({{ site.baseurl }}/images/level-making/audio/sound_right_click.png)
+
+3. Once clicked, a prompt will ask you to select an audio piece. After choosing an audio piece, you can decide to higher or lower the volume of the piece.
+
+    ![Sound details]({{ site.baseurl }}/images/level-making/audio/sound_prompt.png)
+
+4. Once done tinkering with the audio settings, click **Add**.<br>Your audio piece should appear on the right sidebar like so.
+
+    ![Sound added successfully]({{ site.baseurl }}/images/level-making/audio/sound_success.png)
 
 <details class="expander">
    <summary markdown="1">

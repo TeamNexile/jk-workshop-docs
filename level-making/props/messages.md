@@ -4,7 +4,7 @@ title: Messages
 grand_parent: Level Making
 parent: Props
 nav_order: 6
-last_modified_date: 2024-04-17 16:02
+last_modified_date: 2024-09-20 16:38
 ---
 
 # Messages
@@ -27,10 +27,25 @@ Messages are text that pop up from entering a trigger box such as the Billboard 
 
 ![Message example]({{site.baseurl}}/images/level-making/props/message_example.png)
 
-## Adding a message
+## Dealing with a message
 
 Adding a message has not been yet implemented inside Worldsmith. If you'd like to add a message, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith).
 {: .disclaimer }
+
+### Adding a message
+
+1. Navigate to the **Screens** page.
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *NPCs and text*, then *Message*.
+
+    ![Message right click]({{ site.baseurl }}/images/level-making/props/message_right_click.png)
+
+3. Once clicked, a prompt will ask you a few details about your message. You will need to select which font style, text alignment and the message contents you want to display.
+
+    ![Message details]({{ site.baseurl }}/images/level-making/props/message_prompt.png)
+
+4. Once done setting it up, click **Add**.<br>Your message should appear on your preview or on your right sidebar.
+
+    ![Message added successfully]({{ site.baseurl }}/images/level-making/props/message_add_success.png)
 
 ### Editing, moving or removing a message
 

@@ -3,7 +3,7 @@ layout: default
 title: Screens
 parent: Level Making
 nav_order: 4
-last_modified_date: 2024-05-03 18:02
+last_modified_date: 2024-09-20 16:59
 ---
 
 # Screens folder
@@ -158,8 +158,23 @@ The scrolling texture is commonly used for **mist clouds or birds** flying in th
 
 ### Adding a scrolling image
 
-Adding a scrolling image has not been yet implemented inside Worldsmith. If you'd like to add a scrolling image, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith-1).
-{: .disclaimer }
+1. Navigate to the **Screens** page.
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *Scrolling image*.
+
+    ![Scrolling image right click]({{ site.baseurl }}/images/level-making/screens/scrolling_right_click.png)
+
+3. Once clicked, a prompt will ask you a few details; mainly the scrolling image name and the scrolling image itself.
+
+    ![Scrolling image details]({{ site.baseurl }}/images/level-making/screens/scrolling_prompt.png)
+
+4. After choosing a recognizable scrolling image name, click on **Add texture**. A new prompt will ask you to select your scrolling image file. Once done, click **Open**.
+
+    ![Scrolling image texture]({{ site.baseurl }}/images/level-making/screens/scrolling_select_image.png)
+
+5. Added your texture, you could add additional details by opening the dropdown labeled as such.
+6. Once done, click **Add**. Your scrolling image should be moving right away inside your preview.
+
+    ![Scrolling image added successfully]({{ site.baseurl }}/images/level-making/screens/scrolling_success.png)
 
 ### Replacing or deleting a scrolling image
 

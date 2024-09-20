@@ -3,7 +3,7 @@ layout: default
 title: Player Behaviour
 parent: Mod Making
 nav_order: 1
-last_modified_date: 2024-02-19 18:29
+last_modified_date: 2024-09-02 17:09
 ---
 
 # Player Behaviour
@@ -18,9 +18,10 @@ As part of the work to refactor Jump King and make it suitable for modding the v
 The aforementioned node tree contains various other nodes controlling ways of managing player velocity and animations. This velocity is then used by the BodyComp to drive the player's interaction with the world.
 
 You can access the PlayerEntity from most of your code through the Entity Manager
-```cs
+~~~
 PlayerEntity player = EntityManager.instance.Find<PlayerEntity>();
-```
+~~~
+{: .language-cs }
 
 You can get the BodyComp of a PlayerEntity (or any other node) like so:
 ```cs

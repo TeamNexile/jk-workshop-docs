@@ -4,7 +4,7 @@ title: Merchants
 grand_parent: Level Making
 parent: Props
 nav_order: 4
-last_modified_date: 2024-04-19 15:05
+last_modified_date: 2024-09-20 16:44
 ---
 
 # Merchant
@@ -93,6 +93,22 @@ A prompt will show up with the merchant' settings, from here you can modify as y
 ![Merchant speeches]({{ site.baseurl }}/images/level-making/props/merchant_quotes.png)
 
 A prompt will show up with the merchant' quotes, from here you can modify as you will.
+
+## Moving an merchant from a screen
+
+Optionally, if you are on the **Screens** page. You can decide to add (move) to a specific screen.
+
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *NPCs and text*, then *Merchant*.
+
+    ![Merchant right click]({{ site.baseurl }}/images/level-making/props/merchant_right_click.png)
+
+3. Once clicked, a prompt will ask you to select the merchant that you want to move onto the current screen.
+
+    ![Merchant details]({{ site.baseurl }}/images/level-making/props/merchant_prompt.png)
+
+4. Once selected, click **Add**.<br>Your merchant should appear on your preview.
+
+    ![Merchant added successfully]({{ site.baseurl }}/images/level-making/props/merchant_move_success.png)
 
 ## Removing a merchant completely
 

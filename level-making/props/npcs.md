@@ -4,7 +4,7 @@ title: NPCs
 grand_parent: Level Making
 parent: Props
 nav_order: 3
-last_modified_date: 2024-04-19 15:04
+last_modified_date: 2024-09-20 16:44
 ---
 
 # NPCs
@@ -119,6 +119,22 @@ A prompt will show up with the NPC' settings, from here you can modify as you wi
 ![NPC speeches]({{ site.baseurl }}/images/level-making/props/npc_quotes.png)
 
 A prompt will show up with the NPC' quotes, from here you can modify as you will.
+
+## Moving an NPC from a screen
+
+Optionally, if you are on the **Screens** page. You can decide to add (move) to a specific screen.
+
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *NPCs and text*, then *NPC*.
+
+    ![NPC right click]({{ site.baseurl }}/images/level-making/props/npc_right_click.png)
+
+3. Once clicked, a prompt will ask you to select the NPC that you want to move onto the current screen.
+
+    ![NPC details]({{ site.baseurl }}/images/level-making/props/npc_prompt.png)
+
+4. Once selected, click **Add**.<br>Your NPC should appear on your preview.
+
+    ![NPC added successfully]({{ site.baseurl }}/images/level-making/props/npc_move_success.png)
 
 ## Removing an NPC completely
 

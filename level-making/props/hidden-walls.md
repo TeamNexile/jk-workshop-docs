@@ -4,7 +4,7 @@ title: Hidden Walls
 grand_parent: Level Making
 parent: Props
 nav_order: 1
-last_modified_date: 2024-04-17 14:45
+last_modified_date: 2024-09-20 16:28
 ---
 
 # Hidden walls
@@ -160,10 +160,19 @@ Hidden walls can have props too!<br>
 
 Hidden walls props work in the same way normal props work, but the xml configuration file is set on a different folder. Please [__read how to make normal props before continuing__]({{site.baseurl}}/level-making/props).
 
-### Adding/replacing/removing a hidden wall prop
+### Adding a hidden wall prop
 
-Adding, replacing and removing a hidden wall prop has not been yet implemented inside Worldsmith. If you'd like to do such thing, consider looking out the [**Steps (without Worldsmith)**](./#steps-without-worldsmith-1).
-{: .disclaimer }
+2. Right-click onto the canvas on the left side of your screen (where you have your level preview) and select *Add on screen...*, then *Props*, then *Hidden wall prop*.
+
+    ![Prop right click]({{ site.baseurl }}/images/level-making/props/hprop_right_click.png)
+
+3. Once clicked, a prompt will ask you a few details. You will need to select which prop you want to add, choose its position and if you want to prop to be horizontally flipped.
+
+    ![Prop details]({{ site.baseurl }}/images/level-making/props/hprop_prompt.png)
+
+4. Once done setting it up, click **Add**.<br>Your hidden prop should appear on your preview.
+
+    ![Prop added successfully]({{ site.baseurl }}/images/level-making/props/hprop_success.png)
 
 <details class="expander">
    <summary markdown="1">
