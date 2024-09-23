@@ -9,3 +9,4 @@ This update fixes:
 
 - A bug where linked projects would not load causing the application to crash. *(thanks to Zebra and .Gotch(ごっち)!)*
 - A bug where opening a map would remove all prop references in certain occasions. *(thanks to Cloudy and Czar!)*
+- A bug where skin_settings.xml would remove entries. *(thanks to Cloudy!)*
