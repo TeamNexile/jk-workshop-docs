@@ -132,7 +132,7 @@ foreach (var behaviour in existingBehaviours)
         var newBehaviour = new MyCoolPreCollisionBehaviour();
 
         // Register it to run before the X collision resolve
-        player.m_body.RegisterBehaviourBefore(behaviour, newBehaviour);
+        player.m_body.RegisterBehaviourBefore(newBehaviour, behaviour);
         break;
     }
 }
